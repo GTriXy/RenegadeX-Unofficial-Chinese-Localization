@@ -1,0 +1,318 @@
+//="===================================="
+//	Game=
+[TD_Game_Conquest]
+Description="Destroy the enemy base while protecting your own."
+GameName="Tiberian Dawn Mode"
+EndOfMatchRulesTemplateStr_Scoring=First team to destroy the other wins
+EndOfMatchRulesTemplateStr_Time=Team with most points in `t mins. wins
+PreviewGameImage=Texture2D'TS_HUD_Canvas.Scoreboard.T_HUD_VOTE_Tibdawn'
+
+
+//="==================================================="
+//	Tiberian Dawn Era Weapons=
+
+[TD_Weapon_Primary_M16A2]
+ItemName="M16A4 Assault Rifle"
+PickupMessage="M16A4 Assault Rifle"
+
+[TD_Weapon_Primary_M4A1]
+ItemName="M4A1 Carbine"
+PickupMessage="M4A1 Carbine"
+
+[TD_Weapon_Primary_M4A1_SpecOps]
+ItemName="M4A1 SpecOps"
+PickupMessage="M4A1 SpecOps"
+
+[TD_Weapon_Primary_M203]
+ItemName="M4A1 Grenadier"
+PickupMessage="M4A1 Grenadier"
+
+[TD_Weapon_Primary_G36]
+ItemName="G36 Assault Rifle"
+PickupMessage="G36C Assault Rifle"
+
+[TD_Weapon_Primary_G36C]
+ItemName="G36C Carbine"
+PickupMessage="G36C Carbine"
+
+[TD_Weapon_Primary_MK12]
+ItemName="MK12 DMR"
+PickupMessage="MK12 DMR"
+
+[TD_Weapon_Launcher_MK153_SMAW]
+ItemName="MK153 SMAW"
+PickupMessage="MK153 SMAW"
+
+
+//="===================================="
+//	Tiberian Dawn Vehicles=
+
+[TD_Vehicle_A10]
+VehiclePositionString="in an A-10 Warthog"
+VehicleNameString="A-10 Warthog"
+PT_Title="A-10 Warthog"
+
+[TD_Vehicle_SU25]
+VehiclePositionString="in an SU-25 Frogfoot"
+VehicleNameString="SU-25 Frogfoot"
+PT_Title="SU-25 Frogfoot"
+
+
+
+
+//="===================================="
+//	Vehicle Weapons=
+
+[TD_Vehicle_Apache]
+VehiclePositionString="in an AH-64 Apache"
+VehicleNameString="AH-64 Apache"
+PT_Title="AH-64 Apache"
+
+[TD_Vehicle_Artillery]
+VehiclePositionString="in a M110 Howitzer"
+VehicleNameString="M110 Howitzer"
+PT_Title="M110 Howitzer"
+
+[TD_Vehicle_APC_GDI]
+VehiclePositionString="in a Armored Personnel Carrier"
+VehicleNameString="Armored Personnel Carrier"
+PT_Title="Armored Personnel Carrier"
+
+[TD_Vehicle_APC_Nod]
+VehiclePositionString="in a Armored Personnel Carrier"
+VehicleNameString="Armored Personnel Carrier"
+PT_Title="Armored Personnel Carrier"
+
+[TD_Vehicle_Buggy]
+VehiclePositionString="in a DPV Buggy"
+VehicleNameString="DPV Buggy"
+PT_Title="DPV Buggy"
+
+[TD_Vehicle_Buggy_Ranger]
+VehiclePositionString="in a Buggy Scout"
+VehicleNameString="Buggy Scout"
+PT_Title="Buggy Scout"
+
+[TD_Vehicle_Buggy_Armoured_M2]
+VehiclePositionString="in a Buggy M2"
+VehicleNameString="Buggy M2"
+PT_Title="Buggy M2"
+
+[TD_Vehicle_Buggy_Armoured_M134]
+VehiclePositionString="in a Buggy M134"
+VehicleNameString="Buggy M134"
+PT_Title="Buggy M134"
+
+[TD_Vehicle_Chinook_GDI]
+VehiclePositionString="in a Chinook"
+VehicleNameString="CH-47 Chinook"
+PT_Title="Chinook"
+
+[TD_Vehicle_Chinook_Nod]
+VehiclePositionString="in a Chinook"
+VehicleNameString="CH-47 Chinook"
+PT_Title="Chinook"
+
+[TD_Vehicle_F22]
+VehiclePositionString="in an F-22 Raptor"
+VehicleNameString="F-22 Raptor"
+PT_Title="F-22 Raptor"
+
+[TD_Vehicle_YF23]
+VehiclePositionString="in an F-23 Black Widow"
+VehicleNameString="F-23 Black Widow"
+PT_Title="F-23 Black Widow"
+
+[TD_Vehicle_FlameTank]
+VehiclePositionString="in a Flame Tank"
+VehicleNameString="Flame Tank"
+PT_Title="Flame Tank"
+
+[TD_Vehicle_Harvester]
+VehiclePositionString="in a Harvester"
+VehicleNameString="Harvester"
+PT_Title="Harvester"
+
+[TD_Vehicle_Humvee]
+VehiclePositionString="in a Humvee"
+VehicleNameString="Humvee"
+PT_Title="Humvee"
+
+[TD_Vehicle_HMMWV]
+VehiclePositionString="in a HMMWV"
+VehicleNameString="HMMWV"
+PT_Title="HMMWV"
+
+[TD_Vehicle_HMMWV_RWS_M2]
+VehiclePositionString="in a HMMWV M2"
+VehicleNameString="HMMWV M2"
+PT_Title="HMMWV M2"
+
+[TD_Vehicle_HMMWV_RWS_M134]
+VehiclePositionString="in a HMMWV M134"
+VehicleNameString="HMMWV M134"
+PT_Title="HMMWV M134"
+
+[TD_Vehicle_HMMWV_RWS_TOW]
+VehiclePositionString="in a HMMWV TOW"
+VehicleNameString="HMMWV TOW"
+PT_Title="HMMWV TOW"
+
+[TD_Vehicle_HMMWV_Ranger]
+VehiclePositionString="in a HMMWV Ranger"
+VehicleNameString="HMMWV Ranger"
+PT_Title="HMMWV Ranger"
+
+[TD_Vehicle_LightTank]
+VehiclePositionString="in a Light Tank"
+VehicleNameString="Light Tank"
+PT_Title="Light Tank"
+
+[TD_Vehicle_M2Bradley]
+VehiclePositionString="in an M2 Bradley"
+VehicleNameString="M2 Bradley"
+PT_Title="M2 Bradley"
+
+[TD_Vehicle_MammothMKI]
+VehiclePositionString="in a X66-A2 Mammoth"
+VehicleNameString="X66-A2 Mammoth Tank"
+PT_Title="X66-A2 Mammoth Tank"
+
+[TD_Vehicle_MediumTank]
+VehiclePositionString="in a Medium Tank"
+VehicleNameString="Medium Tank"
+PT_Title="Medium Tank"
+
+[TD_Vehicle_M1Abrams]
+VehiclePositionString="in a M1A2 Medium Tank"
+VehicleNameString="M1A2 Medium Tank"
+PT_Title="M1A2 Medium Tank"
+
+[TD_Vehicle_APC_M113]
+VehiclePositionString="in a M113 APC"
+VehicleNameString="M113 APC"
+PT_Title="M113 APC"
+
+[TD_Vehicle_M270_MRLS]
+VehiclePositionString="in a MRLS"
+VehicleNameString="M270 MRLS"
+PT_Title="M270 MRLS"
+
+[TD_Vehicle_M270_SSM]
+VehiclePositionString="in a SSM"
+VehicleNameString="M270 SSM"
+PT_Title="M270 SSM"
+
+[TD_Vehicle_Orca]
+VehiclePositionString="in a Orca"
+VehicleNameString="Orca"
+PT_Title="Orca"
+
+[TD_Vehicle_ReconBike]
+VehiclePositionString="in a Recon Bike"
+VehicleNameString="Recon Bike"
+PT_Title="Recon Bike"
+
+[TD_Vehicle_StealthTank]
+VehiclePositionString="in a Stealth Tank"
+VehicleNameString="Stealth Tank"
+PT_Title="Stealth Tank"
+
+[TD_Vehicle_FlameTank_Weapon]
+ItemName="Flamethrowers"
+PickupMessage="Flame Tank Weapon"
+
+[TD_Vehicle_M270_MRLS_Weapon]
+ItemName="M269 Missiles"
+PickupMessage="MRLS Weapon"
+
+[TD_Vehicle_M270_SSM_Weapon]
+ItemName="MGR-1 Napalm Missile"
+PickupMessage="SSM Weapon"
+
+[TD_Vehicle_StealthTank_Weapon]
+ItemName="TOW Missile"
+PickupMessage="Stealth Tank Weapon"
+
+
+
+//="===================================="
+//	Characters Conquest Tiberian Dawn=
+
+
+[TD_FamilyInfo_Loadout_CQ_GDI_Assault_Breacher]
+CharacterName="Rifleman"
+PT_Title="Breacher"
+PT_Description="Breach the frontlines of the battlefield. Can deploy sandbags to add cover anywhere."
+DodgeType="ROLL"
+FallDamage="NORMAL"
+Subtitle="Breacher"
+
+[TD_FamilyInfo_Loadout_CQ_GDI_Assault_MedKit]
+CharacterName="Rifleman"
+PT_Title="Medic"
+PT_Description="The Medic of your Squad. Carries the best Anti-Infantry weaponry."
+DodgeType="ROLL"
+FallDamage="NORMAL"
+Subtitle="Medic"
+
+[TD_FamilyInfo_Loadout_CQ_GDI_Assault_AmmoKit]
+CharacterName="Rifleman"
+PT_Title="Support"
+PT_Description="The Support of your Squad. Able to resupply friendlies."
+DodgeType="ROLL"
+FallDamage="NORMAL"
+Subtitle="Support"
+
+
+
+
+[TD_FamilyInfo_Loadout_CQ_GDI_Engineer_Mechanic]
+PT_Title="Mechanic"
+Subtitle="Mechanic"
+PT_Description="The Mechanic has the ability to repair vehicles internally when commandeering one."
+
+[TD_FamilyInfo_Loadout_CQ_GDI_Engineer_Combat]
+PT_Title="Combat Engineer"
+Subtitle="Combat Engineer"
+PT_Description="The Combat Engineer has the ability to deploy emplacements and sandbags."
+
+
+
+
+[TD_FamilyInfo_Loadout_CQ_Nod_Assault_Breacher]
+CharacterName="Rifleman"
+PT_Title="Breacher"
+PT_Description="Breach the frontlines of the battlefield. Can deploy sandbags to add cover anywhere."
+DodgeType="ROLL"
+FallDamage="NORMAL"
+Subtitle="Breacher"
+
+[TD_FamilyInfo_Loadout_CQ_Nod_Assault_MedKit]
+CharacterName="Rifleman"
+PT_Title="Medic"
+PT_Description="The Medic of your Squad. Carries the best Anti-Infantry weaponry."
+DodgeType="ROLL"
+FallDamage="NORMAL"
+Subtitle="Medic"
+
+[TD_FamilyInfo_Loadout_CQ_Nod_Assault_AmmoKit]
+CharacterName="Rifleman"
+PT_Title="Support"
+PT_Description="The Support of your Squad. Able to resupply friendlies."
+DodgeType="ROLL"
+FallDamage="NORMAL"
+Subtitle="Support"
+
+
+
+
+[TD_FamilyInfo_Loadout_CQ_Nod_Engineer_Mechanic]
+PT_Title="Mechanic"
+Subtitle="Mechanic"
+PT_Description="The Mechanic has the ability to repair vehicles internally when commandeering one."
+
+[TD_FamilyInfo_Loadout_CQ_Nod_Engineer_Combat]
+PT_Title="Combat Engineer"
+Subtitle="Combat Engineer"
+PT_Description="The Combat Engineer has the ability to deploy emplacements and sandbags."

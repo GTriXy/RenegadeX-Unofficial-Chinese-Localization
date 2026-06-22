@@ -1,0 +1,2742 @@
+//=====================================
+//	Game
+//=====================================
+[TS_Game]
+Description="Destroy the enemy base while protecting your own."
+GameName="Firestorm Mode"
+EndOfMatchRulesTemplateStr_Scoring=First team to destroy the other wins
+EndOfMatchRulesTemplateStr_Time=Team with most points in `t mins. wins
+PreviewGameImage=Texture2D'TS_HUD_Canvas.Scoreboard.T_HUD_VOTE_Tibsun'
+
+[TD_Game_Conquest]
+Description="Destroy the enemy base while protecting your own."
+GameName="Tiberium Dawn Mode"
+EndOfMatchRulesTemplateStr_Scoring=First team to destroy the other wins
+EndOfMatchRulesTemplateStr_Time=Team with most points in `t mins. wins
+PreviewGameImage=Texture2D'TS_HUD_Canvas.Scoreboard.T_HUD_VOTE_Tibdawn'
+
+[TS_TeamInfo]
+SuperweaponNames_GDI[0] = "Ion Barrage"
+SuperweaponNames_GDI[1] = "Ion Strike"
+SuperweaponNames_GDI[2] = "Hunter Seeker"
+SuperweaponNames_Nod[0] = "Chemical Missile"
+SuperweaponNames_Nod[1] = "Cluster Missile"
+SuperweaponNames_Nod[2] = "Hunter Seeker"
+
+//======================================================================
+//	Weapons 
+//======================================================================
+
+[TS_Weapon]
+ItemName="Unnamed Weapon"
+PickupMessage="Unnamed Weapon"
+AltFireModeName="N/A"
+
+[TS_Weapon_Reloadable]
+ItemName="Unnamed Reloadable Weapon"
+PickupMessage="Unnamed Reloadable Weapon"
+AltFireModeName="N/A"
+
+[TS_Weapon_Scoped]
+ItemName="Unnamed Scoped Weapon"
+PickupMessage="Unnamed Scoped Weapon"
+
+[TS_Weapon_HeatLimit]
+ItemName="Unnamed Heat Limited Weapon"
+PickupMessage="Unnamed Heat Limited Weapon"
+
+[TS_Weapon_Melee]
+ItemName="Unnamed Melee Weapon"
+PickupMessage="Unnamed Melee Weapon"
+
+//======================================================================
+//    Weapon Abilities
+//======================================================================
+
+[TS_WeaponAbility]
+ItemName="Unnamed Ability"
+PickupMessage="Unnamed Ability"
+
+//======================================================================
+//	Generic Primary Weapons 
+//======================================================================
+
+[TS_Weapon_BattleRifle]
+ItemName="Battle Rifle"
+PickupMessage="Battle Rifle"
+PT_Description=" "
+
+[TS_Weapon_SMG]
+ItemName="MK7 Sub Machine Gun"
+PickupMessage="MK7 Sub Machine Gun"
+PT_Description=" "
+
+[TS_Weapon_SMG_Suppressed]
+ItemName="MK7-S Sub Machine Gun"
+PickupMessage="MK7-S Sub Machine Gun"
+PT_Description=" "
+
+[TS_Weapon_TiberiumFlechetteRifle]
+ItemName="Tiberium Flechette Rifle"
+PickupMessage="Tiberium Flechette Rifle"
+
+[TS_Weapon_Shotgun]
+ItemName="Shotgun"
+PickUpMessage ="Shotgun"
+PT_Description=" "
+
+[TS_Weapon_DMR]
+ItemName="DMR"
+PickupMessage="DMR"
+PT_Description=" "
+
+//====================================================
+//	Generic Side-Arm Weapons
+//====================================================
+
+[TS_Weapon_Pistol]
+ItemName="MP93 Hornet"
+PickupMessage="MP93 Hornet"
+AltFireModeName="Semi-Auto"
+
+[TS_Weapon_Pistol_Silenced]
+ItemName="MP93-S Hornet"
+PickupMessage="MP93-S Hornet"
+AltFireModeName="Semi-Auto"
+
+[TS_Weapon_HeavyPistol]
+ItemName="GP45 Falcon"
+PickupMessage="GP45 Falcon"
+
+[TS_Weapon_HeavyPistol_Supressed]
+ItemName="GP45-S Falcon"
+PickupMessage="GP45-S Falcon"
+
+[TS_Weapon_HeavyPistol_Nod]
+ItemName="NP45 Viper"
+PickupMessage="NP45 Viper"
+
+[TS_Weapon_HeavyPistol_Nod_Supressed]
+ItemName="NP45-S Viper"
+PickupMessage="NP45-S Viper"
+
+[TS_Weapon_PDW]
+ItemName="PDW"
+PickupMessage="PDW"
+
+[TS_Weapon_PDW_Supressed]
+ItemName="Suppressed PDW"
+PickupMessage="Suppressed PDW"
+
+[TS_Weapon_Revolver]
+ItemName="Revolver"
+PickupMessage="Revolver"
+
+//======================================================================
+//	Generic Throwable Weapons
+//======================================================================
+
+[TS_Weapon_Grenade_Frag]
+ItemName="Frag Grenade"
+PickupMessage="Frag Grenade"
+
+[TS_Weapon_Grenade_Smoke]
+ItemName="Smoke Grenade"
+PickupMessage="Smoke Grenade"
+
+[TS_Weapon_Grenade_Sensor]
+ItemName="Sensor Grenade"
+PickupMessage="Sensor Grenade"
+
+[TS_Weapon_Grenade_Napalm]
+ItemName="Anti-Tank Grenade"
+PickupMessage="Anti-Tank Grenade"
+
+[TS_Weapon_Grenade_EMP]
+ItemName="EMP Grenade"
+PickupMessage="EMP Grenade"
+
+[TS_PassiveAbility_Grenade]
+AbilityName = Grenade
+
+[TS_PassiveAbility_Grenade_Frag]
+AbilityName = Frag Grenade
+
+[TS_PassiveAbility_Grenade_Smoke]
+AbilityName = Smoke Grenade
+
+[TS_PassiveAbility_Grenade_Sensor]
+AbilityName = Sensor Grenade
+
+[TS_PassiveAbility_Grenade_Napalm]
+AbilityName = Anti-Tank Grenade
+
+[TS_PassiveAbility_Grenade_EMP]
+AbilityName = EMP Grenade
+
+//======================================================================
+//	Assault (Light Infantry) Primary Weapons 
+//======================================================================
+
+[TS_Weapon_PulseRifle]
+ItemName="Pulse Rifle"
+PickupMessage="Pulse Rifle"
+PT_Description="The Pulse Rifle is a fully automatic rifle equipped with an energy based Pulse Cannon capable of punching through light armour."
+AltFireModeName="Pulse Cannon"
+
+[TS_Weapon_AssaultRifle]
+ItemName="Assault Rifle"
+PickupMessage="Assault Rifle"
+PT_Description="The Assault Rifle is a fully automatic rifle equipped with a Grenade Launcher capable of punching through light armour."
+AltFireModeName="AT Grenade"
+
+[TS_Weapon_TacticalRifle]
+ItemName="Tactical Rifle"
+PickupMessage="Tactical Rifle"
+PT_Description=" "
+AltFireModeName="Grenade Launcher"
+
+[TS_Weapon_TacticalCarbine]
+ItemName="Carbine"
+PickupMessage="Carbine"
+PT_Description="The Carbine is a high rate of fire supressed rifle firing sub-sonic rounds that dont reveal your location on the minimap. It comes equipped with a smoke grenade under barrel launcher to help you disappear."
+AltFireModeName="Smoke Grenade"
+
+[TS_Weapon_TacticalRifle_Alt]
+ItemName="Tactical Rifle"
+PickupMessage="Tactical Rifle"
+PT_Description="The Tactical Rifle is a heavy hitting .50 caliber automatic rifle. Also comes equipped with an high explosives grenade launcher perfect for taking out infantry behind cover."
+AltFireModeName="HE Grenade"
+
+[TS_Weapon_LightMachineGun]
+ItemName="Light Machine Gun"
+PickupMessage="Light Machine Gun"
+PT_Description=" "
+
+[TS_Weapon_ConfessorLMG]
+ItemName="Light Machine Gun"
+PickupMessage="Light Machine Gun"
+PT_Description=" "
+
+[TS_Weapon_DiscGrenade]
+ItemName="Remote Disc Grenade"
+PickupMessage="Remote Disc Grenade"
+
+[TS_Weapon_DiscGrenade_AT]
+ItemName="AT-Disc Grenade"
+PickupMessage="AT-Disc Grenade"
+
+[TS_Weapon_FlameThrower]
+ItemName="Flamethrower"
+PickupMessage="Flamethrower"
+
+//======================================================================
+//	Assault (Light Infantry) Equipment
+//======================================================================
+
+[TS_Weapon_RemoteDetonator]
+ItemName="Remote Detonator"
+PickupMessage="Remote Detonator"
+
+[TS_Weapon_SpawnBeacon]
+ItemName="Spawn Beacon"
+PickupMessage="Spawn Beacon"
+
+[TS_Weapon_RPG]
+ItemName="RPG"
+PickupMessage="RPG"
+
+//======================================================================
+//	Assault (Light Infantry) Abilities
+//======================================================================
+
+[TS_Weapon_HealingTool_New]
+ItemName="Healing Tool"
+PickupMessage="Healing Tool"
+
+[TS_WeaponAbility_MedKit]
+ItemName="Medical Kit"
+PickupMessage="Medical Kit"
+
+[TS_WeaponAbility_MedPouch]
+ItemName="Medical Pouch"
+PickupMessage="Medical Pouch"
+
+[TS_WeaponAbility_AmmoPack]
+ItemName="Ammunition Pack"
+PickupMessage="Ammunition Pack"
+
+[TS_WeaponAbility_AmmoPouch]
+ItemName="Ammunition Pouch"
+PickupMessage="Ammunition Pouch"
+
+[TS_WeaponAbility_ResupplyPack]
+ItemName="Resupply Pack"
+PickupMessage="Resupply Pack"
+
+[TS_Weapon_GrenadeLauncherGadget_HE]
+ItemName="HE Grenade"
+PickupMessage="HE Grenade"
+
+[TS_Weapon_GrenadeLauncherGadget_Thermite]
+ItemName="Thermite Grenade"
+PickupMessage="Thermite Grenade"
+
+[TS_Weapon_GrenadeLauncherGadget_EMP]
+ItemName="EMP Grenade"
+PickupMessage="EMP Grenade"
+
+[TS_Weapon_GrenadeLauncherGadget_Smoke]
+ItemName="Smoke Grenade"
+PickupMessage="Smoke Grenade"
+
+[TS_Weapon_Blueprint_Obstacle_SandBags]
+ItemName="Sandbags"
+PickupMessage="Sandbags"
+
+//======================================================================
+//	Engineer (Engineer) Primary Weapons 
+//======================================================================
+
+[TS_Weapon_RepairUnit]
+ItemName="Repair Unit"
+PickupMessage="Repair Unit"
+
+[TS_Weapon_RepairGun_HeatLimited]
+ItemName="Repair Gun"
+PickupMessage="Repair Gun"
+
+[TS_Weapon_RepairTool]
+ItemName="Welding Torch"
+PickupMessage="Welding Torch"
+
+[TS_Weapon_Carbine]
+ItemName="Carbine"
+PickupMessage="Carbine"
+AltFireModeName="Shotgun"
+
+[TS_Weapon_AutomaticShotgun]
+ItemName="Automatic Shotgun"
+PickupMessage="Automatic Shotgun"
+
+[TS_Weapon_ShotgunFrag]
+ItemName="FRAG-12 Shotgun"
+PickUpMessage ="FRAG-12 Shotgun"
+
+[TS_Weapon_GrenadeLauncher]
+ItemName="Grenade Launcher"
+PickupMessage="Grenade Launcher"
+
+[TS_Weapon_Fabricator]
+ItemName="Fabricator"
+PickupMessage="Fabricator"
+
+//======================================================================
+//	Engineer (Engineer) Equipment
+//======================================================================
+
+[TS_Weapon_RocketLauncher]
+ItemName="Rocket Launcher"
+PickupMessage="Rocket Launcher"
+
+[TS_Weapon_MultiMissileLauncher]
+ItemName="Missile Launcher"
+PickupMessage="Missile Launcher"
+
+[TS_Weapon_JavelinMissileLauncher]
+ItemName="Javelin Launcher"
+PickupMessage="Javelin Launcher"
+
+[TS_Weapon_StingerMissileLauncher]
+ItemName="Stinger Launcher"
+PickupMessage="Stinger Launcher"
+
+//======================================================================
+//	Engineer (Engineer) Abilities
+//======================================================================
+
+[TS_PassiveAbility_Cover]
+AbilityName = Deployable Sandbags
+
+[TS_PassiveAbility_Fabricator]
+AbilityName = Fabricator
+
+//======================================================================
+//	Recon (Jump Jet Infantry / Black Hand) Primary Weapons 
+//======================================================================
+
+[TS_Weapon_MachineGun]
+ItemName="Machine Gun"
+PickupMessage="Machine Gun"
+
+[TS_Weapon_MachineGun_Alt]
+ItemName="Machine Gun"
+PickupMessage="Machine Gun"
+
+[TS_Weapon_LaserDMR]
+ItemName="Laser Rifle"
+PickUpMessage ="Laser Rifle"
+
+[TS_Weapon_LaserRifle]
+ItemName="Laser Auto-Rifle"
+PickUpMessage ="Laser Auto-Rifle"
+
+[TS_Weapon_DiscLauncher]
+ItemName="Micro-Disc Launcher"
+PickupMessage="Micro-Disc Launcher"
+
+[TS_Weapon_DiscLauncher_Alt]
+ItemName="Micro-Disc Launcher"
+PickupMessage="Micro-Disc Launcher"
+
+[TS_Weapon_DiscLauncher_Single]
+ItemName="Disc Launcher"
+PickupMessage="Disc Launcher"
+
+[TS_Weapon_PlasmaRifle]
+ItemName="Plasma Rifle"
+PickupMessage="Plasma Rifle"
+AltFireModeName="Cannon"
+
+[TS_Weapon_MarksmanRifle]
+ItemName="Marksman Rifle"
+PickupMessage="Marksman Rifle"
+
+[TS_Weapon_GaussRifle]
+ItemName="Gauss Rifle"
+PickupMessage="Gauss Rifle"
+
+[TS_Weapon_SniperRifle]
+ItemName="Sniper Rifle"
+PickupMessage="Sniper Rifle"
+
+[TS_Weapon_SonicEmitter]
+ItemName="Sonic Emitter"
+PickUpMessage ="Sonic Emitter"
+
+//======================================================================
+//	Recon (Jump Jet Infantry / Black Hand) Equipment
+//======================================================================
+
+[TS_Weapon_ReconDroneRemote_GDI]
+ItemName="Recon Drone"
+PickupMessage="Recon Drone"
+
+[TS_Weapon_ReconDroneRemote_Nod]
+ItemName="Recon Drone"
+PickupMessage="Recon Drone"
+
+[TS_Weapon_DroneRemote_HunterSeeker]
+ItemName="Hunter Seeker"
+PickupMessage="Hunter Seeker"
+
+[TS_Weapon_GrapplingHook]
+ItemName="Grapple Hook"
+PickupMessage="Grapple Hook"
+
+//======================================================================
+//	Recon (Jump Jet Infantry / Black Hand) Abilities
+//======================================================================
+
+[TS_PassiveAbility_Jumpjets_FlightPack]
+AbilityName = Flight Pack
+
+[TS_PassiveAbility_Jumpjets_ThrusterPack]
+AbilityName = Thruster Pack
+
+[TS_PassiveAbility_Stealth]
+AbilityName = Stealth
+
+[TS_PassiveAbility_Grapple]
+AbilityName = Grappling Hook
+
+//======================================================================
+//	Heavy (Zone Trooper / Cyborg) Primary Weapons 
+//======================================================================
+
+[TS_Weapon_HeavyMachineGun]
+ItemName="Heavy Machine Gun"
+PickupMessage="Heavy Machine Gun"
+
+[TS_Weapon_CyborgMinigun]
+ItemName="Vulcan Cannon"
+PickupMessage="Vulcan Cannon"
+
+[TS_Weapon_CyborgPlasmaCannon]
+ItemName="Plasma Cannon"
+PickupMessage="Plasma Cannon"
+
+[TS_Weapon_IonRifle]
+ItemName="Ion Rifle"
+PickUpMessage ="Ion Rifle"
+
+[TS_Weapon_SonicGrenadeLauncher]
+ItemName="Sonic Grenade Launcher"
+PickupMessage="Sonic Grenade Launcher"
+
+[TS_Weapon_NapalmLauncher]
+ItemName="Napalm Launcher"
+PickupMessage="Napalm Launcher"
+
+[TS_Weapon_Railgun]
+ItemName="Railgun"
+PickupMessage="Railgun"
+
+[TS_Weapon_PortableObelisk]
+ItemName="Portable Obelisk Cannon"
+PickupMessage="Portable Obelisk Cannon"
+
+[TS_Weapon_PortableIonCannon]
+ItemName="Portable Ion Cannon"
+PickupMessage="Portable Ion Cannon"
+
+
+//======================================================================
+//	Heavy (Zone Trooper / Cyborg) Secondary Weapons 
+//======================================================================
+
+[TS_Weapon_ZTLauncher_Canister]
+ItemName="Canister Shell"
+PickupMessage="Canister Shell"
+
+[TS_Weapon_ZTLauncher_TOW]
+ItemName="TOW Missile"
+PickupMessage="TOW Missile"
+
+[TS_Weapon_ZTLauncher_TeslaCoil]
+ItemName="Tesla Coil"
+PickupMessage="Tesla Coil"
+
+[TS_Weapon_ZTLauncher_Sabot]
+ItemName="Sabot Rounds"
+PickupMessage="Sabot Rounds"
+
+[TS_Weapon_ZTLauncher_SonicGrenade]
+ItemName="Sonic Grenade"
+PickupMessage="Sonic Grenade"
+
+[TS_Weapon_ZTLauncher_SonicEmitter]
+ItemName="Sonic Emitter"
+PickupMessage="Sonic Emitter"
+
+
+
+[TS_Weapon_CYArm_ChemicalThrower]
+ItemName="Chemical Thrower"
+PickupMessage="Chemical Thrower"
+
+[TS_Weapon_CYArm_TibCoreMissile]
+ItemName="Tib-Core Missile"
+PickupMessage="Tib-Core Missile"
+
+[TS_Weapon_CYArm_Shredder]
+ItemName="Shredder Cannon"
+PickupMessage="Shredder Cannon"
+
+[TS_Weapon_CYArm_Cannon]
+ItemName="30mm Cannon"
+PickupMessage="30mm Cannon"
+
+//======================================================================
+//	Heavy (Zone Trooper / Cyborg) Equipment
+//======================================================================
+
+[TS_Weapon_ATMine]
+ItemName="Anti-Tank Mine"
+PickupMessage="Anti-Tank Mine"
+
+[TS_Weapon_TimedC4]
+ItemName="Timed C4"
+PickupMessage="Timed C4"
+
+//======================================================================
+//	Heavy (Zone Trooper / Cyborg) Abilities
+//======================================================================
+
+[TS_PassiveAbility_Jumpjets_CyborgAgility]
+AbilityName = Cyborg Augments
+
+[TS_PassiveAbility_Jumpjets_Tactical]
+AbilityName = Cyborg Augments
+
+//======================================================================
+//	X-O Powersuit / Cyborg Reaper Primary Weapons 
+//======================================================================
+
+[TS_Weapon_XORailHMG]
+ItemName="Heavy Rail MG"
+PickupMessage="Heavy Rail MG"
+
+[TS_Weapon_XOVulcanCannon]
+ItemName="Minigun"
+PickupMessage="Minigun"
+
+[TS_Weapon_XOAutoCannon]
+ItemName="Gauss Auto-Cannon"
+PickupMessage="Gauss Auto-Cannon"
+
+[TS_Weapon_XOTOWLauncher]
+ItemName="TOW Launcher"
+PickupMessage="TOW Launcher"
+
+[TS_Weapon_XORailgun]
+ItemName="Railgun"
+PickupMessage="Railgun"
+
+[TS_Weapon_XOMAC]
+ItemName="MAC"
+PickupMessage="MAC"
+
+[TS_Weapon_XOIonCannon]
+ItemName="Ion Cannon"
+PickupMessage="Ion Cannon"
+
+[TS_Weapon_CYReaper_ShredderCannon]
+ItemName="Shredder Cannon"
+PickupMessage="Heavy Rail MG"
+
+[TS_Weapon_CYReaper_RocketPod]
+ItemName="Hydra Rocket Pod"
+PickupMessage="Hydra Rocket Pod"
+
+[TS_Weapon_CYReaper_TibCoreLauncher]
+ItemName="Tib-Core Missile"
+PickupMessage="Tib-Core Missile"
+
+[TS_Weapon_CYReaper_Obelisk]
+ItemName="Obelisk Beam Cannon"
+PickupMessage="Obelisk Beam Cannon"
+
+[TS_Weapon_CYReaper_PlasmaCannon]
+ItemName="Plasma Cannon"
+PickupMessage="Plasma Cannon"
+
+//====================================================
+//	Tiberian Dawn Era Weapons
+//====================================================
+
+[TS_Weapon_ForgottenRocketLauncher]
+ItemName="Rocket Launcher"
+PickupMessage="Rocket Launcher"
+
+[TS_Weapon_TiberiumAutoRifle_Blue]
+ItemName="Tiberium Auto-Rifle"
+PickupMessage="Tiberium Auto-Rifle"
+
+[TS_Weapon_VoltAutoRifle]
+ItemName="Volt Auto-Rifle"
+PickupMessage="Volt Auto-Rifle"
+
+[TS_Weapon_Forgotten_M4A1]
+ItemName="Forgotten M4"
+PickupMessage="Forgotten M4"
+
+[TD_Weapon_Primary_M16A2]
+ItemName="M16A4 Assault Rifle"
+PickupMessage="M16A4 Assault Rifle"
+
+[TD_Weapon_Primary_M4A1]
+ItemName="M4A1 Carbine"
+PickupMessage="M4A1 Carbine"
+
+[TD_Weapon_Primary_M4A1_SpecOps]
+ItemName="M4A1 SpecOps"
+PickupMessage="M4A1 SpecOps"
+
+[TD_Weapon_Primary_M203]
+ItemName="M4A1 Grenadier"
+PickupMessage="M4A1 Grenadier"
+
+[TD_Weapon_Primary_G36]
+ItemName="G36 Assault Rifle"
+PickupMessage="G36C Assault Rifle"
+
+[TD_Weapon_Primary_G36C]
+ItemName="G36C Carbine"
+PickupMessage="G36C Carbine"
+
+[TD_Weapon_Primary_MK12]
+ItemName="MK12 DMR"
+PickupMessage="MK12 DMR"
+
+[TD_Weapon_Launcher_MK153_SMAW]
+ItemName="MK153 SMAW"
+PickupMessage="MK153 SMAW"
+
+
+//====================================================
+//	Super Weapons 
+//====================================================
+[TS_Weapon_SWStrike]
+ItemName="Superweapon Binoculars"
+PickupMessage="Superweapon Binoculars"
+
+[TS_Weapon_SWStrike_Ion]
+ItemName="Ion Cannon Strike"
+PickupMessage="Ion Cannon Strike"
+
+[TS_Weapon_SWStrike_TiberiumMissile]
+ItemName="Tiberium Missile Strike"
+PickupMessage="Tiberium Missile Strike"
+
+[TS_Weapon_SWStrike_OrbitalBombardment]
+ItemName="Ion Barrage Strike"
+PickupMessage="Ion Barrage Strike"
+
+[TS_Weapon_SWStrike_ClusterMissile]
+ItemName="Cluster Missile Strike"
+PickupMessage="Cluster Missile Strike"
+
+//====================================================
+//	Construction/Support Weapons
+//====================================================
+
+[TS_Weapon_ConstructionGun]
+ItemName="Gizmo MKII Fabricator"
+PickupMessage="Gizmo MKII Fabricator"
+
+
+//====================================================
+//	Unused Abilities
+//====================================================
+
+[TS_PassiveAbility_QuickGrenade]
+AbilityName = Unnamed Grenade Ability
+
+[TS_PassiveAbility_CyborgSuperiority]
+AbilityName = Cyborg Superiority
+
+[TS_PassiveAbility_JumpJets_Base]
+AbilityName = Jump Jet
+
+[TS_PassiveAbility_Glider]
+AbilityName = Glider
+
+[TS_PassiveAbility_ATMine]
+AbilityName = Anti-Tank Mine
+
+[TS_PassiveAbility_Grenade_DemoCharge]
+AbilityName = Time Bomb
+
+[TS_PassiveAbility_Grenade_RemoteDetonator]
+AbilityName = Remote C4
+
+[TS_PassiveAbility_Grenade_ATMines]
+AbilityName = Anti-Tank Mine
+
+[TS_PassiveAbility_MedKit]
+AbilityName = Medical Kit
+
+[TS_PassiveAbility_AmmoPack]
+AbilityName = Ammunition Pack
+
+[TS_PassiveAbility_Nod_Confessor_Buff]
+AbilityName = Rally Cry
+
+[TS_PassiveAbility_ReconDrone_GDI]
+AbilityName = Seeker Drone
+
+[TS_PassiveAbility_ReconDrone_Nod]
+AbilityName = Seeker Drone
+
+[TS_PassiveAbility_ShockwaveMortar]
+AbilityName = EMP Shockwave Mortar
+
+[TS_PassiveAbility_CyborgEMPCannon]
+AbilityName = Arm EMP Cannon
+
+[TS_PassiveAbility_DamageResist]
+AbilityName = Damage Resistance
+
+[TS_PassiveAbility_Commando]
+AbilityName = Radar Jammer
+
+[TS_PassiveAbility_BlastCharge]
+AbilityName = Blast Charge
+
+[TS_PassiveAbility_Grenade_ExoAutoCannon]
+AbilityName = Shoulder Auto-Cannon
+
+[TS_PassiveAbility_Grenade_ExoRailgun]
+AbilityName = Railgun
+
+[TS_PassiveAbility_ExoTOWLauncher]
+AbilityName = TOW Launcher
+
+[TS_PassiveAbility_CyborgShoulderPlasmaCannon]
+AbilityName = Shoulder Plasma Cannon
+
+[TS_PassiveAbility_EMPDrone]
+AbilityName = EMP Hunter Drone
+
+[TS_PassiveAbility_LimpetDrone]
+AbilityName = Limpet Drone
+
+[TS_PassiveAbility_Grenade_Sonic]
+AbilityName = Sonic Grenade
+
+[TS_PassiveAbility_Grenade_Toxin]
+AbilityName = Toxin Grenade
+
+[TS_PassiveAbility_JavelinMissile]
+AbilityName = Javelin Missile
+
+[TS_PassiveAbility_Grenade_CyborgArmCannon]
+AbilityName = Arm HE Cannon
+
+[TS_PassiveAbility_CyborgRocketPod]
+AbilityName = Rocket Pod
+
+[TS_PassiveAbility_CyborgTibCore]
+AbilityName = Arm Tib-Core Missile
+
+[TS_PassiveAbility_ZTSabot]
+AbilityName = Shoulder Sabot
+
+[TS_PassiveAbility_ZTMissile]
+AbilityName = Shoulder Missile
+
+[TS_PassiveAbility_XOMortar]
+AbilityName = Mortar Strike
+
+[TS_PassiveAbility_XOTuskMissile]
+AbilityName = Tusk Missile
+
+[TS_PassiveAbility_XOSonicEmitter]
+AbilityName = Sonic Wave Emitter
+
+[TS_PassiveAbility_CYReaper_ClusterBomb]
+AbilityName = Cluster Bomb
+
+[TS_PassiveAbility_CYReaper_PlasmaBattery]
+AbilityName = Plasma Battery
+
+[TS_PassiveAbility_CYReaper_NapalmInferno]
+AbilityName = Napalm Inferno
+
+[TS_PassiveAbility_ZTMortar_HE]
+AbilityName = Mortar Round
+
+[TS_PassiveAbility_ZTMortar_Smoke]
+AbilityName = Smoke Round
+
+[TS_PassiveAbility_ZTMortar_EMP]
+AbilityName = EMP Cannon
+
+[TS_PassiveAbility_ZTMortar_Sensor]
+AbilityName = Sensor Pod
+
+//=====================================
+//TS Purchasable Items
+//=====================================
+
+[TS_Weapon_SWStrike_Ion]
+ItemName="Ion Strike"
+PickupMessage="Ion Cannon Strike Painter"
+
+[TS_Weapon_SwStrike_Nuke]
+ItemName="Nuclear Strike"
+PickupMessage="Nuclear Strike Painter"
+
+[TS_Weapon_SwStrike_TiberiumMissile]
+ItemName="Chemical Missile"
+PickupMessage="Chemical Missile Strike Painter"
+
+[TS_Weapon_SwStrike_MultiMissile]
+ItemName="Cluster Missile"
+PickupMessage="Cluster Missile Strike Painter"
+
+[TS_Weapon_SWStrike_OrbitalBombardment]
+ItemName="Ion Barrage"
+PickupMessage="Ion Barrage Strike Painter"
+
+[TS_Weapon_SWStrike_Switchable_GDI]
+ItemName="Superweapon Painter"
+PickupMessage="Superweapon Painter"
+StrikeName[0]="Orbital Bombardment"
+StrikeName[1]="Ion Cannon Strike"
+
+[TS_Weapon_SWStrike_Switchable_Nod]
+ItemName="Superweapon Painter"
+PickupMessage="Superweapon Painter"
+StrikeName[0]="Chemical Missile"
+StrikeName[1]="Cluster Missile"
+
+[TS_Weapon_Blueprint]
+ItemName="Blueprint"
+PickupMessage="Blueprint"
+
+[TS_Weapon_Blueprint_Emplacements]
+ItemName="Emplacement"
+PickupMessage="Emplacement"
+
+[TS_Weapon_Blueprint_Emplacements_MG]
+ItemName="Minigun Turret"
+PickupMessage="Minigun Turret"
+
+[TS_Weapon_Blueprint_Emplacements_Mortar]
+ItemName="Mortar"
+PickupMessage="Mortar"
+
+[TS_Weapon_Blueprint_Obstacle]
+ItemName="Fortifications"
+PickupMessage="Fortifications"
+
+//=====================================
+//	Characters
+//=====================================
+
+[Rx_FamilyInfo]
+CharacterName="Unnamed Character"
+PT_Title="UNNAMED"
+
+[TS_GFxPurchaseMenu_Loadout]
+CharactersTooltip="Opens the Infantry Selection."
+VehiclesTooltip="Opens the Vehicle Selection."
+LoadoutButtonTooltip[0] = "Selects your Primary weapon."
+LoadoutButtonTooltip[1] = "Selects your Secondary weapon."
+LoadoutButtonTooltip[2] = "Selects your Equipment."
+LoadoutButtonTooltip[3] = "Selects your Grenade type."
+LoadoutButtonTooltip[4] = "Selects your Ability type."
+VehicleMenuTypeText[0] = "LIGHT ATTACK VEHICLE"
+VehicleMenuTypeText[1] = "TRANSPORT VEHICLE"
+VehicleMenuTypeText[2] = "UTILITY VEHICLE"
+VehicleMenuTypeText[3] = "ADVANCED VEHICLE"
+VehicleMenuTypeText[4] = "COMBAT VEHICLE"
+VehicleMenuTypeText[5] = "SIEGE PLATFORM"
+
+[TS_HUD_SpawnMenu]
+CharactersTooltip="Opens the Infantry Selection."
+VehiclesTooltip="Opens the Vehicle Selection."
+LoadoutButtonTooltip[0] = "Selects your Primary weapon."
+LoadoutButtonTooltip[1] = "Selects your Secondary weapon."
+LoadoutButtonTooltip[2] = "Selects your Equipment."
+LoadoutButtonTooltip[3] = "Selects your Grenade type."
+LoadoutButtonTooltip[4] = "Selects your Ability type."
+VehicleMenuTypeText[0] = "LIGHT ATTACK VEHICLE"
+VehicleMenuTypeText[1] = "TRANSPORT VEHICLE"
+VehicleMenuTypeText[2] = "UTILITY VEHICLE"
+VehicleMenuTypeText[3] = "ADVANCED VEHICLE"
+VehicleMenuTypeText[4] = "COMBAT VEHICLE"
+VehicleMenuTypeText[5] = "SIEGE PLATFORM"
+VehicleMenuTypeText[6] = "FIGHTER AIRCRAFT"
+VehicleMenuTypeText[7] = "EXPERIMENTAL"
+
+//=====================================
+//	Characters Conquest
+//=====================================
+
+
+
+[TS_FamilyInfo_Loadout_CQ_GDI_LightInfantry]
+CharacterName="Light Infantry"
+PT_Title="Light Infantry"
+PT_Description="The Standard soldier outfitted with modular armour and kits to greatly increase it's ability to be customized and adapated to different combat situations."
+DodgeType="ROLL"
+FallDamage="NORMAL"
+Subtitle="Light Infantry"
+
+[TS_FamilyInfo_Loadout_CQ_GDI_LightInfantry_Assault]
+PT_Title="Resupply Pack"
+Subtitle="Resupply Pack"
+PT_Description="Deployable Kit that resupplies allies within the designated zone."
+
+[TS_FamilyInfo_Loadout_CQ_GDI_LightInfantry_Medic]
+PT_Title="Medic"
+Subtitle="Medic"
+PT_Description="Deployable Medical Kit that heals wounded allies within the designated zone."
+
+[TS_FamilyInfo_Loadout_CQ_GDI_LightInfantry_Engineer]
+PT_Title="Engineer"
+Subtitle="Engineer"
+PT_Description="The Engineer has the ability to repair vehicles internally when commandeering one. Engineers can also deploy sandbags to add cover anywhere needed."
+
+
+
+
+
+
+[TS_FamilyInfo_Loadout_CQ_GDI_Assault]
+CharacterName="Light Infantry"
+PT_Title="Light Infantry"
+PT_Description="The Medic of your Squad. Carries the best Anti-Infantry weaponry."
+DodgeType="ROLL"
+FallDamage="NORMAL"
+Subtitle="Light Infantry"
+
+[TS_FamilyInfo_Loadout_CQ_GDI_Assault_HealingTool]
+PT_Title="Healing Tool"
+Subtitle="Healing Tool"
+PT_Description="Rechargable tool that can heal wounded allies."
+
+[TS_FamilyInfo_Loadout_CQ_GDI_Assault_MedKit]
+PT_Title="Medical Kit"
+Subtitle="Medical Kit"
+PT_Description="Deployable Medical Kit that heals wounded allies within the designated zone."
+
+[TS_FamilyInfo_Loadout_CQ_GDI_Assault_AmmoKit]
+PT_Title="Ammunition Pack"
+Subtitle="Ammunition Pack"
+PT_Description="Deployable Ammunition Pack that resupplies allies within the designated zone."
+
+
+
+[TS_FamilyInfo_Loadout_CQ_GDI_Engineer]
+CharacterName="Engineer"
+PT_Title="Engineer"
+FallDamage="NORMAL"
+DodgeType="ROLL"
+PT_Description="The Mechanic of your Squad. Has the ability to repair vehicles internally when commandeering one."
+
+
+Subtitle="Engineer"
+
+[TS_FamilyInfo_Loadout_CQ_GDI_Engineer_JML]
+PT_Title="Javelin Launcher"
+Subtitle="Javelin Launcher"
+PT_Description="Single fire heat-based missile launcher. Effective against heavy vehicles."
+
+[TS_FamilyInfo_Loadout_CQ_GDI_Engineer_MML]
+PT_Title="Missile Launcher"
+Subtitle="Missile Launcher"
+PT_Description="Multi fire heat-based missile launcher. Effective against light as well as heavy vehicles."
+
+[TS_FamilyInfo_Loadout_CQ_GDI_Engineer_RL]
+PT_Title="Rocket Launcher"
+Subtitle="Rocket Launcher"
+PT_Description="Single dumbfire rocket launcher. Effective against heavy vehicles."
+
+[TS_FamilyInfo_Loadout_CQ_GDI_Engineer_SandBags]
+PT_Title="Deployable Sandbags"
+Subtitle="Deployable Sandbags"
+PT_Description="Build up to 5 sandbag walls for fortification."
+
+[TS_FamilyInfo_Loadout_CQ_GDI_Engineer_Mechanic]
+PT_Title="Internal Vehicle Repairs"
+Subtitle="Internal Vehicle Repairs"
+PT_Description="The Mechanic has the ability to repair vehicles internally when commandeering one."
+
+[TS_FamilyInfo_Loadout_CQ_GDI_Engineer_Combat]
+PT_Title="Combat Engineer"
+Subtitle="Combat Engineer"
+PT_Description="The Combat Engineer has the ability to deploy emplacements and sandbags."
+
+
+
+[TS_FamilyInfo_Loadout_CQ_GDI_AntiTank]
+CharacterName="Disc Thrower"
+PT_Title="Disc Thrower"
+FallDamage="NORMAL"
+DodgeType="ROLL"
+PT_Description="The Disc Thrower is equipped with anti-tank Disc Weapons. Able to deal with both ground and air targets using a varity of different Discs."
+Subtitle="Disc Thrower"
+
+[TS_FamilyInfo_Loadout_CQ_GDI_AntiTank_RocketSoldier]
+PT_Title="None"
+Subtitle="None"
+PT_Description="The Rocket Infantry is equipped with anti-tank launchers. Able to deal with both ground and air targets using a varity of different launchers."
+
+
+
+[TS_FamilyInfo_Loadout_CQ_GDI_Recon]
+CharacterName="Jump Jet Trooper"
+PT_Title="Jump Jet Trooper"
+FallDamage="REDUCED"
+DodgeType="JUMPJET"
+PT_Description="The Scout of your Squad. Equipped with a jumpjet pack."
+
+Subtitle="Jump Jet Trooper"
+
+[TS_FamilyInfo_Loadout_CQ_GDI_Recon_Drone]
+PT_Title="Recon Drone"
+Subtitle="Recon Drone"
+PT_Description="Simple drone that can scout the area without being too exposed."
+
+[TS_FamilyInfo_Loadout_CQ_GDI_Recon_HunterSeeker]
+PT_Title="Hunter Seeker"
+Subtitle="Hunter Seeker"
+PT_Description="Powerful kamikaze drone."
+
+
+[TS_FamilyInfo_Loadout_CQ_GDI_Recon_RespawnBeacon]
+PT_Title="Spawn Beacon"
+Subtitle="Spawn Beacon"
+PT_Description="Deployable Beacon that can be used for a quick respawn near your squad members."
+
+[TS_FamilyInfo_Loadout_CQ_GDI_Recon_FlightPack]
+PT_Title="Flight Pack"
+Subtitle="Flight Pack"
+PT_Description="Flight Pack Jump Jets used for high alititude and long distance traversal."
+
+[TS_FamilyInfo_Loadout_CQ_GDI_Recon_ThrusterPack]
+PT_Title="Thruster Pack"
+Subtitle="Thruster Pack"
+PT_Description="Thruster Pack Jump Jets used for short distance bursts."
+
+
+
+[TS_FamilyInfo_Loadout_CQ_GDI_Support]
+CharacterName="Support"
+PT_Title="Support"
+PT_Description="The Supplier of your Squad. Equipped with the heaviest weaponry of the battlefield."
+
+Subtitle="Support"
+
+[TS_FamilyInfo_Loadout_CQ_GDI_Support_AmmoKit]
+PT_Title="Ammo Kit"
+Subtitle="Ammo Kit"
+PT_Description="Deployable Ammo Kit that can replenish your squads ammunition within the designated zone."
+
+[TS_FamilyInfo_Loadout_CQ_GDI_Support_ZoneArmour]
+PT_Title="Zone Armour"
+Subtitle="Zone Armour"
+PT_Description="Troopers, ready for action! \nHeavy armoured suit equipped with a jumpjet pack. CAUTION: You're unable to commandeer vehicles!"
+
+
+
+[TS_FamilyInfo_Loadout_CQ_GDI_Heavy]
+CharacterName="Zone Trooper"
+PT_Title="Zone Trooper"
+DodgeType="JUMPJET"
+FallDamage="NONE"
+PT_Description="Troopers, ready for action! \nHeavy armoured suit equipped with a jumpjet pack. \n\nCAUTION: You're unable to commandeer vehicles! \n\nCAUTION: Resistant to Headshots, but has a weakpoint on the back"
+
+Subtitle="Zone Trooper"
+
+[TS_FamilyInfo_Loadout_CQ_GDI_Heavy_ATMine]
+PT_Title="AT Mines"
+Subtitle="AT Mines"
+PT_Description="Deployable Anti-Tank Mines useful for laying traps against enemy vehicles."
+
+[TS_FamilyInfo_Loadout_CQ_GDI_Heavy_ZoneTrooper]
+PT_Title="Zone Armour"
+Subtitle="Zone Armour"
+PT_Description="Troopers, ready for action! \nHeavy armoured suit equipped with a jumpjet pack. \n\nCAUTION: You're unable to commandeer vehicles!"
+
+
+
+
+
+[TS_FamilyInfo_Loadout_CQ_Nod_LightInfantry]
+CharacterName="Light Infantry"
+PT_Title="Light Infantry"
+PT_Description="The Standard soldier outfitted with modular armour and kits to greatly increase it's ability to be customized and adapated to different combat situations."
+DodgeType="ROLL"
+FallDamage="NORMAL"
+Subtitle="Light Infantry"
+
+[TS_FamilyInfo_Loadout_CQ_Nod_LightInfantry_Assault]
+PT_Title="Resupply Pack"
+Subtitle="Resupply Pack"
+PT_Description="Deployable Kit that resupplies allies within the designated zone."
+
+[TS_FamilyInfo_Loadout_CQ_Nod_LightInfantry_Medic]
+PT_Title="Medic"
+Subtitle="Medic"
+PT_Description="Deployable Medical Kit that heals wounded allies within the designated zone."
+
+[TS_FamilyInfo_Loadout_CQ_Nod_LightInfantry_Engineer]
+PT_Title="Engineer"
+Subtitle="Engineer"
+PT_Description="The Engineer has the ability to repair vehicles internally when commandeering one. Engineers can also deploy sandbags to add cover anywhere needed."
+
+
+
+
+
+
+[TS_FamilyInfo_Loadout_CQ_Nod_Assault]
+CharacterName="Light Infantry"
+PT_Title="Light Infantry"
+DodgeType="ROLL"
+FallDamage="NORMAL"
+PT_Description="The Medic of your Squad. Carries the best Anti-Infantry weaponry."
+
+Subtitle="Light Infantry"
+
+[TS_FamilyInfo_Loadout_CQ_Nod_Assault_HealingTool]
+PT_Title="Healing Tool"
+Subtitle="Healing Tool"
+PT_Description="Rechargable tool that can heal wounded allies."
+
+[TS_FamilyInfo_Loadout_CQ_Nod_Assault_MedKit]
+PT_Title="Medical Kit"
+Subtitle="Medical Kit"
+PT_Description="Deployable Medical Kit that heals wounded allies within the designated zone."
+
+[TS_FamilyInfo_Loadout_CQ_Nod_Assault_AmmoKit]
+PT_Title="Ammunition Pack"
+Subtitle="Ammunition Pack"
+PT_Description="Deployable Ammunition Pack that resupplies allies within the designated zone."
+
+
+[TS_FamilyInfo_Loadout_CQ_Nod_Engineer]
+CharacterName="Engineer"
+PT_Title="Engineer"
+DodgeType="ROLL"
+FallDamage="NORMAL"
+PT_Description="The Mechanic of your Squad. Has the ability to repair vehicles internally when commandeering one."
+
+Subtitle="Engineer"
+
+[TS_FamilyInfo_Loadout_CQ_Nod_Engineer_JML]
+PT_Title="Javelin Launcher"
+Subtitle="Javelin Launcher"
+PT_Description="Single fire heat-based missile launcher. Effective against heavy vehicles."
+
+[TS_FamilyInfo_Loadout_CQ_Nod_Engineer_MML]
+PT_Title="Missile Launcher"
+Subtitle="Missile Launcher"
+PT_Description="Multi fire heat-based missile launcher. Effective against light as well as heavy vehicles."
+
+[TS_FamilyInfo_Loadout_CQ_Nod_Engineer_RL]
+PT_Title="Rocket Launcher"
+Subtitle="Rocket Launcher"
+PT_Description="Single dumbfire rocket launcher. Effective against heavy vehicles."
+
+[TS_FamilyInfo_Loadout_CQ_Nod_Engineer_SandBags]
+PT_Title="Deployable Sandbags"
+Subtitle="Deployable Sandbags"
+PT_Description="Build up to 5 sandbag walls for fortification."
+
+[TS_FamilyInfo_Loadout_CQ_Nod_Engineer_Mechanic]
+PT_Title="Internal Vehicle Repairs"
+Subtitle="Internal Vehicle Repairs"
+PT_Description="The Mechanic has the ability to repair vehicles internally when commandeering one."
+
+[TS_FamilyInfo_Loadout_CQ_Nod_Engineer_Combat]
+PT_Title="Combat Engineer"
+Subtitle="Combat Engineer"
+PT_Description="The Combat Engineer has the ability to deploy emplacements and sandbags."
+
+
+
+[TS_FamilyInfo_Loadout_CQ_Nod_AntiTank]
+CharacterName="Rocket Infantry"
+PT_Title="Rocket Infantry"
+FallDamage="NORMAL"
+DodgeType="ROLL"
+PT_Description="The Rocket Infantry is equipped with anti-tank launchers. Able to deal with both ground and air targets using a varity of different launchers."
+Subtitle="Rocket Infantry"
+
+[TS_FamilyInfo_Loadout_CQ_Nod_AntiTank_RocketSoldier]
+PT_Title="None"
+Subtitle="None"
+PT_Description="The Rocket Infantry is equipped with anti-tank launchers. Able to deal with both ground and air targets using a varity of different launchers."
+
+
+
+[TS_FamilyInfo_Loadout_CQ_Nod_Recon]
+CharacterName="Black Hand"
+PT_Title="Black Hand"
+DodgeType="ROLL"
+FallDamage="REDUCED"
+PT_Description="The Scout of your Squad. Equipped with a stealth suit to go from cover to cover unseen."
+
+Subtitle="Stealth Gear"
+
+[TS_FamilyInfo_Loadout_CQ_Nod_Recon_Drone]
+PT_Title="Recon Drone"
+Subtitle="Recon Drone"
+PT_Description="Simple drone that can scout the area without being too exposed."
+
+[TS_FamilyInfo_Loadout_CQ_Nod_Recon_HunterSeeker]
+PT_Title="Hunter Seeker"
+Subtitle="Hunter Seeker"
+PT_Description="Powerful kamikaze drone."
+
+[TS_FamilyInfo_Loadout_CQ_Nod_Recon_StealthGenerator]
+PT_Title="Stealth Generator"
+Subtitle="Stealth Generator"
+PT_Description="Blackhand Infantry Equipped with a Portable Stealth Generator making them nearly invisible."
+
+[TS_FamilyInfo_Loadout_CQ_Nod_Recon_GrappleHook]
+PT_Title="Grappling Hook"
+Subtitle="Grappling Hook"
+PT_Description="Blackhand Infantry Equipped with a Grappling Hook allowing them to go anywhere with ease."
+
+
+
+[TS_FamilyInfo_Loadout_CQ_Nod_Recon_RespawnBeacon]
+PT_Title="Spawn Beacon"
+Subtitle="Spawn Beacon"
+PT_Description="Deployable Beacon that can be used for a quick respawn near your squad members."
+
+
+
+[TS_FamilyInfo_Loadout_CQ_Nod_Support]
+CharacterName="Support"
+PT_Title="Support"
+PT_Description="The Supplier of your Squad. Equipped with the heaviest weaponry of the battlefield."
+
+Subtitle="Support"
+
+[TS_FamilyInfo_Loadout_CQ_Nod_Support_AmmoKit]
+PT_Title="Ammo Kit"
+Subtitle="Ammo Kit"
+PT_Description="Deployable Ammo Kit that can replenish your squads ammunition within the designated zone."
+
+[TS_FamilyInfo_Loadout_CQ_Nod_Support_Cyborg]
+PT_Title="Cyborg Augments"
+Subtitle="Cyborg Augments"
+PT_Description="By your command. \nHalf human, half machine. The most loyal soldier of the Brotherhood and equipped with heavy augmentations. CAUTION: You're unable to commandeer vehicles!"
+
+
+
+[TS_FamilyInfo_Loadout_CQ_Nod_Heavy]
+CharacterName="Cyborg"
+PT_Title="Cyborg"
+DodgeType="ROLL"
+FallDamage="NONE"
+PT_Description="By your command. \nHalf human, half machine. Equipped with heavy augmentations. \n\nCAUTION: You're unable to commandeer vehicles! \n\nCAUTION: Resistant to Headshots, but has a weakpoint on the back."
+
+Subtitle="Enhanced Augmentations"
+
+[TS_FamilyInfo_Loadout_CQ_Nod_Heavy_ATMine]
+PT_Title="AT Mines"
+Subtitle="AT Mines"
+PT_Description="Deployable Anti-Tank Mines useful for laying traps against enemy vehicles."
+
+[TS_FamilyInfo_Loadout_CQ_Nod_Heavy_Cyborg]
+PT_Title="Cyborg"
+Subtitle="Cyborg"
+PT_Description="A walking tank capable of ramming infantry, and thin walls. \nMechanical legs can be charged up to jump above any obsticle, and can sprint faster over time. \n\nCAUTION: You're unable to commandeer vehicles!"
+
+
+//=====================================
+//	Super Heavy Infantry
+//=====================================
+
+
+
+[TS_FamilyInfoSet_CQ_GDI_X0PowerSuit]
+CharacterName="X-0 Power Suit"
+PT_Title="X-0 Power Suit"
+PT_Description="Become the ultimate weapon"
+DodgeType="JUMPJET"
+FallDamage="NONE"
+Subtitle="X-0 Power Suit"
+
+[TS_FamilyInfo_Loadout_CQ_GDI_X0PowerSuit]
+CharacterName="X-0 Power Suit"
+PT_Title="X-0 Power Suit"
+PT_Description="Become the ultimate weapon"
+DodgeType="JUMPJET"
+FallDamage="NONE"
+Subtitle="X-0 Power Suit"
+
+
+[TS_FamilyInfoSet_CQ_Nod_CyborgReaper]
+CharacterName="Cyborg Reaper"
+PT_Title="Cyborg Reaper"
+PT_Description="Become the ultimate weapon"
+DodgeType="CLIMB"
+FallDamage="NONE"
+Subtitle="Cyborg Reaper"
+
+[TS_FamilyInfo_Loadout_CQ_Nod_CyborgReaper]
+CharacterName="Cyborg Reaper"
+PT_Title="Cyborg Reaper"
+PT_Description="Become the ultimate weapon"
+DodgeType="CLIMB"
+FallDamage="NONE"
+Subtitle="Cyborg Reaper"
+
+
+
+
+[TS_FamilyInfo_Loadout_GDI_XOPowersuit]
+CharacterName="X-0 Power Suit"
+PT_Title="X-0 Power Suit"
+PT_Description="Become the ultimate weapon"
+DodgeType="JUMPJET"
+FallDamage="NONE"
+Subtitle="X-0 Power Suit"
+
+[TS_FamilyInfo_Loadout_Nod_CyborgReaper]
+CharacterName="Cyborg Reaper"
+PT_Title="Cyborg Reaper"
+PT_Description="Become the ultimate weapon"
+DodgeType="CLIMB"
+FallDamage="NONE"
+Subtitle="Cyborg Reaper"
+
+[TS_FamilyInfo_Loadout_GDI_Wolverine]
+CharacterName="Wolverine"
+PT_Title="Wolverine"
+PT_Description="Infantry Style Mech Concept"
+DodgeType="JUMPJET"
+FallDamage="NONE"
+Subtitle="Wolverine"
+
+
+
+//=====================================
+//	Alternative Infantry Roster
+//=====================================
+
+
+
+
+
+[TS_Alt_FamilyInfo_Loadout_CQ_Nod_LightInfantry]
+CharacterName="Alt Light Infantry"
+PT_Title="Light Infantry"
+PT_Description="The Standard soldier outfitted with modular armour and kits to greatly increase it's ability to be customized and adapated to different combat situations."
+DodgeType="ROLL"
+FallDamage="NORMAL"
+Subtitle="Light Infantry"
+
+[TS_Alt_FamilyInfo_Loadout_CQ_Nod_LightInfantry_Assault]
+PT_Title="Assault"
+Subtitle="Assault"
+PT_Description="Deployable Sandbags to be able to quickly drop cover."
+
+[TS_Alt_FamilyInfo_Loadout_CQ_Nod_LightInfantry_Medic]
+PT_Title="Medic"
+Subtitle="Medic"
+PT_Description="Deployable Medical Kit that heals wounded allies within the designated zone."
+
+
+[TS_Alt_FamilyInfo_Loadout_CQ_Nod_Engineer]
+CharacterName="Alt Engineer"
+PT_Title="Engineer"
+DodgeType="ROLL"
+FallDamage="NORMAL"
+PT_Description="The Mechanic of your Squad. Has the ability to repair vehicles internally when commandeering one."
+
+[TS_Alt_FamilyInfo_Loadout_CQ_Nod_Engineer_Mechanic]
+PT_Title="Mechanic"
+Subtitle="Mechanic"
+PT_Description="When driving a vehicle it will slowly self repair to full HP."
+
+
+[TS_Alt_FamilyInfo_Loadout_CQ_Nod_Recon]
+CharacterName="Alt Black Hand"
+PT_Title="Black Hand"
+DodgeType="ROLL"
+FallDamage="REDUCED"
+PT_Description="The Scout of your Squad. Equipped with a stealth suit to go from cover to cover unseen."
+
+[TS_Alt_FamilyInfo_Loadout_CQ_Nod_Recon_StealthGrapple]
+PT_Title="Stealth Mobility Suit"
+Subtitle="Stealth Mobility Suit"
+PT_Description="Armed with a stealth suit and a Grappling Hook."
+
+[TS_Alt_FamilyInfo_Loadout_CQ_Nod_Recon_FlameTrooper]
+PT_Title="Confessor"
+Subtitle="Confessor"
+PT_Description="Armed with a Flame Thrower, and can temporarilly buff nearby teammates."
+
+
+[TS_Alt_FamilyInfo_Loadout_CQ_Nod_RocketInfantry]
+CharacterName="Alt Rocket Infantry"
+PT_Title="Rocket Infantry"
+PT_Description="The goto Anti-Vehicle option for all your explosive needs to wipe out both ground and air vehicles."
+DodgeType="ROLL"
+FallDamage="NORMAL"
+Subtitle="Rocket Infantry"
+
+[TS_Alt_FamilyInfo_Loadout_CQ_Nod_RocketInfantry_Base]
+PT_Title="Ammo Pack"
+Subtitle="Ammo Pack"
+PT_Description="Resupply weapon ammo for any friendlies near the deployed ammo kit."
+
+
+[TS_Alt_FamilyInfo_Loadout_CQ_Nod_MediumInfantry]
+CharacterName="Alt Toxin Trooper"
+PT_Title="Toxin Trooper"
+PT_Description="A tougher soldier equipped with an explosive resistant armour, and carries some of the more exotic all-rounder weapons."
+DodgeType="ROLL"
+FallDamage="NORMAL"
+Subtitle="Toxin Trooper"
+
+[TS_Alt_FamilyInfo_Loadout_CQ_Nod_MediumInfantry_HeavyBlackHand]
+PT_Title="Rally Cry"
+Subtitle="Rally Cry"
+PT_Description="A primal war-cry to buff near by team mates."
+
+
+
+//=====================================
+//	Upgrades
+//=====================================
+
+// LIGHT INFANTRY
+
+[TS_Upgrades]
+ItemName = Unnamed Upgrade
+
+[TS_Upgrades_TiberiumSuit]
+ItemName = Tiberium Suit
+
+[TS_Upgrades_VehicleRepair]
+ItemName = Vehicle Self-Repair
+
+[TS_Upgrades_StatModifier_HealthIncrease]
+ItemName = Increase Health
+
+[TS_Upgrades_StatModifier_MediumArmor]
+ItemName = Medium Armor
+
+[TS_Upgrades_PassiveRegen]
+ItemName = Passive Regeneration
+
+[TS_Upgrades_RepairUnit]
+ItemName = Repair Level 1
+
+[TS_Upgrades_MotionSensor]
+ItemName = Motion Sensor
+
+[TS_Upgrades_RepairGun]
+ItemName = Repair Level 2
+
+// JUMP JET INFANTRY
+
+[TS_Upgrades_JumpJetUpgrade_Fuel]
+ItemName = High Fuel Capacity
+
+[TS_Upgrades_JumpJetUpgrade_LateralMovement]
+ItemName = Advanced Thrusters
+
+[TS_Upgrades_FallAbsorption]
+ItemName = Force-Absorption Boots
+
+// ZONE TROOPER
+
+[TS_Upgrades_StatModifier_ZoneA]
+ItemName = Level 1
+
+[TS_Upgrades_StatModifier_ZoneB]
+ItemName = Level 2
+
+[TS_Upgrades_StatModifier_ZoneC]
+ItemName = Level 3
+
+
+// BLACKHAND
+
+[TS_Upgrades_GrapplingHook]
+ItemName = Grapple Hook
+
+[TS_Upgrades_StealthSuit]
+ItemName = Stealth Suit
+
+
+// CYBORG
+
+[TS_Upgrades_StatModifier_CyborgA]
+ItemName = Level 1
+
+[TS_Upgrades_StatModifier_CyborgB]
+ItemName = Level 2
+
+[TS_Upgrades_StatModifier_CyborgC]
+ItemName = Level 3
+
+// XO
+[TS_Upgrades_XO_Nuclear]
+ItemName = Nuclear Core
+
+// REAPER
+[TS_Upgrades_Reaper_Infuson]
+ItemName= Tiberium Infusion
+
+//=====================================
+//	Vehicles
+//=====================================
+
+[Rx_Vehicle]
+VehiclePositionString="in a Vehicle"
+VehicleNameString="Vehicle"
+
+[Rx_Vehicle_Treaded]
+VehiclePositionString="in a Tank"
+VehicleNameString="Tank"
+
+[TS_Vehicle_Burrowable]
+AbilityName="Pressure"
+
+[TS_Vehicle_Burrowable_Deployable]
+AbilityName="Pressure"
+
+[TS_Vehicle_DropPod]
+VehiclePositionString="in a Drop Pod"
+VehicleNameString="Drop Pod"
+
+[TS_Vehicle_HoverMRLS_HD]
+VehiclePositionString="in a Hover MRLS"
+VehicleNameString="Hover MRLS"
+PT_Title="Hover MRLS"
+AbilityName="Jump Jet"
+
+[TS_Vehicle_HoverIFV]
+VehiclePositionString="in a Hover IFV"
+VehicleNameString="Hover IFV"
+PT_Title="Hover IFV"
+AbilityName="Jump Jet"
+
+[TS_Vehicle_Titan_HD]
+VehiclePositionString="in a Titan"
+VehicleNameString="Titan"
+PT_Title="Titan"
+
+[TS_Vehicle_Wolverine_HD]
+VehiclePositionString="in a Wolverine"
+VehicleNameString="Wolverine"
+PT_Title="Wolverine"
+
+[TS_Vehicle_Wolverine_Jets]
+VehiclePositionString="in a Wolverine"
+VehicleNameString="Wolverine X"
+PT_Title="Wolverine X"
+
+[TS_Vehicle_Titan_Neo]
+VehiclePositionString="in a Titan"
+VehicleNameString="Titan"
+PT_Title="Titan"
+
+[TS_Vehicle_Wolverine_Neo]
+VehiclePositionString="in a Wolverine"
+VehicleNameString="Wolverine"
+PT_Title="Wolverine"
+
+[TS_Vehicle_Juggernaut]
+VehiclePositionString="in a Juggernaut"
+VehicleNameString="Juggernaut"
+PT_Title="Juggernaut"
+
+[TS_Vehicle_AAPC]
+VehiclePositionString="in an Amphibious APC"
+VehicleNameString="Amphibious APC"
+PT_Title="Amphibious APC"
+
+[TS_Vehicle_Disruptor]
+VehiclePositionString="in a Disruptor"
+VehicleNameString="Disruptor"
+PT_Title="Disruptor"
+
+[TS_Vehicle_TickTank_HD]
+VehiclePositionString="in a Tick Tank Deprecated"
+VehicleNameString="Tick Tank Deprecated"
+PT_Title="Tick Tank Deprecated"
+
+[TS_Vehicle_TickTank_Redesigned]
+VehiclePositionString="in a Tick Tank"
+VehicleNameString="Tick Tank"
+PT_Title="Tick Tank"
+
+[TS_Vehicle_TickTank_Laser]
+VehiclePositionString="in a Scarab"
+VehicleNameString="Scarab"
+PT_Title="Scarab"
+
+[TS_Vehicle_AttackCycle]
+VehiclePositionString="in an Attack Cycle"
+VehicleNameString="Attack Cycle"
+PT_Title="Attack Cycle"
+
+[TS_Vehicle_AttackCycle_Forgotten]
+VehiclePositionString="in an Forgotten Viper"
+VehicleNameString="Forgotten Viper"
+PT_Title="Forgotten Viper"
+
+[TS_Vehicle_Buggy_HD]
+VehiclePositionString="in an Attack Buggy"
+VehicleNameString="Attack Buggy"
+PT_Title="Attack Buggy"
+
+[TS_Vehicle_Buggy_Adv]
+VehiclePositionString="in an Assault Buggy"
+VehicleNameString="Assault Buggy"
+PT_Title="Assault Buggy"
+
+[TS_Vehicle_Buggy_Forgotten]
+VehiclePositionString="in an Forgotten Raider"
+VehicleNameString="Forgotten Raider"
+PT_Title="Forgotten Raider"
+
+[TS_Vehicle_Artillery]
+VehiclePositionString="in a Artillery"
+VehicleNameString="Artillery"
+PT_Title="Mobile Artillery"
+
+[TS_Vehicle_StealthTank]
+VehiclePositionString="in a Stealth Tank"
+VehicleNameString="Stealth Tank"
+PT_Title="Stealth Tank"
+
+[TS_Vehicle_DevilsTongue]
+VehiclePositionString="in a Devil's Tongue"
+VehicleNameString="Devil's Tongue"
+PT_Title="Devil's Tongue"
+
+[TS_Vehicle_Orca]
+VehiclePositionString="in an Orca Fighter"
+VehicleNameString="Orca Fighter"
+PT_Title="Orca Fighter"
+
+[TS_Vehicle_Orca_Bomber]
+VehiclePositionString="in an Orca Bomber"
+VehicleNameString="Orca Bomber"
+PT_Title="Orca Bomber"
+
+[TS_Vehicle_FighterJet_GDI]
+VehiclePositionString="in an F-42 Kestral"
+VehicleNameString="F-42 Kestral"
+PT_Title="F-42 Kestral"
+
+[TS_Vehicle_Transport_GDI]
+VehiclePositionString="in an Orca Transport"
+VehicleNameString="Orca Transport"
+PT_Title="Orca Transport"
+
+[TS_Vehicle_Banshee]
+VehiclePositionString="in a Banshee"
+VehicleNameString="Banshee"
+PT_Title="Banshee"
+
+[TS_Vehicle_Harpy]
+VehiclePositionString="in a Harpy"
+VehicleNameString="Harpy"
+PT_Title="Harpy"
+
+[TS_Vehicle_FighterJet_Nod]
+VehiclePositionString="in an Specter"
+VehicleNameString="Specter"
+PT_Title="Specter"
+
+[TS_Vehicle_Transport_Nod]
+VehiclePositionString="in an Osprey Transport"
+VehicleNameString="Osprey Transport"
+PT_Title="Osprey Transport"
+
+[TS_Vehicle_MobileSensor]
+VehiclePositionString="in a Mobile Sensor Array"
+VehicleNameString="Mobile Sensor Array"
+PT_Title="MSA"
+AbilityName="Sonar Scan"
+
+[TS_Vehicle_MobileStealthGenerator]
+VehiclePositionString="in a Mobile Stealth Generator"
+VehicleNameString="Mobile Stealth Generator"
+PT_Title="MSG"
+
+[TS_Vehicle_SAPC]
+VehiclePositionString="in a Subterranean APC"
+VehicleNameString="Subterranean APC"
+PT_Title="Subterranean APC"
+
+[TS_Defence_GDI_CT_Vulcan]
+VehiclePositionString="in a Vulcan Component Tower"
+VehicleNameString="Vulcan Component Tower"
+
+[TS_Defence_GDI_CT_RPG]
+VehiclePositionString="in a RPG Component Tower"
+VehicleNameString="RPG Component Tower"
+
+[TS_Defence_GDI_CT_SAM]
+VehiclePositionString="in a AA Component Tower"
+VehicleNameString="AA Component Tower"
+
+[TS_Defence_Nod_LaserTurret]
+VehiclePositionString="in a Laser Turret"
+VehicleNameString="Laser Turret"
+
+[TS_Defence_Nod_SAMSite]
+VehiclePositionString="in a SAM Site"
+VehicleNameString="SAM Site"
+
+[TS_Defence_Nod_Obelisk]
+VehiclePositionString="in an Obelisk of Light"
+VehicleNameString="Obelisk of Light"
+
+
+[TS_Vehicle_Buggy_Retro]
+VehiclePositionString="in an Scout Buggy"
+VehicleNameString="Scout Buggy"
+PT_Title="Scout Buggy"
+
+[TS_Vehicle_Humvee_Retro]
+VehiclePositionString="in an Scout Humvee"
+VehicleNameString="Scout Humvee"
+PT_Title="Scout Humvee"
+
+[TS_Vehicle_Ranger]
+VehiclePositionString="in a Ranger"
+VehicleNameString="Ranger"
+PT_Title="Ranger"
+
+[TS_Vehicle_ATV]
+VehiclePositionString="in an ATV"
+VehicleNameString="ATV"
+PT_Title="ATV"
+
+[TS_Vehicle_ReconDrone]
+VehiclePositionString="in a Recon Drone"
+VehicleNameString="Recon Drone"
+PT_Title="Recon Drone"
+
+[TS_Vehicle_Carryall_GDI]
+VehiclePositionString="in an Orca Carryall"
+VehicleNameString="Orca Carryall"
+
+[TS_Vehicle_Carryall_Nod]
+VehiclePositionString="in an Osprey Carryall"
+VehicleNameString="Osprey Carryall"
+
+[TS_Vehicle_Harvester]
+VehiclePositionString="in a Harvester"
+VehicleNameString="Harvester"
+
+[TS_Vehicle_Harvester_Drivable]
+VehiclePositionString="in a Harvester"
+VehicleNameString="Harvester"
+
+[TS_Vehicle_HunterSeeker]
+VehiclePositionString="Operating a Hunter Seeker"
+VehicleNameString="Hunter Seeker"
+PT_Title="Hunter Seeker"
+
+
+
+
+//=====================================
+//	EPIC Vehicles
+//=====================================
+[TS_Vehicle_Titan_Dual]
+VehiclePositionString="in a Goliath"
+VehicleNameString="Goliath"
+PT_Title="Goliath"
+
+[TS_Vehicle_MRLS]
+VehiclePositionString="in a Forgotten MRLS"
+VehicleNameString="Forgotten MRLS"
+PT_Title="Forgotten MRLS"
+
+[TS_Vehicle_SSM]
+VehiclePositionString="in a SSM"
+VehicleNameString="Forgotten SSM"
+PT_Title="Forgotten SSM"
+
+[TS_Vehicle_M2Bradley]
+VehiclePositionString="in a Forgotten M2 Bradley"
+VehicleNameString="Forgotten M2 Bradley"
+PT_Title="Forgotten M2 Bradley"
+
+[TS_Vehicle_LightTank]
+VehiclePositionString="in a Forgotten Light Tank"
+VehicleNameString="Forgotten Light Tank"
+PT_Title="Forgotten Light Tank"
+
+[TS_Vehicle_Apache]
+VehiclePositionString="in a Forgotten AH-64 Apache"
+VehicleNameString="Forgotten AH-64 Apache"
+PT_Title="Forgotten AH-64 Apache"
+
+[TS_Vehicle_MediumTank]
+VehiclePositionString="in a Forgotten Medium Tank"
+VehicleNameString="Forgotten Medium Tank"
+PT_Title="Forgotten Medium Tank"
+
+[TS_Vehicle_MammothTank]
+VehiclePositionString="in a Forgotten Mammoth Tank"
+VehicleNameString="Forgotten Mammoth Tank"
+PT_Title="Forgotten Mammoth Tank"
+
+[TS_Vehicle_Titan_SSJ]
+VehiclePositionString="in a Super Saiyan Titan"
+VehicleNameString="Super Saiyan Titan"
+PT_Title="SSJ Titan"
+AbilityName="Translocate"
+
+[TS_Vehicle_MMKII_FullSized]
+VehiclePositionString="in a Mammoth Mark II"
+VehicleNameString="Mammoth Mark II"
+PT_Title="Mammoth Mark II"
+
+[TS_Vehicle_MMKII_FullSized_Nod]
+VehiclePositionString="in a Mammoth Mark II Nod"
+VehicleNameString="Mammoth Mark II Nod"
+PT_Title="Mammoth Mark II Nod"
+
+[TS_Vehicle_MMKII_HD_Alt]
+VehiclePositionString="in a Mammoth Mark II"
+VehicleNameString="Mammoth Mark II"
+PT_Title="Mammoth Mark II"
+
+[TS_Vehicle_MMKII_HD_Alt_Nod]
+VehiclePositionString="in a Mammoth Mark II"
+VehicleNameString="Mammoth Mark II"
+PT_Title="Mammoth Mark II"
+
+[TS_Vehicle_CoreDefender]
+VehiclePositionString="in an Apostle"
+VehicleNameString="Apostle"
+PT_Title="Apostle"
+
+[TS_Vehicle_Gunship]
+VehiclePositionString="in a Gunship"
+VehicleNameString="Gunship"
+PT_Title="Gunship"
+
+[TS_Vehicle_ApocalypseTank]
+VehiclePositionString="in a Forgotten Apocalypse Tank"
+VehicleNameString="Forgotten Apocalypse Tank"
+PT_Title="Forgotten Apocalypse Tank"
+
+[TS_Vehicle_TeslaTank]
+VehiclePositionString="in a Forgotten Tesla Tank"
+VehicleNameString="Forgotten Tesla Tank"
+PT_Title="Forgotten Tesla Tank"
+
+[TS_Vehicle_V3]
+VehiclePositionString="in a Forgotten V3 Launcher"
+VehicleNameString="Forgotten V3 Launcher"
+PT_Title="Forgotten V3 Launcher"
+
+
+
+//=====================================
+//	Tiberian Dawn Vehicles
+//=====================================
+
+[TD_Vehicle_A10]
+VehiclePositionString="in an A-10 Warthog"
+VehicleNameString="A-10 Warthog"
+PT_Title="A-10 Warthog"
+
+[TD_Vehicle_SU25]
+VehiclePositionString="in a SU-25 Frogfoot"
+VehicleNameString="SU-25 Frogfoot"
+PT_Title="SU-25 Frogfoot"
+
+[TD_Vehicle_Apache]
+VehiclePositionString="in an AH-64 Apache"
+VehicleNameString="AH-64 Apache"
+PT_Title="AH-64 Apache"
+
+[TD_Vehicle_Artillery]
+VehiclePositionString="in a M110 Howitzer"
+VehicleNameString="M110 Howitzer"
+PT_Title="M110 Howitzer"
+
+[TD_Vehicle_APC_GDI]
+VehiclePositionString="in a Armored Personnel Carrier"
+VehicleNameString="Armored Personnel Carrier"
+PT_Title="Armored Personnel Carrier"
+
+[TD_Vehicle_APC_Nod]
+VehiclePositionString="in a Armored Personnel Carrier"
+VehicleNameString="Armored Personnel Carrier"
+PT_Title="Armored Personnel Carrier"
+
+[TD_Vehicle_Buggy]
+VehiclePositionString="in a DPV Buggy"
+VehicleNameString="DPV Buggy"
+PT_Title="DPV Buggy"
+
+[TD_Vehicle_Buggy_Ranger]
+VehiclePositionString="in a Buggy Scout"
+VehicleNameString="Buggy Scout"
+PT_Title="Buggy Scout"
+
+[TD_Vehicle_Buggy_Armoured_M2]
+VehiclePositionString="in a Buggy M2"
+VehicleNameString="Buggy M2"
+PT_Title="Buggy M2"
+
+[TD_Vehicle_Buggy_Armoured_M134]
+VehiclePositionString="in a Buggy M134"
+VehicleNameString="Buggy M134"
+PT_Title="Buggy M134"
+
+[TD_Vehicle_Chinook_GDI]
+VehiclePositionString="in a Chinook"
+VehicleNameString="CH-47 Chinook"
+PT_Title="Chinook"
+
+[TD_Vehicle_Chinook_Nod]
+VehiclePositionString="in a Chinook"
+VehicleNameString="CH-47 Chinook"
+PT_Title="Chinook"
+
+[TD_Vehicle_F22]
+VehiclePositionString="in an F-22 Raptor"
+VehicleNameString="F-22 Raptor"
+PT_Title="F-22 Raptor"
+
+[TD_Vehicle_YF23]
+VehiclePositionString="in an F-23 Black Widow"
+VehicleNameString="F-23 Black Widow"
+PT_Title="F-23 Black Widow"
+
+[TD_Vehicle_FlameTank]
+VehiclePositionString="in a Flame Tank"
+VehicleNameString="Flame Tank"
+PT_Title="Flame Tank"
+
+[TD_Vehicle_Harvester]
+VehiclePositionString="in a Harvester"
+VehicleNameString="Harvester"
+PT_Title="Harvester"
+
+[TD_Vehicle_Humvee]
+VehiclePositionString="in a Humvee"
+VehicleNameString="Humvee"
+PT_Title="Humvee"
+
+[TD_Vehicle_HMMWV]
+VehiclePositionString="in a HMMWV"
+VehicleNameString="HMMWV"
+PT_Title="HMMWV"
+
+[TD_Vehicle_HMMWV_RWS_M2]
+VehiclePositionString="in a HMMWV M2"
+VehicleNameString="HMMWV M2"
+PT_Title="HMMWV M2"
+
+[TD_Vehicle_HMMWV_RWS_M134]
+VehiclePositionString="in a HMMWV M134"
+VehicleNameString="HMMWV M134"
+PT_Title="HMMWV M134"
+
+[TD_Vehicle_HMMWV_RWS_TOW]
+VehiclePositionString="in a HMMWV TOW"
+VehicleNameString="HMMWV TOW"
+PT_Title="HMMWV TOW"
+
+[TD_Vehicle_HMMWV_Ranger]
+VehiclePositionString="in a HMMWV Ranger"
+VehicleNameString="HMMWV Ranger"
+PT_Title="HMMWV Ranger"
+
+[TD_Vehicle_LightTank]
+VehiclePositionString="in a Light Tank"
+VehicleNameString="Light Tank"
+PT_Title="Light Tank"
+
+[TD_Vehicle_M2Bradley]
+VehiclePositionString="in an M2 Bradley"
+VehicleNameString="M2 Bradley"
+PT_Title="M2 Bradley"
+
+[TD_Vehicle_MammothMKI]
+VehiclePositionString="in a X66-A2 Mammoth"
+VehicleNameString="X66-A2 Mammoth Tank"
+PT_Title="X66-A2 Mammoth Tank"
+
+[TD_Vehicle_MediumTank]
+VehiclePositionString="in a Medium Tank"
+VehicleNameString="Medium Tank"
+PT_Title="Medium Tank"
+
+[TD_Vehicle_M1Abrams]
+VehiclePositionString="in a M1A2 Medium Tank"
+VehicleNameString="M1A2 Medium Tank"
+PT_Title="M1A2 Medium Tank"
+
+[TD_Vehicle_APC_M113]
+VehiclePositionString="in a M113 APC"
+VehicleNameString="M113 APC"
+PT_Title="M113 APC"
+
+[TD_Vehicle_MRLS]
+VehiclePositionString="in a MRLS"
+VehicleNameString="M270 MRLS"
+PT_Title="M270 MRLS"
+
+[TD_Vehicle_Orca]
+VehiclePositionString="in a Orca"
+VehicleNameString="Orca"
+PT_Title="Orca"
+
+[TD_Vehicle_ReconBike]
+VehiclePositionString="in a Recon Bike"
+VehicleNameString="Recon Bike"
+PT_Title="Recon Bike"
+
+[TD_Vehicle_StealthTank]
+VehiclePositionString="in a Stealth Tank"
+VehicleNameString="Stealth Tank"
+PT_Title="Stealth Tank"
+
+[TD_Vehicle_SU25]
+VehiclePositionString="in an SU-25 Frogfoot"
+VehicleNameString="SU-25 Frogfoot"
+PT_Title="SU-25 Frogfoot"
+
+
+
+//=====================================
+//	Characters Conquest Tiberian Dawn
+//=====================================
+
+
+[TD_FamilyInfo_Loadout_CQ_GDI_Assault_Breacher]
+CharacterName="Rifleman"
+PT_Title="Breacher"
+PT_Description="Breach the frontlines of the battlefield. Can deploy sandbags to add cover anywhere."
+DodgeType="ROLL"
+FallDamage="NORMAL"
+Subtitle="Breacher"
+
+[TD_FamilyInfo_Loadout_CQ_GDI_Assault_MedKit]
+CharacterName="Rifleman"
+PT_Title="Medic"
+PT_Description="The Medic of your Squad. Carries the best Anti-Infantry weaponry."
+DodgeType="ROLL"
+FallDamage="NORMAL"
+Subtitle="Medic"
+
+[TD_FamilyInfo_Loadout_CQ_GDI_Assault_AmmoKit]
+CharacterName="Rifleman"
+PT_Title="Support"
+PT_Description="The Support of your Squad. Able to resupply friendlies."
+DodgeType="ROLL"
+FallDamage="NORMAL"
+Subtitle="Support"
+
+
+
+
+[TD_FamilyInfo_Loadout_CQ_GDI_Engineer_Mechanic]
+PT_Title="Mechanic"
+Subtitle="Mechanic"
+PT_Description="The Mechanic has the ability to repair vehicles internally when commandeering one."
+
+[TD_FamilyInfo_Loadout_CQ_GDI_Engineer_Combat]
+PT_Title="Combat Engineer"
+Subtitle="Combat Engineer"
+PT_Description="The Combat Engineer has the ability to deploy emplacements and sandbags."
+
+
+
+
+[TD_FamilyInfo_Loadout_CQ_Nod_Assault_Breacher]
+CharacterName="Rifleman"
+PT_Title="Breacher"
+PT_Description="Breach the frontlines of the battlefield. Can deploy sandbags to add cover anywhere."
+DodgeType="ROLL"
+FallDamage="NORMAL"
+Subtitle="Breacher"
+
+[TD_FamilyInfo_Loadout_CQ_Nod_Assault_MedKit]
+CharacterName="Rifleman"
+PT_Title="Medic"
+PT_Description="The Medic of your Squad. Carries the best Anti-Infantry weaponry."
+DodgeType="ROLL"
+FallDamage="NORMAL"
+Subtitle="Medic"
+
+[TD_FamilyInfo_Loadout_CQ_Nod_Assault_AmmoKit]
+CharacterName="Rifleman"
+PT_Title="Support"
+PT_Description="The Support of your Squad. Able to resupply friendlies."
+DodgeType="ROLL"
+FallDamage="NORMAL"
+Subtitle="Support"
+
+
+
+
+[TD_FamilyInfo_Loadout_CQ_Nod_Engineer_Mechanic]
+PT_Title="Mechanic"
+Subtitle="Mechanic"
+PT_Description="The Mechanic has the ability to repair vehicles internally when commandeering one."
+
+[TD_FamilyInfo_Loadout_CQ_Nod_Engineer_Combat]
+PT_Title="Combat Engineer"
+Subtitle="Combat Engineer"
+PT_Description="The Combat Engineer has the ability to deploy emplacements and sandbags."
+
+
+
+
+
+//=====================================
+//	Neutral Vehicles
+//=====================================
+
+[TS_Vehicle_Car]
+VehiclePositionString="in a Sedan"
+VehicleNameString="Sedan"
+
+[TS_Vehicle_Taxi]
+VehiclePositionString="in a Taxi"
+VehicleNameString="Taxi"
+
+[TS_Vehicle_Truck_OpenBed]
+VehiclePositionString="in a Transport Truck"
+VehicleNameString="Transport Truck"
+
+[TS_Vehicle_Truck_Cargo]
+VehiclePositionString="in a Supply Truck"
+VehicleNameString="Supply Truck"
+
+
+//=====================================
+//	Emplacements
+//=====================================
+
+[TS_Defence_CannonEmplacement]
+VehiclePositionString="in a Cannon Emplacement"
+VehicleNameString="Cannon Emplacement"
+
+[TS_Defence_CannonEmplacement_Weapon]
+ItemName="120MM Cannon"
+PickupMessage="Cannon Emplacement Weapon"
+
+
+
+[TS_Defence_FlakEmplacement]
+VehiclePositionString="in a Flak Emplacement"
+VehicleNameString="Flak Emplacement"
+
+[TS_Defence_FlakEmplacement_Weapon]
+ItemName="Flak Cannon"
+AltItemName="Guided Missiles"
+PickupMessage="Flak Emplacement Weapon"
+
+
+
+[TS_Defence_GaussEmplacement]
+VehiclePositionString="in a Gauss Turret"
+VehicleNameString="Gauss Turret"
+
+[TS_Defence_GaussEmplacement_Weapon]
+ItemName="Gauss Cannon"
+PickupMessage="Gauss Turret Weapon"
+
+
+
+[TS_Defence_MGEmplacement]
+VehiclePositionString="in a Gattling Turret"
+VehicleNameString="Gattling Turret"
+
+[TS_Defence_MGEmplacement_Weapon]
+ItemName="Gattling Gun"
+PickupMessage="Gattling Turret Weapon"
+
+
+
+[TS_Defence_Mortar]
+VehiclePositionString="in a Mortar"
+VehicleNameString="Mortar"
+
+[TS_Defence_Mortar_Weapon]
+ItemName="High-Explosive Mortar"
+AltItemName="EMP Mortar"
+PickupMessage="Mortar Emplacement"
+
+
+//=====================================
+//	Vehicle Weapons
+//=====================================
+
+[Rx_Vehicle_Weapon]
+ItemName="Primary Weapon"
+PickupMessage="Primary Weapon"
+
+[TS_Vehicle_Harvester_Weapon]
+ItemName="Harvest"
+PickupMessage="Harvester"
+
+[TS_Vehicle_HoverIFV_WeaponMain]
+ItemName="Flak Cannon"
+PickupMessage="Hover IFV Weapon"
+
+[TS_Vehicle_HoverIFV_WeaponGunner]
+ItemName="Disc Launcher"
+PickupMessage="Disc Launcher"
+
+[TS_Vehicle_Buggy_Adv_WeaponMain_QuadCannon]
+ItemName="Quad Cannon"
+PickupMessage="Assault Buggy Weapon"
+
+[TS_Vehicle_Buggy_Adv_WeaponGunner]
+ItemName="Laser Chaingun"
+PickupMessage="Assault Buggy Weapon"
+
+[TS_Vehicle_HoverMRLS_HD_Weapon]
+ItemName="MK40 Rockets"
+AltItemName="Tusk Missile"
+PickupMessage="Hover MRLS Weapon"
+
+[TS_Vehicle_Titan_HD_Weapon]
+ItemName="120MM Cannon"
+AltItemName=".50 Cal Machine Gun"
+PickupMessage="Titan Weapon"
+
+[TS_Vehicle_Titan_HD_Gunner_Weapon]
+ItemName=".50 Cal Machine Gun"
+PickupMessage="Titan Gunner Weapon"
+
+[TS_Vehicle_Titan_Dual_Weapon]
+ItemName="Gauss Cannons"
+AltItemName="Guided Rockets"
+PickupMessage="Titan Weapon"
+
+[TS_Vehicle_Wolverine_HD_Weapon]
+ItemName="Dual Vulcan Cannons"
+AltItemName="Smoke Grenades"
+PickupMessage="Wolverine Weapon"
+
+[TS_Weapon_Wolverine_Vulcan]
+ItemName="Vulcan Cannons"
+AltItemName="Vulcan Cannons"
+PickupMessage="Vulcan Cannons"
+
+[TS_Weapon_Wolverine_RailHMG]
+ItemName="Rail HMG"
+AltItemName="Rail HMG"
+PickupMessage="Rail HMG"
+
+[TS_Vehicle_Juggernaut_Weapon]
+ItemName="155MM Cannon"
+PickupMessage="Juggernaut Weapon"
+
+[TS_Vehicle_AAPC_Weapon]
+ItemName="Smoke Grenades"
+PickupMessage="Amphibious APC Weapon"
+
+[TS_Vehicle_AAPC_WeaponMain]
+ItemName="Vulcan Cannons"
+PickupMessage="Amphibious APC Weapon"
+
+[TS_Vehicle_AAPC_WeaponMG]
+ItemName="Gattling Cannon"
+PickupMessage="Amphibious APC Weapon"
+
+[TS_Vehicle_Disruptor_Weapon]
+ItemName="Sonic Shield"
+PickupMessage="Disruptor Weapon"
+
+[TS_Vehicle_MMKII_Weapon_Railgun]
+ItemName="Railgun - Left"
+AltItemName="Railgun - Right"
+PickupMessage="Mammoth Mark II Weapon"
+
+[TS_Vehicle_MMKII_Weapon_RocketTurret_L]
+ItemName="Tusk Missiles"
+AltItemName="CWIS Gattling Gun"
+PickupMessage="Mammoth Mark II Weapon"
+
+[TS_Vehicle_MMKII_Weapon_RocketTurret_R]
+ItemName="Tusk Missiles"
+AltItemName="CWIS Gattling Gun"
+PickupMessage="Mammoth Mark II Weapon"
+
+[TS_Vehicle_MMKII_Weapon_MG]
+ItemName="20mm Cannon"
+AltItemName="120MM Cannon"
+PickupMessage="Mammoth Mark II Weapon"
+
+[TS_Vehicle_MMKII_Weapon_Artillery]
+ItemName="Rocket Artillery"
+AltItemName="Rocket Artillery"
+PickupMessage="Mammoth Mark II Weapon"
+
+[TS_Vehicle_MMKII_Weapon_TailGun]
+ItemName="Sonic Grenades Launcher"
+AltItemName="Heavy Machine Gun"
+PickupMessage="Mammoth Mark II Weapon"
+
+[TS_Vehicle_MMKII_Weapon_Seat0]
+ItemName="Railgun"
+AltItemName="Rocket Artillery"
+PickupMessage="Mammoth Mark II Weapon"
+
+[TS_Vehicle_MMKII_Weapon_Seat1]
+ItemName="30mm Vulcan"
+AltItemName="120mm Cannon"
+PickupMessage="Mammoth Mark II Weapon"
+
+[TS_Vehicle_MMKII_Weapon_Seat2]
+ItemName="Tusk Missiles"
+AltItemName="Flak Cannons"
+PickupMessage="Mammoth Mark II Weapon"
+
+[TS_Vehicle_MMKII_HD_Alt_Weapon_Seat0]
+ItemName="Railguns"
+AltItemName="Tusk Missiles"
+PickupMessage="Mammoth Mark II Weapon"
+
+[TS_Vehicle_MMKII_HD_Alt_Weapon_Seat1]
+ItemName="120MM Cannon"
+AltItemName="Heavy Machine Gun"
+PickupMessage="Mammoth Mark II Weapon"
+
+[TS_Vehicle_CoreDefender_Alt_Weapon_Seat0]
+ItemName="Obelisk of Darkness"
+AltItemName="Cluster Missiles"
+PickupMessage="Apostle Driver Weapon"
+
+[TS_Vehicle_CoreDefender_Alt_Weapon_Seat1]
+ItemName="Purifier Flamethrower"
+AltItemName="Plasma Repeater"
+PickupMessage="Apostle Gunner Weapon"
+
+[TS_Vehicle_CoreDefender_Alt_Weapon_Seat2]
+ItemName="Scanner"
+AltItemName="Hunter Seeker Drone"
+PickupMessage="Apostle Spotter Weapon"
+
+[TS_Vehicle_Gunship_Weapon]
+ItemName="Plasma Bombs"
+AltItemName="Hellfire Missiles"
+PickupMessage="Gunship Weapon"
+
+[TS_Vehicle_Gunship_Weapon_TailGunner]
+ItemName="120MM Cannon"
+AltItemName="Plasma Gun"
+PickupMessage="Gunship Weapon"
+
+[TS_Vehicle_Gunship_Weapon_Turret_L]
+ItemName="Gattling Gun"
+AltItemName="22MM Cannon"
+PickupMessage="Gunship Weapon"
+
+[TS_Vehicle_Gunship_Weapon_Turret_L]
+ItemName="Gattling Gun"
+AltItemName="22MM Cannon"
+PickupMessage="Gunship Weapon"
+
+[TS_Vehicle_Orca_Weapon]
+ItemName="Flak Cannon"
+AltItemName="Rocket Pods"
+PickupMessage="Orca Weapon"
+
+[TS_Vehicle_Orca_Bomber_Weapon]
+ItemName="30MM Cannon"
+AltItemName="Bombs"
+PickupMessage="Orca Bomber Weapon"
+
+[TS_Vehicle_FighterJet_GDI_Weapon]
+ItemName="30MM Cannon"
+AltItemName="Guided Rockets"
+PickupMessage="Kestral Weapon"
+
+[TS_Vehicle_Transport_Weapon]
+ItemName="Supply Crate"
+AltItemName="Sensor Beacon"
+PickupMessage="Orca Transport Weapon"
+
+[TS_Vehicle_Transport_GDI_WeaponGunner]
+ItemName="Gattling Gun"
+PickupMessage="Orca Transport Weapon"
+
+[TS_Vehicle_Transport_Nod_WeaponGunner]
+ItemName="Gattling Gun"
+PickupMessage="Orca Transport Weapon"
+
+[TS_Vehicle_TickTank_Redesigned_Weapon]
+ItemName="90MM Cannon"
+AltItemName=".50 Cal Machine Gun"
+PickupMessage="Tick Tank Weapon"
+
+[TS_Vehicle_TickTank_Redesigned_Gunner_Weapon]
+ItemName="Gattling Gun"
+PickupMessage="Tick Tank Weapon"
+
+[TS_Vehicle_TickTank_Laser_Weapon]
+ItemName="Obelisk Cannon"
+AltItemName="Plasma Bombs"
+PickupMessage="Scarab Weapon"
+
+[TS_Vehicle_AttackCycle_Weapon]
+ItemName="Guided / Unguided Rockets"
+PickupMessage="Attack Cycle Weapon"
+
+[TS_Vehicle_AttackCycle_Forgotten_Weapon]
+ItemName="Air-Burst RPG"
+AltItemName="Tib-Core Missile"
+PickupMessage="Attack Cycle Weapon"
+
+[TS_Vehicle_AttackCycle_Weapon_Alt]
+ItemName="Dumbfire Missiles"
+AltItemName="Javelin Missiles"
+PickupMessage="Attack Cycle Weapon"
+
+[TS_Vehicle_SAPC_WeaponMain]
+ItemName="Vulcan Cannons"
+PickupMessage="Subterranean APC Weapon"
+
+[TS_Vehicle_SAPC_Weapon]
+ItemName="Gattling Gun"
+PickupMessage="Subterranean APC Weapon"
+
+[TS_Vehicle_Buggy_HD_Weapon]
+ItemName="Gattling Gun"
+AltItemName="20mm Cannon"
+PickupMessage="Buggy Weapon"
+
+[TS_Vehicle_RemoteArtillery_Weapon]
+ItemName="185MM Cannon"
+PickupMessage="Artillery Weapon"
+
+[TS_Vehicle_DevilsTongue_Weapon]
+ItemName="Flame Throwers"
+PickupMessage="Devil's Tongue Weapon"
+
+[TS_Vehicle_StealthTank_Weapon]
+ItemName="TOW Missiles"
+PickupMessage="Stealth Tank Weapon"
+
+[TS_Vehicle_Banshee_Weapon]
+ItemName="Plasma Cannon"
+AltItemName="Plasma Bomb"
+PickupMessage="Banshee Weapon"
+
+[TS_Vehicle_Harpy_Weapon]
+ItemName="Vulcan Cannon"
+AltItemName="Rockets"
+PickupMessage="Harpy Weapon"
+
+[TS_Vehicle_ReconDrone_Camera]
+ItemName="Recon Camera"
+PickupMessage="Recon Camera"
+
+[TS_Defence_Nod_Obelisk_Weapon]
+ItemName="Obelisk Laser"
+PickupMessage="Obelisk Laser"
+
+[TS_Defence_Nod_LaserTurret_Weapon]
+ItemName="Laser"
+PickupMessage="Laser"
+
+[TS_Defence_Nod_SAM_Weapon]
+ItemName="SAM Rockets"
+PickupMessage="SAM Rockets"
+
+[TS_Defence_GDI_CT_RPG_Weapon]
+ItemName="RPG"
+PickupMessage="RPG"
+
+[TS_Defence_GDI_CT_Vulcan_Weapon]
+ItemName="Twin-Vulcan Cannons"
+PickupMessage="Twin-Vulcan Cannons"
+
+[TS_Defence_GDI_CT_SAM_Weapon]
+ItemName="SAM Rockets"
+PickupMessage="SAM Rockets"
+
+[TS_Vehicle_Buggy_Forgotten_Weapon]
+ItemName="Riparius Gattling Gun"
+AltItemName="Vinifera Cannon"
+PickupMessage="Forgotten Raider Weapon"
+
+[TS_Vehicle_TeslaTank_Weapon]
+ItemName="Lightning Bolts"
+PickupMessage="Tesla Tank Weapon"
+
+[TS_Vehicle_ApocalypseTank_Weapon]
+ItemName="120MM Cannon"
+AltItemName="Tusk Missiles"
+PickupMessage="Apocalypse Tank Weapon"
+
+[TS_Vehicle_V3_Weapon]
+ItemName="V3 Rocket Launcher"
+AltItemName="V3 Rocket Launcher"
+PickupMessage="V3 Rocket Weapon"
+
+[TS_Vehicle_MRLS_Weapon]
+ItemName="Forgotten M269 Missiles"
+PickupMessage="MRLS Weapon"
+
+[TS_Vehicle_SSM_Weapon]
+ItemName="MGR-1 Napalm Missile"
+PickupMessage="SSM Weapon"
+
+[TS_Vehicle_MammothTank_Weapon]
+ItemName="120MM Cannon"
+AltItemName="Tib-Core Missiles"
+PickupMessage="Mammoth Tank Weapon"
+
+[TD_Vehicle_M2Bradley_Weapon]
+ItemName="22MM Cannon"
+AltItemName="Tiberium TOW Rocket"
+PickupMessage="M2 Bradley Weapon"
+
+[TD_Vehicle_HMMWV_Weapon_M2]
+ItemName="M2 Machine Gun"
+AltItemName="M2 Machine Gun"
+PickupMessage="M2 Machine Gun"
+
+[TD_Vehicle_HMMWV_Weapon_M134]
+ItemName="M134 Minigun"
+AltItemName="M134 Minigun"
+PickupMessage="M134 Minigun"
+
+[TD_Vehicle_HMMWV_Weapon_TOW]
+ItemName="BGM-71 TOW Missile"
+AltItemName="BGM-71 TOW Missile"
+PickupMessage="BGM-71 TOW Missile"
+
+[TD_Vehicle_MammothTank_Weapon]
+ItemName="120MM Cannon"
+AltItemName="Tusk Missiles"
+PickupMessage="Mammoth Tank Weapon"
+
+[TD_Vehicle_MammothMKI_Weapon]
+ItemName="120MM Cannon"
+AltItemName="Tusk Missiles"
+PickupMessage="X66-A2 Mammoth Weapon"
+
+[TD_Vehicle_MammothMKI_Gunner_Weapon]
+ItemName=".50 Cal Machine Gun"
+PickupMessage="X66-A2 Mammoth Weapon"
+
+[TD_Vehicle_MediumTank_Weapon]
+ItemName="105MM Cannon"
+AltItemName=".50 Cal Machine Gun"
+PickupMessage="Medium Tank Weapon"
+
+[TD_Vehicle_MediumTank_Gunner_Weapon]
+ItemName=".50 Cal Machine Gun"
+PickupMessage="Medium Tank Weapon"
+
+[TD_Vehicle_M1Abrams_Weapon]
+ItemName="120MM Cannon"
+AltItemName="7.62 Coaxial Machine Gun"
+PickupMessage="M1A2 Abrams Weapon"
+
+[TD_Vehicle_M1Abrams_Gunner_Weapon]
+ItemName="M2 Browning MG"
+PickupMessage="M2 Browning Weapon"
+
+[TD_Vehicle_LightTank_Weapon]
+ItemName="105MM Cannon"
+AltItemName=".50 Cal Machine Gun"
+PickupMessage="Light Tank Weapon"
+
+[TD_Vehicle_M2Bradley_Weapon]
+ItemName="22MM Cannon"
+AltItemName="TOW Rocket"
+PickupMessage="M2 Bradley Weapon"
+
+[TD_Vehicle_LightTank_Gunner_Weapon]
+ItemName=".50 Cal Machine Gun"
+PickupMessage="Light Tank Weapon"
+
+[TD_Vehicle_Apache_Weapon]
+ItemName="Hydra 70 Rocket"
+AltItemName="Hellfire Missile"
+PickupMessage="Apache Weapon"
+
+[TD_Vehicle_RecnBike_Weapon]
+ItemName="TOW Missiles"
+PickupMessage="Recon Bike Weapon"
+
+[TD_Vehicle_StealthTank_Weapon]
+ItemName="TOW Missiles"
+PickupMessage="Stealth Tank Weapon"
+
+[TD_Vehicle_MRLS_Weapon]
+ItemName="M269 Missiles"
+PickupMessage="MRLS Weapon"
+
+[TD_Vehicle_Orca_Weapon]
+ItemName="Hydra 70 Rocket"
+AltItemName="Hellfire Missile"
+PickupMessage="Orca Weapon"
+
+[TD_Vehicle_A10_Weapon]
+ItemName="GAU-8 Avenger"
+AltItemName="Mk-82 Bomb"
+PickupMessage="A-10 Weapon"
+
+//////////////////////
+//  Building Names  //
+//////////////////////
+[TS_Building_ConstructionYard_GDI_Internals]
+BuildingName = "Construction Yard"
+
+[TS_Building_ConstructionYard_Nod_Internals]
+BuildingName = "Construction Yard"
+
+[TS_Building_Barracks_Internals]
+BuildingName = "Barracks"
+
+[TS_Building_HandOfNod_Internals]
+BuildingName = "Hand of Nod"
+
+[TS_Building_GDI_WeaponsFactory_Internals]
+BuildingName = "War Factory"
+
+[TS_Building_Nod_WeaponsFactory_Internals]
+BuildingName = "War Factory"
+
+[TS_Building_GDI_Helipad_Internals]
+BuildingName = "Helipad"
+
+[TS_Building_Nod_Helipad_Internals]
+BuildingName = "Helipad"
+
+[TS_Building_GDI_PowerPlant_Internals]
+BuildingName = "Power Plant"
+
+[TS_Building_Nod_PowerPlant_Internals]
+BuildingName = "Adv. Power Plant"
+
+[TS_Building_RepairFacility_Internals]
+BuildingName = "Repair Facility"
+
+[TS_Building_SupplyDepot_Internals]
+BuildingName = "Supply Depot"
+
+[TS_Building_Refinery_Internals]
+BuildingName = "Refinery"
+
+[TS_Building_TechBuilding_Silo_Internals]
+BuildingName = "Silo"
+
+[TS_Building_TechCenter_Internals]
+BuildingName = "Tech Centre"
+
+
+//=====================================
+//	Buildings
+//=====================================
+[Rx_Message_Buildings]
+BuildingBroadcastMessages[0]="`PlayerName` destroyed the `BuildingName`"
+BuildingBroadcastMessages[1]="`BuildingName` destroyed by `PlayerName`"
+BuildingBroadcastMessages[2]="`PlayerName` captured the `BuildingName`"
+BuildingBroadcastMessages[3]="`PlayerName` neutralized the `BuildingName`"
+
+
+//=====================================
+// Context Menu Help
+//=====================================
+
+[TS_GFxCommandMenu]
+CommandString[0] = "ATTACK"
+CommandString[1] = "DEFEND"
+CommandString[2] = "MOVE"
+CommandString[3] = "WARN"
+CommandString[4] = "AMMO"
+CommandString[5] = "HEAL"
+
+[TS_HUD_CommandMenu]
+CommandString[0] = "ATTACK"
+CommandString[1] = "DEFEND"
+CommandString[2] = "MOVE"
+CommandString[3] = "WARN"
+CommandString[4] = "AMMO"
+CommandString[5] = "HEAL"
+
+[TS_Controller]
+ActionCommand[0] = "Attack this position!"
+ActionCommand[1] = "Defend this position!"
+ActionCommand[2] = "Assemble at this position!"
+ActionCommand[3] = "Marking point of interest here!"
+ActionCommand[4] = "I need ammo here!"
+ActionCommand[5] = "I need repair!"
+
+[TS_HUD_SquadPowerMenu]
+SquadPowerString[0] = "SUPPLIES"
+SquadPowerString[1] = "SPAWN BEACON"
+SquadPowerString[2] = "RADAR SCAN"
+SquadPowerString[3] = "ION BARRAGE/CHEM MISSILE"
+SquadPowerString[4] = "EMP STRIKE"
+SquadPowerString[5] = "ION CANNON/CLUSTER MISSILE"

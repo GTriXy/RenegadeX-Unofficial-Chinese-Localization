@@ -1,8 +1,8 @@
 [MessageBox]
-ExitGame_Title=退出
-ExitGame_Message=您确定要退出游戏吗？
-LogOut_Title=登出
-LogOut_Message=您确定要登出吗？
+ExitGame_Title=Exit
+ExitGame_Message=Are you sure you want to exit the game?
+LogOut_Title=Logout
+LogOut_Message=Are you sure you want to logout?
 StartGame_Title=Start Match?
 StartGame_Message=Start the match using the current settings?
 StartDedicated_Title=Start Dedicated Server?
@@ -27,7 +27,7 @@ RemoveFriend_Title=Remove Friend
 RemoveFriend_Message=Are you sure you want to remove '`PlayerName`' from your friends list?
 SentGameInvite_Title=Sent Game Invite
 SentGameInvite_Message=An invite to play Renegade-X has been sent to '`PlayerName`'!
-JoinFriend_Message=正在加入...
+JoinFriend_Message=Joining...
 ViewMessage_Title=View Message
 ViewMessage_Message=Message From '`PlayerName`':\n\n`Message`
 ViewFriendRequest_Title=Accept Friend Request

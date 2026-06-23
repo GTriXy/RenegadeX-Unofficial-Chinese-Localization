@@ -1,512 +1,512 @@
 //="===================================="
 //	Game=
 [Rx_Game]
-Description="Destroy the enemy base while protecting your own."
-GameName="C&C Mode"
-EndOfMatchRulesTemplateStr_Scoring=First team to destroy the other wins
-EndOfMatchRulesTemplateStr_Time=Team with most points in `t mins. wins
+Description="摧毁敌人基地同时保护友方基地。"
+GameName="命令与征服模式"
+EndOfMatchRulesTemplateStr_Scoring=第一个摧毁其他小队的队伍获胜
+EndOfMatchRulesTemplateStr_Time=在限定时间内获得最高积分的队伍获胜
 
 
 //="===================================="
 //	Weapons=
 
 [Rx_Weapon]
-ItemName="Unnamed Weapon"
-PickupMessage="Unnamed Weapon"
+ItemName="未命名武器"
+PickupMessage="未命名武器"
 
 [Rx_Weapon_Reloadable]
-ItemName="Unnamed Reloadable Weapon"
-PickupMessage="Unnamed Reloadable Weapon"
+ItemName="未命名的可重新装载武器"
+PickupMessage="未命名的可重新装载武器"
 
 [Rx_Weapon_Spray]
-ItemName="Unnamed Sprayer Weapon"
-PickupMessage="Unnamed Sprayer Weapon"
+ItemName="未命名喷射器武器"
+PickupMessage="未命名喷射器武器"
 
 [Rx_Weapon_Scoped]
-ItemName="Unnamed Scoped Weapon"
-PickupMessage="Unnamed Scoped Weapon"
+ItemName="未命名瞄准镜武器"
+PickupMessage="未命名瞄准镜武器"
 
 [Rx_Weapon_AutoRifle]
-ItemName="Automatic Rifle"
-PickupMessage="Automatic Rifle"
+ItemName="自动步枪"
+PickupMessage="自动步枪"
 
 [Rx_Weapon_TacticalRifle]
-ItemName="Tactical Rifle"
-PickupMessage="Tactical Rifle"
+ItemName="战术步枪"
+PickupMessage="战术步枪"
 
 [Rx_Weapon_Shotgun]
-ItemName="Shotgun"
-PickupMessage="Shotgun"
+ItemName="霰弹枪"
+PickupMessage="霰弹枪"
 
 [Rx_Weapon_RocketLauncher]
-ItemName="Rocket Launcher"
-PickupMessage="Rocket Launcher"
+ItemName="火箭发射器"
+PickupMessage="火箭发射器"
 
 [Rx_Weapon_Flamethrower]
-ItemName="Flamethrower"
-PickupMessage="Flamethrower"
+ItemName="火焰喷射器"
+PickupMessage="火焰喷射器"
 
 [Rx_Weapon_GrenadeLauncher]
-ItemName="Grenade Launcher"
-PickupMessage="Grenade Launcher"
+ItemName="榴弹发射器"
+PickupMessage="榴弹发射器"
 
 [Rx_Weapon_Pistol]
-ItemName="Silenced Pistol"
-PickupMessage="Silenced Pistol"
+ItemName="消音手枪"
+PickupMessage="消音手枪"
 
 [Rx_Weapon_Pistol_UnSILENCED]
-ItemName="Pistol"
-PickupMessage="Pistol"
+ItemName="手枪"
+PickupMessage="手枪"
 
 [Rx_Weapon_ChainGun]
-ItemName="Chain Gun"
-PickupMessage="Chain Gun"
+ItemName="链炮"
+PickupMessage="链炮"
 
 [Rx_Weapon_SniperRifle]
-ItemName="Sniper Rifle"
-PickupMessage="Sniper Rifle"
+ItemName="狙击步枪"
+PickupMessage="狙击步枪"
 
 [Rx_Weapon_VoltAutoRifle]
-ItemName="Volt Auto-Rifle"
-PickupMessage="Volt Auto-Rifle"
+ItemName="伏特自动步枪"
+PickupMessage="伏特自动步枪"
 
 [Rx_Weapon_RamjetRifle]
-ItemName="Ramjet Rifle"
-PickupMessage="Ramjet Rifle"
+ItemName="冲压步枪"
+PickupMessage="冲压步枪"
 
 [Rx_Weapon_Railgun]
-ItemName="Railgun"
-PickupMessage="Railgun"
+ItemName="轨道炮"
+PickupMessage="轨道炮"
 
 [Rx_Weapon_PersonalIonCannon]
-ItemName="Personal Ion Cannon"
-PickupMessage="Personal Ion Cannon"
+ItemName="个人式离子炮"
+PickupMessage="个人式离子炮"
 
 [Rx_Weapon_LaserRifle]
-ItemName="Laser Rifle"
-PickupMessage="Laser Rifle"
+ItemName="镭射步枪"
+PickupMessage="镭射步枪"
 
 [Rx_Weapon_LaserChainGun]
-ItemName="Laser Chain Gun"
-PickupMessage="Laser Chain Gun"
+ItemName="镭射链炮"
+PickupMessage="镭射链炮"
 
 [Rx_Weapon_MissileLauncher]
-ItemName="Missile Launcher"
-PickupMessage="Missile Launcher"
+ItemName="导弹发射器"
+PickupMessage="导弹发射器"
 
 [Rx_Weapon_ChemicalThrower]
-ItemName="Chemical Thrower"
-PickupMessage="Chemical Thrower"
+ItemName="化学喷射器"
+PickupMessage="化学喷射器"
 
 [Rx_Weapon_FlakCannon]
-ItemName="Flak Cannon"
-PickupMessage="Flak Cannon"
+ItemName="高射炮"
+PickupMessage="高射炮"
 
 [Rx_Weapon_RepairGun]
-ItemName="Repair Gun"
-PickupMessage="Repair Gun"
+ItemName="维修枪"
+PickupMessage="维修枪"
 
 [Rx_Weapon_RepairGunAdvanced]
-ItemName="Adv. Repair Gun"
-PickupMessage="Adv. Repair Gun"
+ItemName="高级维修枪"
+PickupMessage="高级维修枪"
 
 [Rx_Weapon_TimedC4]
-ItemName="Timed C4"
-PickupMessage="Timed C4"
+ItemName="定时C4"
+PickupMessage="定时C4"
 
 [Rx_Weapon_RemoteC4]
-ItemName="Remote C4"
-PickupMessage="Remote C4"
+ItemName="遥控C4"
+PickupMessage="遥控C4"
 
 [Rx_Weapon_ProxyC4]
-ItemName="Proximity C4"
-PickupMessage="Proximity C4"
+ItemName="反步兵地雷"
+PickupMessage="反步兵地雷"
 
 [Rx_Weapon_Beacon]
-PurchaseDesc="<font size='8'>Pros:\n-Instant Building Destruction\nCons:\n-60 Seconds for impact\n-USES ITEM SLOT</font>"
+PurchaseDesc="<font size='8'>Pros:\n-瞬间摧毁建筑\n缺点:\n-60秒后打击\n-占用物品槽</font>"
 
 [Rx_Weapon_NukeBeacon]
-ItemName="Nuke Strike Beacon"
-PickupMessage="Nuke Strike Beacon"
+ItemName="核子打击信标"
+PickupMessage="核子打击信标"
 
 [Rx_Weapon_IonCannonBeacon]
-ItemName="Ion Cannon Beacon"
-PickupMessage="Ion Cannon Beacon"
+ItemName="离子炮信标"
+PickupMessage="离子炮信标"
 
 [Rx_Weapon_Blueprint]
-ItemName="Blueprint"
-PickupMessage="Blueprint"
+ItemName="蓝图"
+PickupMessage="蓝图"
 
 [Rx_Weapon_Blueprint_Defense_GT_GDI]
-ItemName="Guard Tower Blueprint"
-PickupMessage="Guard Tower Blueprint"
-PurchaseDesc="<font size='8'>Pros:\n-Automatic Defense\n-Good against infantry\n\nCons:\n-Poor against vehicles\n-Less Veterancy gain </font>"
+ItemName="防御塔蓝图"
+PickupMessage="防御塔蓝图"
+PurchaseDesc="<font size='8'>Pros:\n-自动防御塔\n-反步兵\n\n缺点:\n-弱载具\n-更少的经验收益</font>"
 
 [Rx_Weapon_Blueprint_Defense_Turret_GDI]
-ItemName="Turret Blueprint"
-PickupMessage="Turret Blueprint"
-PurchaseDesc="<font size='8'>Pros:\n-Automatic Defense\n-Good against vehicles:\n-Poor against infantries\n-Less Veterancy gain\n-Destruction earns large veterancy </font>"
+ItemName="炮塔蓝图"
+PickupMessage="炮塔蓝图"
+PurchaseDesc="<font size='8'>Pros:\n-自动防御塔\n-反载具:\n-弱步兵\n-更少的经验收益\n-被摧毁会给予敌方大量经验 </font>"
 
 [Rx_Weapon_Blueprint_Defense_GT_Nod]
-ItemName="Guard Tower"
-PickupMessage="Guard Tower Blueprint"
-PurchaseDesc="<font size='8'>Pros:\n-Automatic Defense\n-Good against infantry\n\nCons:\n-Poor against vehicles\n-Less Veterancy gain</font>"
+ItemName="防御塔"
+PickupMessage="守卫塔蓝图"
+PurchaseDesc="<font size='8'>Pros:\n-自动防御塔\n-克制步兵\n\n缺点:\n-弱载具\n-更少的经验收益</font>"
 
 [Rx_Weapon_Blueprint_Defense_Turret_Nod]
-ItemName="Turret Blueprint"
-PickupMessage="Turret Blueprint"
-PurchaseDesc="<font size='8'>Pros:\n-Automatic Defense\n-Good against vehicles:\n-Poor against infantries\n-Less Veterancy gain\n-Destruction earns large veterancy  </font>"
+ItemName="炮塔蓝图"
+PickupMessage="炮塔蓝图"
+PurchaseDesc="<font size='8'>Pros:\n-自动防御塔\n-反载具:\n-弱步兵\n-更少的经验收益\n-被摧毁会给予敌方大量经验 </font>"
 
 [Rx_Weapon_Blueprint_Defense_CeilingTurret]
-ItemName="Ceiling Turret"
-PickupMessage="Ceiling Turret Blueprint"
-PurchaseDesc="<font size='8'>Pros:\n-Automatic Defense\n-Good against infantry\n\nCons:\n-Fragile\n-Less Veterancy gain </font>"
+ItemName="天花板炮塔"
+PickupMessage="天花板炮塔蓝图"
+PurchaseDesc="<font size='8'>Pros:\n-自动防御塔\n-反步兵\n\n缺点:\n-易被摧毁\n-更少的经验收益 </font>"
 
 [Rx_Weapon_Grenade]
-ItemName="Frag Grenade"
-PickupMessage="Frag Grenade"
+ItemName="破片手雷"
+PickupMessage="破片手雷"
 
 [Rx_Weapon_Grenade_Rechargeable]
-ItemName="Frag Grenade"
-PickupMessage="Frag Grenade"
+ItemName="破片手雷"
+PickupMessage="破片手雷"
 
 [Rx_Weapon_SMG]
-ItemName="Machine Pistol"
-PickupMessage="Machine Pistol"
+ItemName="自动手枪"
+PickupMessage="自动手枪"
 
 [Rx_Weapon_SMG_Silenced]
-ItemName="Silenced Machine Pistol"
-PickupMessage="Silenced Machine Pistol"
+ItemName="消音自动手枪"
+PickupMessage="消音自动手枪"
 
 [Rx_Weapon_HeavyPistol]
-ItemName="Heavy Pistol"
-PickupMessage="Heavy Pistol"
+ItemName="重型手枪"
+PickupMessage="重型手枪"
 
 [Rx_Weapon_MarksmanRifle]
-ItemName="Marksman Rifle"
-PickupMessage="Marksman Rifle"
+ItemName="神射手步枪"
+PickupMessage="神射手步枪"
 
 [Rx_Weapon_Carbine]
-ItemName="Carbine"
-PickupMessage="Carbine"
+ItemName="卡宾枪"
+PickupMessage="卡宾枪"
 
 [Rx_Weapon_Carbine_Silencer]
-ItemName="Silenced Carbine"
-PickupMessage="Silenced Carbine"
+ItemName="消音卡宾枪"
+PickupMessage="消音卡宾枪"
 
 [Rx_Weapon_Airstrike]
-ItemName="Airstrike Designator"
-PickupMessage="Airstrike Designator"
-PurchaseDesc="<font size='8'>Pros:\n-5 seconds to impact\n-Quick bombardment\n-Anti-Infantry/Vehicle\nCons:\n-Weak Vs. Buildings\n-USES ITEM SLOT</font>"
+ItemName="空袭指定器"
+PickupMessage="空袭指定器"
+PurchaseDesc="<font size='8'>优点:\n-5秒后打击\n-快速轰炸\n-反步兵/载具\n缺点:\n-弱建筑\n-占用物品槽</font>"
 
 [Rx_Weapon_Airstrike_GDI]
-ItemName="A-10 Airstrike"
-PickupMessage="A-10 Airstrike"
+ItemName="A-10空袭"
+PickupMessage="A-10空袭"
 
 [Rx_Weapon_Airstrike_Nod]
-ItemName="AC-130 Airstrike"
-PickupMessage="AC-130 Airstrike"
+ItemName="AC-130空袭"
+PickupMessage="AC-130空袭"
 
 [Rx_Weapon_TiberiumFlechetteRifle]
-ItemName="Tiberium Flechette Rifle"
-PickupMessage="Tiberium Flechette Rifle"
+ItemName="泰伯利亚钉枪"
+PickupMessage="泰伯利亚钉枪"
 
 [Rx_Weapon_TiberiumAutoRifle]
-ItemName="Tiberium Auto-Rifle"
-PickupMessage="Tiberium Auto-Rifle"
+ItemName="泰伯利亚自动步枪"
+PickupMessage="泰伯利亚自动步枪"
 
 [Rx_Weapon_TiberiumAutoRifle_Blue]
-ItemName="Tiberium Auto-Rifle"
-PickupMessage="Tiberium Auto-Rifle"
+ItemName="精英泰伯利亚自动步枪"
+PickupMessage="精英泰伯利亚自动步枪"
 
 [Rx_Weapon_ATMine]
-ItemName="Anti-Tank Mine"
-PickupMessage="Anti-Tank Mine"
+ItemName="反坦克地雷"
+PickupMessage="反坦克地雷"
 
 [Rx_Weapon_EMPGrenade]
-ItemName="EMP Grenade"
-PickupMessage="EMP Grenade"
+ItemName="EMP 手雷"
+PickupMessage="EMP 手雷"
 
 [Rx_Weapon_EMPGrenade_Rechargeable]
-ItemName="EMP Grenade"
-PickupMessage="EMP Grenade"
+ItemName="EMP 手雷"
+PickupMessage="EMP 手雷"
 
 [Rx_Weapon_RepairTool]
-ItemName="Repair Tool"
-PickupMessage="Repair Tool"
-PurchaseDesc="<font size='8'>Pros:\n-Repairs Units/Buildings\n-Disarms Mines\n\nCons:\n-Must Recharge\n-USES ITEM SLOT  </font>"
+ItemName="维修工具"
+PickupMessage="维修工具"
+PurchaseDesc="<font size='8'>优点:\n-维修单位/建筑\n-拆除地雷\n\n缺点:\n-需要再充能\n-占用物品槽  </font>"
 
 [Rx_Weapon_SmokeGrenade]
-ItemName="Smoke Grenade"
-PickupMessage="Smoke Grenade"
+ItemName="烟雾弹"
+PickupMessage="烟雾弹"
 
 [Rx_Weapon_SmokeGrenade_Rechargeable]
-ItemName="Smoke Grenade"
-PickupMessage="Smoke Grenade"
+ItemName="烟雾弹"
+PickupMessage="烟雾弹"
 
 [Rx_Weapon_TiberiumGrenade_Rechargeable]
-ItemName="Tiberium Grenade"
-PickupMessage="Tiberium Grenade"
+ItemName="泰伯利亚手雷"
+PickupMessage="泰伯利亚手雷"
 
 [Rx_Weapon_SniperRifle_UnSilenced]
-ItemName="Sniper Rifle"
-PickupMessage="Sniper Rifle"
+ItemName="狙击步枪"
+PickupMessage="狙击步枪"
 
 //="===================================="
 //Rx WeaponAbilities=
 
 [Rx_WeaponAbility]
-ItemName="Unnamed Ability"
-PickupMessage="Unnamed Ability"
+ItemName="未命名能力"
+PickupMessage="未命名能力"
 
 [Rx_WeaponAbility_TiberiumGrenade]
-ItemName="Tiberium Grenade"
-PickupMessage="Tiberium Grenades"
+ItemName="泰伯利亚手雷"
+PickupMessage="泰伯利亚手雷"
 
 [Rx_WeaponAbility_Grenade]
-ItemName="Frag Grenade"
-PickupMessage="Frag Grenades"
+ItemName="破片手雷"
+PickupMessage="破片手雷"
 
 [Rx_WeaponAbility_EMPGrenade]
-ItemName="EMP Grenade"
-PickupMessage="EMP Grenades"
+ItemName="EMP 手雷"
+PickupMessage="EMP 手雷"
 
 [Rx_WeaponAbility_SmokeGrenade]
-ItemName="Smoke Grenade"
-PickupMessage="Smoke Grenades"
+ItemName="烟雾弹"
+PickupMessage="烟雾弹"
 
 [Rx_WeaponAbility_TacRifleGrenade]
-ItemName="Grenade Launcher"
-PickupMessage="Underslung Grenade Launcher"
+ItemName="榴弹发射器"
+PickupMessage="下挂式榴弹发射器"
 
 //="===================================="
 //	Damage Types=
 
 
 [Rx_DmgType]
-DeathString="`k killed `o"
-FemaleSuicide="`o suicided"
-MaleSuicide="`o suicided"
+DeathString="`k 击杀了 `o"
+FemaleSuicide="`o 自杀了"
+MaleSuicide="`o 自杀了"
 
 [Rx_DmgType_A10_Missile]
-DeathString="`o was struck by `k's airstrike missile"
-MaleSuicide="`o failed to get off the airstrike range"
-WeaponName="A10 Airstrike"
+DeathString="`o 被 `k' 的空袭导弹命中"
+MaleSuicide="`o未能离开空袭打击范围"
+WeaponName="A10 空袭"
 
 [Rx_DmgType_AATower]
-DeathString="`o trespassed into `k's airspace"
+DeathString="`o侵入了`k的领空"
 
 [Rx_DmgType_Abduction]
-DeathString="`o was lost in space"
-MaleSuicide="`o was lost in space"
-WeaponName="Abducted"
+DeathString="`o在太空中迷失"
+MaleSuicide="`o在太空中迷失"
+WeaponName="劫持"
 
 [Rx_DmgType_AGT_MG]
-DeathString="`o was caught inside `k perimeter and was terminated immediately"
-WeaponName="Minigun"
+DeathString="`o进入了`k的射程并被立刻终结"
+WeaponName="迷你炮"
 
 [Rx_DmgType_AGT_Rocket]
-DeathString="`o was caught inside `k perimeter and was terminated immediately"
-WeaponName="Rocket"
+DeathString="`o进入了`k的射程并被立刻终结"
+WeaponName="火箭"
 
 [Rx_DmgType_Apache_Gun]
-DeathString="`k has gunned `o down with their Apache"
-MaleSuicide="`o was gunned down by their own Apache"
-WeaponName="Apache"
+DeathString="`k用ta的阿帕奇击毙了`o"
+MaleSuicide="`o被自己的阿帕奇击毙"
+WeaponName="阿帕奇"
 
 [Rx_DmgType_Apache_Rocket]
-DeathString="`k struck `o down with their Apache's rocket barrage"
-MaleSuicide="`o struck themself down with their own Apache"
-WeaponName="Apache"
+DeathString="`k使用ta的阿帕奇火箭弹击飞了`o"
+MaleSuicide="`o被自己的阿帕奇击飞"
+WeaponName="阿帕奇"
 
 [Rx_DmgType_Apache_Passenger]
-DeathString="`o couldn't avoid `k's missile"
-WeaponName="Apache"
+DeathString="`o无法规避`k的导弹"
+WeaponName="阿帕奇"
 
 [Rx_DmgType_Artillery]
-DeathString="`k has rained on `o's parade with their Artillery"
-WeaponName="Artillery"
+DeathString="`k用自行火炮为`o的路上降下炮火"
+WeaponName="机动大炮"
 
 [Rx_DmgType_APC]
-WeaponName="APC"
+WeaponName="装甲运兵车"
 
 [Rx_DmgType_ATMine]
-DeathString="`o has trespassed into `k's territory"
-MaleSuicide="`o carelessly walked into their own mine"
-WeaponName="AT Mine"
+DeathString="`o擅自闯入了`k的领土"
+MaleSuicide="`o不小心踏上自己的地雷"
+WeaponName="反坦克地雷"
 
 [Rx_DmgType_AutoRifle]
-DeathString="`k shot `o down with their Auto Rifle"
-WeaponName="Auto Rifle"
+DeathString="`k使用自动步枪击毙了`o"
+WeaponName="自动步枪"
 
 [Rx_DmgType_BarbedWire]
-MaleSuicide="`o got tangled to their death"
+MaleSuicide="`o被纠缠至死"
 
 [Rx_DmgType_Buggy]
-WeaponName="Buggy"
+WeaponName="突击越野车"
 
 [Rx_DmgType_Bullet]
-MaleSuicide="`o shot themself down"
-WeaponName="Generic Bullet"
+MaleSuicide="`o用子弹击毙了自己"
+WeaponName="通用子弹"
 
 [Rx_DmgType_Burn]
-DeathString="`k has burned `o to death"
-MaleSuicide="`o has burned to death"
-WeaponName="Burned"
+DeathString="`k把`o烧死了"
+MaleSuicide="`o被烧死了"
+WeaponName="燃烧伤害"
 
 [Rx_DmgType_BurnC4]
-DeathString="`o succumbed to `k's C4 explosion aftermath"
+DeathString="`o无法抵挡`k的C4爆炸"
 WeaponName="C4"
 
 [Rx_DmgType_Carbine]
-DeathString="`k shot `o down with their Carbine
-WeaponName="Carbine"
+DeathString=`k使用卡宾枪击毙了`o
+WeaponName="卡宾枪"
 
 [Rx_DmgType_ChainGun]
-DeathString="`k's bulletstorm has left `o's corpse full of holes"
-WeaponName="Chain Gun"
+DeathString="`k的子弹风暴为`o的尸体留下许多孔洞"
+WeaponName="链炮"
 
 [Rx_DmgType_ChemicalThrower]
-DeathString="`o is high on `k's tiberium gas"
-WeaponName="Chemical Thrower"
+DeathString="`o在`k的泰伯利亚气体中上头至死"
+WeaponName="化学喷射器"
 
 [Rx_DmgType_Chinook]
-DeathString="`k gunned `o down with their chinook side gun"
-WeaponName="Chinook"
+DeathString="`k用支奴干侧方机枪击毙了`o"
+WeaponName="支奴干"
 
 [Rx_DmgType_CruiseMissile]
-DeathString="`k's Cruise Missile has crashed down upon `o's head"
-MaleSuicide="`o learned the term Danger Close the hard way"
-WeaponName="Cruise Missile"
+DeathString="`k的巡航导弹落在了`o的头上"
+MaleSuicide="`o亲身体验了什么叫“危险距离”"
+WeaponName="巡航导弹"
 
 [Rx_DmgType_Drowned]
-MaleSuicide="`o thought they could breath underwater"
-WeaponName="Drowned"
+MaleSuicide="`o以为ta可以在水下呼吸"
+WeaponName="溺死"
 
 [Rx_DmgType_Electric]
-DeathString="`o succumbed to `k's electric residues"
-MaleSuicide="`o was electrocuted to death"
-WeaponName="Electrocuted"
+DeathString="`o被`k电为灰烬"
+MaleSuicide="`o触电致死"
+WeaponName="电击伤害"
 
 [Rx_DmgType_Explosive]
-DeathString="`o was blown up by `k"
-MaleSuicide="`o blew themself up"
+DeathString="`o被`k炸飞"
+MaleSuicide="`o把自己炸飞"
 
-WeaponName="Explosion"
+WeaponName="爆炸"
 [Rx_DmgType_EMP]
-WeaponName="EMP"
+WeaponName="电磁脉冲"
 
 [Rx_DmgType_Fell]
-MaleSuicide="`o forgot to activate their parachute in time"
-WeaponName="Fell"
+MaleSuicide="`o忘记及时打开降落伞"
+WeaponName="摔落"
 
 [Rx_DmgType_FlakCannon]
-DeathString="`o was shredded to bits by `k's Flak Cannon"
-MaleSuicide="`o's shrapnels bounced back and hit their owner"
-WeaponName="Flak Cannon"
+DeathString="`o被`k的高射炮炸成了碎片"
+MaleSuicide="`o'的弹片弹了回来并击中ta自己"
+WeaponName="高射炮"
 
 [Rx_DmgType_FlakCannon_Alt]
-DeathString="`k struck a hole-in-one on `o with their flak shell"
-MaleSuicide="`o lobbed their shell too close to their face"
-WeaponName="Flak Cannon"
+DeathString="`k用高射炮弹在`o身上打了一个洞"
+MaleSuicide="`o把炮弹扔得离脸太近"
+WeaponName="高射炮"
 
 [Rx_DmgType_FlameTank]
-DeathString="`k bathed `o with everburning cleansing flame"
-WeaponName="Flame Tank"
+DeathString="`k用永不熄灭的净化火焰沐浴了`o"
+WeaponName="火焰坦克"
 
 [Rx_DmgType_FlameThrower]
-DeathString="`o was purged by `k's Flame Thrower"
-WeaponName="Flame Thrower"
+DeathString="`o被`k的火焰喷射器净化"
+WeaponName="火焰喷射器"
 
 [Rx_DmgType_Grenade]
-DeathString="`o couldn't avoid `k's grenade throw"
-MaleString="`o tries to play boomerang with their grenade"
-WeaponName="Grenade"
+DeathString="`o不能躲开`k投掷的手榴弹"
+MaleString="`o试图用手榴弹玩回旋镖"
+WeaponName="榴弹"
 
 [Rx_DmgType_GrenadeLauncher]
-DeathString="`o earned `k's grenade on the face"
-MaleString="`o launched their grenade a little too close"
-WeaponName="Grenade Launcher"
+DeathString="`o脸上挨了`k的榴弹"
+MaleString="`o将榴弹发射的过近"
+WeaponName="榴弹发射器"
 
 [Rx_DmgType_GuardTower]
-DeathString="`k has tracked down and eliminated `o"
-WeaponName="Minigun"
+DeathString="`k锁定并消灭了`o"
+WeaponName="迷你炮"
 
 [Rx_DmgType_GunEmpl]
-DeathString="`k gunned down `o with their turret"
-WeaponName="Gun Emplacement"
+DeathString="`k用炮塔击毙了`o"
+WeaponName="机枪炮台"
 
 [Rx_DmgType_GunEmpl_Alt]
-DeathString="`k blasted `o with their turret"
-WeaponName="Gun Emplacement"
+DeathString="`k用炮塔将`o炸成碎片"
+WeaponName="机枪炮台"
 
 [Rx_DmgType_Headshot]
-DeathString="`k launched `o's head from its' place"
-WeaponName="Headshot"
+DeathString="`k将`o'的头从原本的位置发射出去"
+WeaponName="爆头"
 
 [Rx_DmgType_HeavyPistol]
-DeathString="`o got punched by `k's heavy pistol"
-WeaponName="Heavy Pistol"
+DeathString="`o被`k的重型手枪猛击"
+WeaponName="重型手枪"
 
 [Rx_DmgType_Hovercraft_Cannon]
-WeaponName="Hovercraft"
+WeaponName="气垫船"
 
 [Rx_DmgType_Hovercraft_Rockets]
-WeaponName="Hovercraft"
+WeaponName="气垫船"
 
 [Rx_DmgType_Humvee]
-WeaponName="Humvee"
+WeaponName="悍马"
 
 [Rx_DmgType_IonCannon]
-DeathString="`k's Ion Cannon strike has erased `o's traces of existence"
-MaleSuicide="`o was vaporized by an Ion Cannon strike"
-WeaponName="Ion Cannon Strike"
+DeathString="`k的离子炮打击消除了`o存在的痕迹"
+MaleSuicide="`o被离子炮击中而蒸发"
+WeaponName="离子炮打击"
 
 [Rx_DmgType_Kamikaze]
-DeathString="`o was engulfed by `k's kamikaze explosion"
-MaleSuicide="`o met an honorable death"
-WeaponName="Kamikaze"
+DeathString="`o被`k的神风轰炸吞没"
+MaleSuicide="`o光荣的死去"
+WeaponName="神风"
 
 [Rx_DmgType_LaserChainGun]
-DeathString="`k gave `o a laser show of a lifetime"
-WeaponName="Laser Chaingun"
+DeathString="`k给了`o一场终身难忘的激光秀"
+WeaponName="镭射链炮"
 
 [Rx_DmgType_LaserRifle]
-DeathString="`o was caught by `k's quick laser burst"
-WeaponName="Laser Rifle"
+DeathString="`o被`k的高速爆发镭射击中"
+WeaponName="镭射步枪"
 
 [Rx_DmgType_LightningStrike]
-DeathString="`o invoked the wrath of `k"
-MaleSuicide="`o invoked the wrath of the Mother Nature"
-WeaponName="Lightning"
+DeathString="`o激起了`k的愤怒"
+MaleSuicide="`o激起了大自然的愤怒"
+WeaponName="闪电"
 
 [Rx_DmgType_LightTank]
-DeathString="`k blew `o into flaming bits with their Light Tank"
-WeaponName="Light Tank"
+DeathString="`k用轻型坦克将`o炸成燃烧的碎片"
+WeaponName="轻型坦克"
 
 [Rx_DmgType_M2Bradley]
-DeathString="`k blew `o into flaming bits with their Light Tank"
-WeaponName="M2 Bradley"
+DeathString="`k用轻型坦克将`o炸成燃烧的碎片"
+WeaponName="M2布莱德利"
 
 [Rx_DmgType_M2Bradley_Rocket]
-DeathString="`k showered `o with their Light Tank's auxilliary missile"
-WeaponName="M2 Bradley"
+DeathString="`k用布莱德利的导弹为`o沐浴"
+WeaponName="M2布莱德利"
 
 [Rx_DmgType_MammothTank_Cannon]
-DeathString="`o thought he stood a chance against `k's Mammoth Tank"
-WeaponName="Mammoth Tank"
+DeathString="`o以为自己能对抗`k的猛犸坦克"
+WeaponName="猛犸坦克"
 
 [Rx_DmgType_MammothTank_Missile]
-DeathString="`o thought he stood a chance against `k's Mammoth Tank"
-WeaponName="Mammoth Tank"
+DeathString="`o以为自己能对抗`k的猛犸坦克"
+WeaponName="猛犸坦克"
 
 [Rx_DmgType_MarksmanRifle]
 DeathString="`o was picked off by `k's Marksman Rifle"
-WeaponName="Marksman Rifle"
+WeaponName="神射手步枪"
 
 [Rx_DmgType_MediumTank]
 DeathString="`k blew `o into flaming bits with their Medium Tank"
-WeaponName="Medium Tank"
+WeaponName="中型坦克"
 
 [Rx_DmgType_MissileLauncher]
 DeathString="`o was locked on `k's launcher's sight"
@@ -528,18 +528,18 @@ DeathString="`k showed `o the true Path of Enlightenment"
 WeaponName="Death Ray"
 
 [Rx_DmgType_Orca_Gun]
-DeathString="`k has gunned `o down with their Orca"
-MaleSuicide="`o was gunned down by their own Orca"
-WeaponName="Orca"
+DeathString="`k用ta的奥卡击毙了`o"
+MaleSuicide="`o被自己的奥卡击毙"
+WeaponName="奥卡战机"
 
 [Rx_DmgType_Orca_Rocket]
 DeathString="`k struck `o down with their Orca's rocket barrage"
 MaleSuicide="`o struck themself down with their own Orca"
-WeaponName="Orca"
+WeaponName="奥卡战机"
 
 [Rx_DmgType_Orca_Passenger]
 DeathString="`o couldn't avoid `k's missile"
-WeaponName="Orca"
+WeaponName="奥卡战机"
 
 [Rx_DmgType_Pancake]
 DeathString="`k crushed `o into a pancake"
@@ -552,7 +552,7 @@ WeaponName="Personal Ion Cannon"
 
 [Rx_DmgType_Pistol]
 DeathString="`o lost to `k in high noon`"
-WeaponName="Pistol"
+WeaponName="手枪"
 
 [Rx_DmgType_ProxyC4]
 DeathString="`o has trespassed into `k's territory"
@@ -561,11 +561,11 @@ WeaponName="Proxy C4"
 
 [Rx_DmgType_Railgun]
 DeathString="`o was fatally pierced through by `k's railgun"
-WeaponName="Railgun"
+WeaponName="轨道炮"
 
 [Rx_DmgType_RamjetRifle]
 DeathString="`o was punctured by `k's hyperspeed Ramjet bullet"
-WeaponName="Ramjet Rifle"
+WeaponName="冲压步枪"
 
 [Rx_DmgType_RanOver]
 DeathString="`k 'accidentally' drove towards `o"
@@ -579,101 +579,101 @@ WeaponName="Hit and Run"
 [Rx_DmgType_RemoteC4]
 DeathString="`k punched the button on `o's lifeline"
 MaleSuicide="`o punched their trigger a tad too close"
-WeaponName="Remote C4"
+WeaponName="遥控C4"
 
 [Rx_DmgType_Rocket]
 DeathString="`k swarmed `o with a little too many missiles"
-MaleSuicide="`o blew themself up"
-WeaponName="Rocket Emplacement"
+MaleSuicide="`o把自己炸了"
+WeaponName="火箭炮台"
 
 [Rx_DmgType_RocketEmpl_Missile]
 DeathString="`o was struck by `k's meteorite rocket"
-WeaponName="Rocket Emplacement"
+WeaponName="火箭炮台"
 
 [Rx_DmgType_RocketLauncher]
 DeathString="`k's rocket blew `o away"
 MaleSuicide="`o blew themself up"
-WeaponName="Rocket Launcher"
+WeaponName="火箭发射器"
 
 [Rx_DmgType_SAMSite]
-DeathString="`o trespassed into `k's airspace"
-WeaponName="AA Rocket"
+DeathString="`o侵入了`k的领空"
+WeaponName="AA火箭"
 
 [Rx_DmgType_Shotgun]
-DeathString="`k filled `o's body with pellets"
-WeaponName="Shotgun"
+DeathString="`k用弹丸注满了`o的身体"
+WeaponName="霰弹枪"
 
 [Rx_DmgType_SMG]
-DeathString="`k greeted `o with a bunch of lead"
-WeaponName="SMG"
+DeathString="`k用一堆铅向`o打了招呼"
+WeaponName="冲锋枪"
 
 [Rx_DmgType_SniperRifle]
-DeathString="`o stumbled into `k's scope"
-WeaponName="Sniper Rifle"
+DeathString="`o误入`k的狙击镜"
+WeaponName="狙击步枪"
 
 [Rx_DmgType_StealthTank]
-DeathString="`o was taken by surprise by `k's Stealth Tank"
-WeaponName="Stealth Tank"
+DeathString="`o被`k的隐形坦克吓死了"
+WeaponName="隐形坦克"
 
 [Rx_DmgType_TacticalRifle]
-DeathString="`k stormed against `o with a bunch of HE bullets"
-MaleSuicide="`o did not realize their rifle is a tad explosive"
-WeaponName="Tactical Rifle"
+DeathString="`k用一把高爆子弹向`o猛攻"
+MaleSuicide="`o没意识到ta的步枪有一点爆炸性"
+WeaponName="战术步枪"
 
 [Rx_DmgType_TacticalRifleGrenade]
-DeathString="`o took `k's grenade right on the face"
-MaleSuicide="`o was a little too careless with their grenade"
-WeaponName="Tactical Rifle"
+DeathString="`o被`k的榴弹直击面部"
+MaleSuicide="`o对ta的榴弹有点太粗心了"
+WeaponName="战术步枪"
 
 [Rx_DmgType_Tiberium]
-DeathString="`o's body could no longer hold `k's tiberium infection"
-MaleSuicide="`o was too eager to embrace the Tiberian life"
-WeaponName="Tiberium"
+DeathString="`o的身体无法再承受`k的泰伯利亚感染"
+MaleSuicide="`o过于渴望泰伯利亚生活"
+WeaponName="泰伯利亚辐射"
 
 [Rx_DmgType_Tiberium_Blue]
-DeathString="`o's body could no longer hold `k's tiberium infection"
-MaleSuicide="`o was too eager to embrace the Tiberian life"
-WeaponName="Tiberium"
+DeathString="`o的身体无法再承受`k的泰伯利亚感染"
+MaleSuicide="`o过于渴望泰伯利亚生活"
+WeaponName="泰伯利亚辐射"
 
 [Rx_DmgType_TiberiumAutoRifle]
-DeathString="`o's was caught in `k's tiberium explosion"
-MaleSuicide="`o was caught in their own tiberium fumes"
-WeaponName="Tiberium Auto Rifle"
+DeathString="`o'被卷入`k的泰伯利亚爆炸中"
+MaleSuicide="`o被ta的泰伯利亚烟雾困住了"
+WeaponName="泰伯利亚自动步枪"
 
 [Rx_DmgType_TiberiumAutoRifle_Blue]
-DeathString="`o was punctured by `k's tiberium darts"
-MaleSuicide="`o was caught in their own tiberium fumes"
-WeaponName="Tiberium Auto Rifle"
+DeathString="`o被`k的泰伯利亚飞镖刺穿"
+MaleSuicide="`o被ta的泰伯利亚烟雾困住了"
+WeaponName="精英泰伯利亚自动步枪"
 
 [Rx_DmgType_TiberiumFlechetteRifle]
-DeathString="`o was punctured by `k's tiberium darts"
-WeaponName="Tiberium Flechette"
+DeathString="`o被`k的泰伯利亚飞镖刺穿"
+WeaponName="泰伯利亚钉枪"
 
 [Rx_DmgType_TiberiumGrenade]
-DeathString="`o inhaled too much tiberium from `k's grenade"
-MaleSuicide="`o smoked themself in tiberium with their grenade"
-WeaponName="Tiberium Grenade"
+DeathString="`o从`k的手雷中吸入过多的泰伯利亚"
+MaleSuicide="`o用ta的手雷为自己吸入过多泰伯利亚"
+WeaponName="泰伯利亚手雷"
 
 [Rx_DmgType_TimedC4]
-DeathString="`o failed to disarm `k's C4 fast enough"
-MaleSuicide="`o failed to get off their own C4's safe range"
-WeaponName="Timed C4"
+DeathString="`o未能及时拆除`k的C4"
+MaleSuicide="`o未能保持与自己C4的安全距离"
+WeaponName="定时C4"
 
 [Rx_DmgType_Turret]
-DeathString="`k blew `o up for trespassing"
-WeaponNama="Shell"
+DeathString="`k因`o的擅闯将ta炸飞"
+WeaponNama="炮弹"
 
 [Rx_DmgType_VehicleMG]
-DeathString="`o was gunned down by `k's machine gun"
+DeathString="`o被`k的机枪击毙"
 
 [Rx_DmgType_VoltAutoRifle]
 DeathString="`k filled `o with a shocking revelation"
-WeaponName="Volt Autorifle"
+WeaponName="伏特自动步枪"
 
 [Rx_DmgType_VoltRifle_Alt]
 DeathString="`o was caught in `k's electric blast"
 MaleSuicide="`o needed to learn to be careful with electronics"
-WeaponName="Volt Autorifle"
+WeaponName="伏特自动步枪"
 
 [TSR_Vehicle_HoverMRLS_DmgType]
 DeathString="`o was struck by `k's missile barrage"
@@ -685,11 +685,11 @@ WeaponName="Attack Cycle"
 
 [TSR_Vehicle_TickTank_DmgType]
 DeathString="`o was decimated by `k's Tick Tank"
-WeaponName="Tick Tank"
+WeaponName="扁虱坦克"
 
 [TSR_Vehicle_Titan_DmgType]
 DeathString="`k's Titan loomed over `o's scorched corpse"
-WeaponName="Titan"
+WeaponName="泰坦"
 
 [TSR_Vehicle_Wolverine_DmgType]
 DeathString="`o was shredded by `k's merciless barrage"
@@ -704,37 +704,37 @@ PT_Title="UNNAMED"
 
 // GDI Infantry=
 [Rx_FamilyInfo_GDI_Soldier]
-CharacterName="Soldier"
+CharacterName="GDI步兵"
 PT_Title="SOLDIER"
 PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Pistol\n+Anti-Infantry"
 
 [Rx_FamilyInfo_GDI_Shotgunner]
-CharacterName="Shotgunner"
+CharacterName="GDI霰弹枪步兵"
 PT_Title="SHOTGUNNER"
 PT_Description="Armour: Kevlar\nSpeed: 95\nSide: Pistol\n+Anti-Infantry"
 
 [Rx_FamilyInfo_GDI_Grenadier]
-CharacterName="Grenadier"
+CharacterName="GDI榴弹枪步兵"
 PT_Title="GRENADIER"
 PT_Description="Armour: Flak\nSpeed: 100\nSide: Pistol\n+Anti-Armour\n+Anti-Building"
 
 [Rx_FamilyInfo_GDI_Marksman]
-CharacterName="Marksman"
+CharacterName="GDI神射手步兵"
 PT_Title="MARKSMAN"
 PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Pistol\n+Anti-Infantry"
 
 [Rx_FamilyInfo_GDI_Engineer]
-CharacterName="Engineer"
+CharacterName="GDI工程师"
 PT_Title="ENGINEER"
 PT_Description="Armour: Flak\nSpeed: 95\nSide: Silenced Pistol\nRemote C4\n+Anti-Building\n+Repair/Support"
 
 [Rx_FamilyInfo_GDI_Officer]
-CharacterName="Officer"
+CharacterName="GDI军官"
 PT_Title="OFFICER"
 PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Pistol\nSmoke Grenade\n+Anti-Infantry"
 
 [Rx_FamilyInfo_GDI_RocketSoldier]
-CharacterName="Rocket Soldier"
+CharacterName="GDI火箭炮士兵"
 PT_Title="ROCKET SOLDIER"
 PT_Description="Armour: Flak\nSpeed: 95\nSide: Machine Pistol\nAnti-Tank Mines\n+Anti-Armour\n+Anti-Aircraft"
 
@@ -744,120 +744,120 @@ PT_Title="MCFARLAND"
 PT_Description="Armour: Kevlar\nSpeed: 105\nSide: Pistol\nFrag Grenades\n+Anti-Infantry"
 
 [Rx_FamilyInfo_GDI_Gunner]
-CharacterName="Gunner"
+CharacterName="炮手"
 PT_Title="GUNNER"
 PT_Description="Armour: Flak\nSpeed: 95\nSide: Carbine\nEMP Grenade\nAT Mines\n+Anti-Armour\n+Anti-Structure"
 
 [Rx_FamilyInfo_GDI_Deadeye]
-CharacterName="Deadeye"
+CharacterName="死眼"
 PT_Title="DEADEYE"
 PT_Description="Armour: Light\nSpeed: 90\nSide: Machine Pistol\nSmoke Grenade\n+Anti-Infantry"
 
 [Rx_FamilyInfo_GDI_Patch]
-CharacterName="Patch"
+CharacterName="补丁"
 PT_Title="PATCH"
 PT_Description="Armour: Kevlar\nSpeed: 112.5\nSide: Heavy Pistol\nFrag Grenades\n+Anti-Infantry"
 
 [Rx_FamilyInfo_GDI_Havoc]
-CharacterName="Havoc"
+CharacterName="哈洛克"
 PT_Title="HAVOC"
 PT_Description="Armour: Light\nSpeed: 90\nSide: Carbine\nSmoke Grenade\n+Anti-Infantry"
 
 [Rx_FamilyInfo_GDI_Sydney]
-CharacterName="Sydney"
+CharacterName="悉尼"
 PT_Title="SYDNEY"
 PT_Description="Armour: Flak\nSpeed: 100\nSide: Flechette Rifle\nEMP Grenade\nAnti-Tank Mines\n+Anti-Armour"
 
 [Rx_FamilyInfo_GDI_Mobius]
-CharacterName="Mobius"
+CharacterName="莫比乌斯"
 PT_Title="MOBIUS"
 PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Heavy Pistol\n+Anti-Everything"
 
 [Rx_FamilyInfo_GDI_Hotwire]
-CharacterName="Hotwire"
+CharacterName="热火"
 PT_Title="HOTWIRE"
 PT_Description="Armour: Flak\nSpeed: 100\nSide: Silenced Pistol\nRemote C4\nProximity Mines\n+Anti-Building\n+Repair/Support"
 
 //GDI Hero Units=
 [Rx_FamilyInfo_GDI_Sydney_Suit]
-CharacterName="Armoured Sydney"
+CharacterName="装甲悉尼"
 PT_Title="ARMOURED SYDNEY"
 PT_Description="Armour: Flak\nSpeed: 95\nSide: Tiberium Auto Rifle\n+Anti-Everything"
 
 
 // Nod Infantry=
 [Rx_FamilyInfo_Nod_Soldier]
-CharacterName="Soldier"
+CharacterName="Nod步兵"
 PT_Title="SOLDIER"
 PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Pistol\n+Anti-Infantry"
 
 [Rx_FamilyInfo_Nod_Shotgunner]
-CharacterName="Shotgunner"
+CharacterName="Nod霰弹枪步兵"
 PT_Title="SHOTGUNNER"
 PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Pistol\n+Anti-Infantry"
 
 [Rx_FamilyInfo_Nod_FlameTrooper]
-CharacterName="Flamethrower"
+CharacterName="Nod喷火步兵"
 PT_Title="FLAMETHROWER"
 PT_Description="Armour: Flak\nSpeed: 105\nSide: Pistol\n+Anti-Everything"
 
 [Rx_FamilyInfo_Nod_Marksman]
-CharacterName="Marksman"
+CharacterName="Nod神射手步兵"
 PT_Title="MARKSMAN"
 PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Pistol\n+Anti-Infantry"
 
 [Rx_FamilyInfo_Nod_Engineer]
-CharacterName="Engineer"
+CharacterName="Nod工程师"
 PT_Title="ENGINEER"
 PT_Description="Armour: Flak\nSpeed: 95\nSide: Silenced Pistol\nRemote C4\n+Anti-Building\n+Repair/Support"
 
 [Rx_FamilyInfo_Nod_Officer]
-CharacterName="Officer"
+CharacterName="Nod军官"
 PT_Title="OFFICER"
 PT_Description="Armour: Kevlar\nSpeed: 110\nSide: Pistol\nSmoke Grenade\n+Anti-Infantry"
 
 [Rx_FamilyInfo_Nod_RocketSoldier]
-CharacterName="Rocket Soldier"
+CharacterName="Nod火箭炮步兵"
 PT_Title="ROCKET SOLDIER"
 PT_Description="Armour: Flak\nSpeed: 105\nSide: Machine Pistol\nAnti-Tank Mines\n+Anti-Armour\n+Anti-Aircraft"
 
 [Rx_FamilyInfo_Nod_ChemicalTrooper]
-CharacterName="Chemical Warrior"
+CharacterName="化学喷射战士"
 PT_Title="CHEMICAL WARRIOR"
 PT_Description="Armour: Flak\nSpeed: 100\nSide: Pistol\nTiberium Grenade\n+Anti-Everything"
 
 [Rx_FamilyInfo_Nod_StealthBlackHand]
-CharacterName="Stealth Black Hand"
+CharacterName="隐形黑手"
 PT_Title="STEALTH BLACK HAND"
 PT_Description="Armour: Lazarus\nSpeed: 110\nSide: S. M. Pistol\nActive Camouflage\n+Anti-Everything"
 
 [Rx_FamilyInfo_Nod_BlackHandSniper]
-CharacterName="Black Hand Sniper"
+CharacterName="狙击黑手"
 PT_Title="BLACK HAND SNIPER"
 PT_Description="Armour: Light\nSpeed: 90\nSide: Machine Pistol\nSmoke Grenade\n+Anti-Infantry"
 
 [Rx_FamilyInfo_Nod_LaserChainGunner]
-CharacterName="Laser Chain Gunner"
+CharacterName="镭射链炮"
 PT_Title="LASER CHAIN GUNNER"
 PT_Description="Armour: Flak\nSpeed: 80\nEMP Grenade\nAnti-Tank Mines\n+Anti-Everything\n+Heavy Infantry"
 
 [Rx_FamilyInfo_Nod_Sakura]
-CharacterName="Sakura"
+CharacterName="樱花"
 PT_Title="SAKURA"
 PT_Description="Armour: Light\nSpeed: 90\nSide: S. Carbine\nSmoke Grenade\n+Anti-Infantry"
 
 [Rx_FamilyInfo_Nod_Raveshaw]
-CharacterName="Raveshaw"
+CharacterName="瑞夫索"
 PT_Title="RAVESHAW"
 PT_Description="Armour: Flak\nSpeed: 100\nSide: Flechette Rifle\nEMP Grenade\nAnti-Tank Mines\n+Anti-Armour"
 
 [Rx_FamilyInfo_Nod_Mendoza]
-CharacterName="Mendoza"
+CharacterName="曼达扎"
 PT_Title="MENDOZA"
 PT_Description="Armour: Kevlar\nSpeed: 110\nSide: Heavy Pistol\n+Anti-Everything"
 
 [Rx_FamilyInfo_Nod_Technician]
-CharacterName="Technician"
+CharacterName="技工"
 PT_Title="TECHNICIAN"
 PT_Description="Armour: Flak\nSpeed: 100\nSide: Silenced Pistol\nRemote C4\nProximity Mines\n+Anti-Building\n+Repair/Support"
 
@@ -888,11 +888,11 @@ PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Pistol\n+Anti-Infantry"
 //	Vehicles=
 [Rx_Vehicle]
 VehiclePositionString="in a Vehicle"
-VehicleNameString="Vehicle"
+VehicleNameString="载具"
 
 [Rx_Vehicle_Treaded]
 VehiclePositionString="in a Tank"
-VehicleNameString="Tank"
+VehicleNameString="坦克"
 
 [Rx_Vehicle_MammothTank]
 VehiclePositionString="in a Mammoth Tank"
@@ -914,13 +914,13 @@ PT_Description="<font size='10'>\n-2x Gattling Guns\n-Light Armour\n-Troop Trans
 
 [Rx_Vehicle_APC_Nod]
 VehiclePositionString="in an APC"
-VehicleNameString="APC"
+VehicleNameString="装甲运兵车"
 PT_Title="ARMOURED PERSONNEL CARRIER"
 PT_Description="<font size='10'>-M134 Minigun\n-Heavy Armour\n-Troop Transport\n-Driver + 4 Passengers</font>"
 
 [Rx_Vehicle_APC_GDI]
 VehiclePositionString="in an APC"
-VehicleNameString="APC"
+VehicleNameString="装甲运兵车"
 PT_Title="ARMOURED PERSONNEL CARRIER"
 PT_Description="<font size='10'>-M134 Minigun\n-Heavy Armour\n-Troop Transport\n-Driver + 4 Passengers</font>"
 
@@ -948,55 +948,55 @@ PT_Description="<font size='10'>-M269 Missiles\n-Light Armour\n-Long Range Balli
 
 [Rx_Vehicle_LightTank]
 VehiclePositionString="in a Light Tank"
-VehicleNameString="Light Tank"
+VehicleNameString="轻型坦克"
 PT_Title="LIGHT TANK"
 PT_Description="<font size='10'>\n-75mm Cannon\n-Heavy Armour\n-Main Battle Tank\n-Driver + Passenger</font>"
 
 [Rx_Vehicle_Artillery]
 VehiclePositionString="in an Artillery"
-VehicleNameString="Artillery"
+VehicleNameString="自行火炮"
 PT_Title="MOBILE ARTILLERY"
 PT_Description="<font size='10'>\n-155mm Howitzer\n-Light Armour\n-Long Range Ballistics\n-Driver + Passenger</font>"
 
 [Rx_Vehicle_FlameTank]
 VehiclePositionString="in a Flame Tank"
-VehicleNameString="Flame Tank"
+VehicleNameString="火焰坦克"
 PT_Title="FLAME TANK"
 PT_Description="<font size='10'>\n-2x Flame Throwers\n-Heavy Armour\n-Close Range Suppressor\n-Driver + Passenger</font>"
 
 [Rx_Vehicle_StealthTank]
 VehiclePositionString="in a Stealth Tank"
-VehicleNameString="Stealth Tank"
+VehicleNameString="隐形坦克"
 PT_Title="STEALTH TANK"
 PT_Description="<font size='10'>-2x TOW Missiles\n-Heavy Armour\n-Guerilla Combat Vehicle\n-Active Camouflage\n-Driver Only</font>"
 
 [Rx_Defence_GunEmplacement]
-VehiclePositionString="in a Gun Emplacement"
-VehicleNameString="Gun Emplacement"
+VehiclePositionString="在机枪炮台内"
+VehicleNameString="机枪炮台"
 
 [Rx_Defence_RocketEmplacement]
-VehiclePositionString="in a Rocket Emplacement"
-VehicleNameString="Rocket Emplacement"
+VehiclePositionString="在火箭炮台内"
+VehicleNameString="火箭炮台"
 
 [Rx_Vehicle_A10]
 VehiclePositionString="in an A-10"
-VehicleNameString="A-10"
+VehicleNameString="A-10 攻击机"
 
 [Rx_Vehicle_Apache]
 VehiclePositionString="in an Apache"
-VehicleNameString="Apache"
+VehicleNameString="阿帕奇直升机"
 PT_Title="APACHE"
 PT_Description="<font size='10'>-30mm Auto-Cannon\n-Hydra-70 Rockets\n-Light Armour\n-Attack Helicopter\n-Pilot and Passenger</font>"
 
 [Rx_Vehicle_Orca]
 VehiclePositionString="in an Orca"
-VehicleNameString="Orca"
+VehicleNameString="奥卡战机"
 PT_Title="ORCA"
 PT_Description="<font size='10'>-Hellfire Missiles\n-.50 Calibre Machine Gun\n-Light Armour\n-Attack VTOL\n-Pilot and Passenger</font>"
 
 [Rx_Vehicle_Harvester]
 VehiclePositionString="in a Harvester"
-VehicleNameString="Harvester"
+VehicleNameString="采矿车"
 
 [Rx_Vehicle_HoverCraft_GDI]
 VehiclePositionString="in a Hovercraft"
@@ -1004,27 +1004,27 @@ VehicleNameString="Hovercraft"
 
 [Rx_Vehicle_Bus]
 VehiclePositionString="in a Bus"
-VehicleNameString="Bus"
+VehicleNameString="公交车"
 
 [Rx_Defence_GuardTower]
 VehiclePositionString="in a Guard Tower"
-VehicleNameString="Guard Tower"
+VehicleNameString="守卫塔"
 
 [Rx_Defence_Turret]
 VehiclePositionString="in a Turret"
-VehicleNameString="Turret"
+VehicleNameString="炮塔"
 
 [Rx_Defence_AATower]
 VehiclePositionString="in an Anti-Air Tower"
-VehicleNameString="Anti-Air Tower"
+VehicleNameString="防空塔"
 
 [Rx_Defence_SAMSite]
 VehiclePositionString="in a SAM Site"
-VehicleNameString="SAM Site"
+VehicleNameString="萨姆防空阵地"
 
 [Rx_Defence_CeilingTurret]
 VehiclePositionString="in a Ceiling Turret"
-VehicleNameString="Ceiling Turret"
+VehicleNameString="天花板炮塔"
 
 [Rx_Vehicle_MG_GDI]
 VehiclePositionString="in a .50 Cal"
@@ -1032,11 +1032,11 @@ VehicleNameString=".50 Cal"
 
 [Rx_Vehicle_BattleDrone]
 VehiclePositionString="in a Battle Drone"
-VehicleNameString="Battle Drone"
+VehicleNameString="战斗无人机"
 
 [Ren_Vehicle_HummVee]
 VehiclePositionString="in a Humm-Vee"
-VehicleNameString="Humm-Vee"
+VehicleNameString="悍马"
 PT_Title="HUMM-VEE"
 PT_Description="<font size='10'>-.50 Calibre Machine Gun\n-Light Armour\n-Fast Attack Scout\n-Driver + Passenger</font>"
 
@@ -1048,13 +1048,13 @@ PT_Description="<font size='10'>-.50 Calibre Machine Gun\n-Light Armour\n-Fast A
 
 [TSR_Vehicle_HoverMRLS]
 VehiclePositionString="in a Hover MRLS"
-VehicleNameString="Hover MRLS"
+VehicleNameString="气垫MRLS"
 PT_Title="HOVER MRLS"
 PT_Description="<font size='10'>-Multi-Launch-Missile-System\n-Light Armour\n-Long Range Support\n-Driver</font>"
 
 [TSR_Vehicle_Titan]
 VehiclePositionString="in a Titan"
-VehicleNameString="Titan"
+VehicleNameString="泰坦"
 PT_Title="TITAN"
 PT_Description="<font size='10'>-120mm Cannon\n-Heavy Armour\n-Main Battle Mech\n-Driver + Passenger</font>"
 
@@ -1066,7 +1066,7 @@ PT_Description="<font size='10'>-2x Gatling Gun\n-Light Armour\n-Fast Attack Sco
 
 [TSR_Vehicle_TickTank]
 VehiclePositionString="in a Tick Tank"
-VehicleNameString="Tick Tank"
+VehicleNameString="扁虱坦克"
 PT_Title="TICK TANK"
 PT_Description="<font size='10'>\n-75mm Cannon\n-Heavy Armour\n-Main Battle Tank\n-Driver + Passenger</font>"
 
@@ -1084,7 +1084,7 @@ PT_Description="<font size='10'>-.Vulcan Cannon\n-Light Armour\n-Fast Attack Sco
 
 [APB_Vehicle_TeslaTank]
 VehiclePositionString="in a Tesla Tank"
-VehicleNameString="Tesla Tank"
+VehicleNameString="特斯拉坦克"
 PT_Title="TESLA TANK"
 PT_Description="<font size='10'>\n-Tesla Coils\n-Heavy Armour\n-Anti-Surface Tank\n-Driver + Passenger</font>"
 
@@ -1121,13 +1121,13 @@ PT_Description="<font size='10'>\n-75mm Cannon\n-1x Scorpion Rocket\n-Heavy Armo
 
 [RA2_Vehicle_ApocalypseTank]
 VehiclePositionString="in a Apocalypse Tank"
-VehicleNameString="Apocalypse Tank"
+VehicleNameString="天启坦克"
 PT_Title="APOCALYPSE TANK"
 PT_Description="<font size='10'>-120mm Cannons\n-Rocket Pods\n-Heavy Armour\n-Heavy Battle Tank\n-Driver + Passenger</font>"
 
 [RA2_Vehicle_TeslaTank]
 VehiclePositionString="in a Tesla Tank"
-VehicleNameString="Tesla Tank"
+VehicleNameString="特斯拉坦克"
 PT_Title="TESLA TANK"
 PT_Description="<font size='10'>\n-Dual Tesla Coils\n-Heavy Armour\n-Anti-Surface Tank\n-Driver + Passenger</font>"
 
@@ -1135,46 +1135,46 @@ PT_Description="<font size='10'>\n-Dual Tesla Coils\n-Heavy Armour\n-Anti-Surfac
 //	Vehicle Weapons=
 
 [Rx_Vehicle_Weapon]
-ItemName="Primary Weapon"
-PickupMessage="Primary Weapon"
+ItemName="主武器"
+PickupMessage="主武器"
 
 [Rx_Vehicle_A10_Weapon]
-ItemName="GAU-8/A Cannon"
-AltItemName="AGM-65 Missile"
-PickupMessage="A-10 Weapon"
+ItemName="GAU-8/A 复仇者机炮"
+AltItemName="AGM-65 小牛导弹"
+PickupMessage="A-10 武器"
 
 [Rx_Vehicle_Apache_Weapon]
-ItemName="30mm Automatic Cannon"
-AltItemName="Hydra-70 Rocket"
-PickupMessage="Apache Weapon"
+ItemName="30mm 机炮"
+AltItemName="九头蛇-70 火箭弹"
+PickupMessage="阿帕奇武器"
 
 [Rx_Vehicle_Orca_Weapon]
-ItemName="Hellfire Missile"
-AltItemName=".50 Cal Machine Gun"
-PickupMessage="Orca Weapon"
+ItemName="地狱火导弹"
+AltItemName=".50口径重机枪"
+PickupMessage="奥卡战机武器"
 
 [Rx_Vehicle_APC_Nod_Weapon]
-ItemName="M134 Minigun"
-PickupMessage="APC Weapon"
+ItemName="M134 米尼岗机枪"
+PickupMessage="装甲运兵车武器"
 
 [Rx_Vehicle_APC_GDI_Weapon]
 ItemName="M134 Minigun"
-PickupMessage="APC Weapon"
+PickupMessage="装甲运兵车武器"
 
 [Rx_Vehicle_Artillery_Weapon]
 ItemName="155MM Cannon"
-PickupMessage="Artillery Weapon"
+PickupMessage="自行火炮武器"
 
 [Rx_Vehicle_Buggy_Weapon]
-ItemName=".50 Cal Machine Gun"
+ItemName=".50口径重机枪"
 PickupMessage="Buggy Weapon"
 
 [Rx_Vehicle_Chinook_Weapon]
-ItemName="Transport Helicopter"
+ItemName="运输直升机"
 PickupMessage="Chinook Weapon"
 
 [Rx_Vehicle_Chinook_Weapon_GDI_Left]
-ItemName="Gattling Gun"
+ItemName="加特林机枪"
 PickupMessage="Chinook Weapon"
 
 [Rx_Vehicle_Chinook_Weapon_GDI_Right]
@@ -1186,115 +1186,115 @@ ItemName="Gattling Gun"
 PickupMessage="Chinook Weapon"
 
 [Rx_Vehicle_Chinook_Weapon_Nod_Right]
-ItemName="Gattling Gun"
+ItemName="加特林机枪"
 PickupMessage="Chinook Weapon"
 
 [Rx_Defence_GunEmplacement_Weapon]
-ItemName="Gattling Gun"
-AltItemName="Auto Cannon"
-PickupMessage="Gun Emplacement"
+ItemName="加特林机枪"
+AltItemName="自动加农炮"
+PickupMessage="机枪炮台"
 
 [Rx_Defence_RocketEmplacement_Weapon]
-ItemName="SWARM Launcher"
-AltItemName="Hellfire Missile"
-PickupMessage="Rocket Emplacement"
+ItemName="蜂巢火箭发射器"
+AltItemName="地狱火导弹"
+PickupMessage="火箭炮台"
 
 [Rx_Vehicle_Humvee_Weapon]
 ItemName=".50 Cal Machine Gun"
-PickupMessage="Humvee Weapon"
+PickupMessage="悍马武器"
 
 [Rx_Vehicle_LightTank_Weapon]
-ItemName="75MM Cannon"
-PickupMessage="Light Tank Weapon"
+ItemName="75mm 坦克炮"
+PickupMessage="轻型坦克武器"
 
 [Rx_Vehicle_MammothWeapon]
-ItemName="120MM Cannon"
+ItemName="120mm 双管炮"
 AltItemName="Tusk Missiles"
-PickupMessage="Mammoth Tank Weapon"
+PickupMessage="猛犸坦克武器"
 
 [Rx_Vehicle_MediumTank_Weapon]
-ItemName="105MM Cannon"
-AltItemName="Coaxial MG"
-PickupMessage="Medium Tank Weapon"
+ItemName="105mm 坦克炮"
+AltItemName="同轴机枪"
+PickupMessage="中型坦克武器"
 
 [Rx_Vehicle_MRLS_Weapon]
-ItemName="M269 Missiles"
+ItemName="M269 导弹"
 PickupMessage="MRLS Tank Weapon"
 
 [Rx_Vehicle_FlameTank_Weapon]
-ItemName="Flame Throwers"
-PickupMessage="Flame Tank Weapon"
+ItemName="火焰喷射器"
+PickupMessage="火焰坦克武器"
 
 [Rx_Vehicle_StealthTank_Weapon]
-ItemName="TOW Missiles"
-PickupMessage="Stealth Tank Weapon"
+ItemName="陶式导弹"
+PickupMessage="隐形坦克武器"
 
 [Rx_Vehicle_Harvester_Weapon]
-ItemName="Tiberium Harvester"
-PickupMessage="Harvester Weapon"
+ItemName="泰伯利亚采矿车"
+PickupMessage="采矿车武器"
 
 [Rx_Defence_GuardTower_Weapon]
-ItemName="Vulcan Cannon"
-PickupMessage="Guard Tower Weapon"
+ItemName="火神机炮"
+PickupMessage="防御塔武器"
 
 [Rx_Defence_Turret_Weapon]
-ItemName="105MM Cannon"
-PickupMessage="Turret Weapon"
+ItemName="105mm 火炮"
+PickupMessage="炮塔武器"
 
 [Rx_Defence_SAMSite_Weapon]
 ItemName="Surface-to-air Missile"
-PickupMessage="SAM Weapon"
+PickupMessage="萨姆武器"
 
 [Rx_Defence_AATower_Weapon]
-ItemName="Anti-Air Missile"
-PickupMessage="Anti-Air Weapon"
+ItemName="防空导弹"
+PickupMessage="防空武器"
 
 [Rx_Vehicle_Hovercraft_GDI_Weapon]
-ItemName="Heavy Cannons"
-AltItemName="SWARM Launcher"
+ItemName="重型加农炮"
+AltItemName="蜂巢火箭发射器"
 PickupMessage="Hovercraft Weapon"
 
 [TSR_Vehicle_HoverMRLS_Weapon]
-ItemName="M269 Missile"
+ItemName="M269 导弹"
 PickupMessage="Hover MRLS Weapon"
 
 [TSR_Vehicle_Titan_Weapon]
-ItemName="120MM Cannon"
-PickupMessage="Titan Weapon"
+ItemName="120mm 火炮"
+PickupMessage="泰坦武器"
 
 [TSR_Vehicle_Wolverine_Weapon]
-ItemName="Vulcan Cannons"
+ItemName="火神机炮"
 PickupMessage="Wolverine Weapon"
 
 [TSR_Vehicle_TickTank_Weapon]
-ItemName="90MM Cannons"
-AltItemName=".50 Cal Machine Gun"
-PickupMessage="Tick Tank Weapon"
+ItemName="90mm 坦克炮"
+AltItemName=".50口径重机枪"
+PickupMessage="扁虱坦克武器"
 
 [TSR_Vehicle_AttackCycle_Weapon]
-ItemName="Hydra-70 Rocket"
+ItemName="九头蛇-70 火箭弹"
 PickupMessage="Attack Cycle Weapon"
 
 [TSR_Vehicle_Buggy_Weapon]
-ItemName="30mm Automatic Cannon"
+ItemName="30mm 机炮"
 PickupMessage="Buggy Weapon"
 
 [APB_Vehicle_TeslaTank_Weapon]
 ItemName="Tesla Bolt"
-PickupMessage="Tesla Tank Weapon"
+PickupMessage="特斯拉坦克武器"
 
 //Classic Vehicles=
 [Rx_Vehicle_M2Bradley_Weapon]
-ItemName="25MM Cannon"
+ItemName="25mm 机炮"
 AltItemName="TOW Rocket"
-PickupMessage="M2 Bradley Weapon"
+PickupMessage="M2 布雷德利武器"
 
 [Rx_Vehicle_ReconBike_Weapon]
-ItemName="TOW Rocket"
-PickupMessage="Recon Bike Weapon"
+ItemName="陶式火箭"
+PickupMessage="火箭摩托武器"
 
 [Rx_Vehicle_HumveeTOW_Weapon]
-ItemName="TOW Rocket"
+ItemName="陶式火箭"
 PickupMessage="TOW Humvee Weapon"
 
 [Rx_Vehicle_CrusaderTank_Weapon]
@@ -1314,25 +1314,25 @@ PickupMessage="Apocalypse Tank Weapon"
 
 [RA2_Vehicle_TeslaTank_Weapon]
 ItemName="Chain Lightning"
-PickupMessage="Tesla Tank Weapon"
+PickupMessage="特斯拉坦克武器"
 
 [Rx_Vehicle_BattleDrone_Weapon]
-ItemName="Drone Gun"
-PickupMessage="Battle Drone weapon"
+ItemName="无人机枪"
+PickupMessage="战斗无人机武器"
 
 //////////////////////=
 //  Building Names  //=
 [Rx_Building_AdvancedGuardTower_Internals]
-BuildingName="Adv. Guard Tower"
+BuildingName="先进防御塔"
 
 [Rx_Building_AirTower_Internals]
-BuildingName="Airstrip"
+BuildingName="临时跑道"
 
 [Rx_Building_AirTower_Internals_Ramps]
-BuildingName="Airstrip"
+BuildingName="临时跑道"
 
 [Rx_Building_Barracks_Internals]
-BuildingName="Barracks"
+BuildingName="兵营"
 
 [Rx_Building_Helipad_GDI_Internals]
 BuildingName="Helipad"
@@ -1341,34 +1341,34 @@ BuildingName="Helipad"
 BuildingName="Helipad"
 
 [Rx_Building_HandOfNod_Internals]
-BuildingName="Hand of Nod"
+BuildingName="Nod之手"
 
 [Rx_Building_Obelisk_Internals]
-BuildingName="Obelisk of Light"
+BuildingName="光明石碑"
 
 [Rx_Building_PowerPlant_Internals]
-BuildingName="Power Plant"
+BuildingName="发电厂"
 
 [Rx_Building_Refinery_Internals]
-BuildingName="Refinery"
+BuildingName="精炼厂"
 
 [Rx_Building_Silo_Internals]
-BuildingName="Silo"
+BuildingName="矿石储罐"
 
 [Rx_Building_TeamSilo_Internals]
-BuildingName="Silo"
+BuildingName="矿石储罐"
 
 [Rx_Building_WeaponsFactory_Internals]
-BuildingName="Weapons Factory"
+BuildingName="战车工厂"
 
 [Rx_Building_RepairFacility_Internals]
-BuildingName="Repair Facility"
+BuildingName="维修设施"
 
 [Rx_Building_Helipad_Internals]
 BuildingName="Helipad"
 
 [Rx_CapturableMCT_Internals_Kismet]
-BuildingName="Tech Building"
+BuildingName="科技建筑"
 
 [Rx_Building_CommCentre_Internals]
 BuildingName="Communications Centre"
@@ -1607,9 +1607,9 @@ RadioCommandsText[2]="Get out of the vehicle! [Proximity]"
 RadioCommandsText[3]="Destroy that vehicle! [Proximity]"
 RadioCommandsText[4]="Watch where you're pointing that! [Proximity]"
 RadioCommandsText[5]="Don't get in my way! [Proximity]"
-RadioCommandsText[6]="Affirmative."
-RadioCommandsText[7]="Negative."
-RadioCommandsText[8]="I'm in position."
+RadioCommandsText[6]="赞同。"
+RadioCommandsText[7]="否定。"
+RadioCommandsText[8]="我已到位。"
 RadioCommandsText[9]="Enemy spotted! [Proximity]"
 
 // ALT + Number=
@@ -1621,13 +1621,13 @@ RadioCommandsText[14]="Hold position. [Proximity]"
 RadioCommandsText[15]="Cover me. [Proximity]"
 RadioCommandsText[16]="Take cover. [Proximity]"
 RadioCommandsText[17]="Fall back. [Proximity]"
-RadioCommandsText[18]="Return to base."
+RadioCommandsText[18]="返回基地。"
 RadioCommandsText[19]="Destroy it now!"
 
 // CTRL+ALT + Number=
 RadioCommandsText[20]="Attack the base defenses!"
 RadioCommandsText[21]="Attack the Harvester!"
-RadioCommandsText[22]="Attack that structure!"
+RadioCommandsText[22]="攻击这个建筑！"
 RadioCommandsText[23]="Attack the Refinery!"
 RadioCommandsText[24]="Attack the Power Plant!"
 RadioCommandsText[25]="Defend the base!"

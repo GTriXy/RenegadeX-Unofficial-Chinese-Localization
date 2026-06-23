@@ -2,7 +2,7 @@
 //	Game=
 [S_Game]
 Description="Destroy the enemy base while protecting your own."
-GameName="Nod vs. Nod Mode"
+GameName="Nod vs. Nod 模式"
 EndOfMatchRulesTemplateStr_Scoring=First team to destroy the other wins
 EndOfMatchRulesTemplateStr_Time=Team with most points in `t mins. wins
 
@@ -15,19 +15,19 @@ EndOfMatchRulesTemplateStr_Time=Team with most points in `t mins. wins
 //  Building Names  //=
 
 [S_Building_AirTower_Internals_BlackHand]
-BuildingName="Airstrip"
+BuildingName="机场跑道"
 
 [S_Building_Helipad_BlackHand_Internals]
 BuildingName="Helipad"
 
 [S_Building_HandOfNod_Internals_BlackHand]
-BuildingName="Hand of Nod"
+BuildingName="Nod之手"
 
 [S_Building_Obelisk_Internals_BlackHand]
 BuildingName="Obelisk of Light"
 
 [S_Building_PowerPlant_BlackHand_Internals]
-BuildingName="Power Plant"
+BuildingName="发电厂"
 
 [Rx_Building_Refinery_Blackhand_Internals]
 BuildingName="Refinery"

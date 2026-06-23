@@ -12,28 +12,28 @@ PreviewGameImage=Texture2D'TS_HUD_Canvas.Scoreboard.T_HUD_VOTE_Tibdawn'
 //	Tiberian Dawn Era Weapons=
 
 [TD_Weapon_Primary_M16A2]
-ItemName="M16A4 Assault Rifle"
-PickupMessage="M16A4 Assault Rifle"
+ItemName="M16A4突击步枪"
+PickupMessage="M16A4突击步枪"
 
 [TD_Weapon_Primary_M4A1]
-ItemName="M4A1 Carbine"
-PickupMessage="M4A1 Carbine"
+ItemName="M4A1卡宾枪"
+PickupMessage="M4A1卡宾枪"
 
 [TD_Weapon_Primary_M4A1_SpecOps]
 ItemName="M4A1 SpecOps"
 PickupMessage="M4A1 SpecOps"
 
 [TD_Weapon_Primary_M203]
-ItemName="M4A1 Grenadier"
-PickupMessage="M4A1 Grenadier"
+ItemName="M4A1 手榴弹"
+PickupMessage="M4A1 手榴弹"
 
 [TD_Weapon_Primary_G36]
-ItemName="G36 Assault Rifle"
-PickupMessage="G36C Assault Rifle"
+ItemName="G36 突击步枪"
+PickupMessage="G36C 突击步枪"
 
 [TD_Weapon_Primary_G36C]
-ItemName="G36C Carbine"
-PickupMessage="G36C Carbine"
+ItemName="G36C 卡宾枪"
+PickupMessage="G36C 卡宾枪"
 
 [TD_Weapon_Primary_MK12]
 ItemName="MK12 DMR"
@@ -65,13 +65,13 @@ PT_Title="SU-25 Frogfoot"
 
 [TD_Vehicle_Apache]
 VehiclePositionString="in an AH-64 Apache"
-VehicleNameString="AH-64 Apache"
-PT_Title="AH-64 Apache"
+VehicleNameString="AH-64 阿帕奇"
+PT_Title="AH-64 阿帕奇"
 
 [TD_Vehicle_Artillery]
 VehiclePositionString="in a M110 Howitzer"
-VehicleNameString="M110 Howitzer"
-PT_Title="M110 Howitzer"
+VehicleNameString="M110 榴弹炮"
+PT_Title="M110 榴弹炮"
 
 [TD_Vehicle_APC_GDI]
 VehiclePositionString="in a Armored Personnel Carrier"
@@ -115,8 +115,8 @@ PT_Title="Chinook"
 
 [TD_Vehicle_F22]
 VehiclePositionString="in an F-22 Raptor"
-VehicleNameString="F-22 Raptor"
-PT_Title="F-22 Raptor"
+VehicleNameString="F-22 猛禽"
+PT_Title="F-22 猛禽"
 
 [TD_Vehicle_YF23]
 VehiclePositionString="in an F-23 Black Widow"
@@ -125,18 +125,18 @@ PT_Title="F-23 Black Widow"
 
 [TD_Vehicle_FlameTank]
 VehiclePositionString="in a Flame Tank"
-VehicleNameString="Flame Tank"
-PT_Title="Flame Tank"
+VehicleNameString="火焰坦克"
+PT_Title="火焰坦克"
 
 [TD_Vehicle_Harvester]
 VehiclePositionString="in a Harvester"
-VehicleNameString="Harvester"
-PT_Title="Harvester"
+VehicleNameString="采矿车"
+PT_Title="采矿车"
 
 [TD_Vehicle_Humvee]
 VehiclePositionString="in a Humvee"
-VehicleNameString="Humvee"
-PT_Title="Humvee"
+VehicleNameString="悍马"
+PT_Title="悍马"
 
 [TD_Vehicle_HMMWV]
 VehiclePositionString="in a HMMWV"
@@ -165,33 +165,33 @@ PT_Title="HMMWV Ranger"
 
 [TD_Vehicle_LightTank]
 VehiclePositionString="in a Light Tank"
-VehicleNameString="Light Tank"
-PT_Title="Light Tank"
+VehicleNameString="轻型坦克"
+PT_Title="轻型坦克"
 
 [TD_Vehicle_M2Bradley]
 VehiclePositionString="in an M2 Bradley"
-VehicleNameString="M2 Bradley"
-PT_Title="M2 Bradley"
+VehicleNameString="M2 布莱德利"
+PT_Title="M2 布莱德利"
 
 [TD_Vehicle_MammothMKI]
 VehiclePositionString="in a X66-A2 Mammoth"
-VehicleNameString="X66-A2 Mammoth Tank"
-PT_Title="X66-A2 Mammoth Tank"
+VehicleNameString="X66-A2 猛犸坦克"
+PT_Title="X66-A2 猛犸坦克"
 
 [TD_Vehicle_MediumTank]
 VehiclePositionString="in a Medium Tank"
 VehicleNameString="Medium Tank"
-PT_Title="Medium Tank"
+PT_Title="中型坦克"
 
 [TD_Vehicle_M1Abrams]
 VehiclePositionString="in a M1A2 Medium Tank"
-VehicleNameString="M1A2 Medium Tank"
-PT_Title="M1A2 Medium Tank"
+VehicleNameString="M1A2 中型坦克"
+PT_Title="M1A2 中型坦克"
 
 [TD_Vehicle_APC_M113]
 VehiclePositionString="in a M113 APC"
-VehicleNameString="M113 APC"
-PT_Title="M113 APC"
+VehicleNameString="M113 装甲运兵车"
+PT_Title="M113 装甲运兵车"
 
 [TD_Vehicle_M270_MRLS]
 VehiclePositionString="in a MRLS"
@@ -205,34 +205,34 @@ PT_Title="M270 SSM"
 
 [TD_Vehicle_Orca]
 VehiclePositionString="in a Orca"
-VehicleNameString="Orca"
-PT_Title="Orca"
+VehicleNameString="奥卡战机"
+PT_Title="奥卡战机"
 
 [TD_Vehicle_ReconBike]
 VehiclePositionString="in a Recon Bike"
-VehicleNameString="Recon Bike"
-PT_Title="Recon Bike"
+VehicleNameString="火箭摩托"
+PT_Title="火箭摩托"
 
 [TD_Vehicle_StealthTank]
 VehiclePositionString="in a Stealth Tank"
-VehicleNameString="Stealth Tank"
-PT_Title="Stealth Tank"
+VehicleNameString="隐形坦克"
+PT_Title="隐形坦克"
 
 [TD_Vehicle_FlameTank_Weapon]
-ItemName="Flamethrowers"
-PickupMessage="Flame Tank Weapon"
+ItemName="Nod喷火步兵"
+PickupMessage="火焰坦克武器"
 
 [TD_Vehicle_M270_MRLS_Weapon]
-ItemName="M269 Missiles"
-PickupMessage="MRLS Weapon"
+ItemName="M269 导弹"
+PickupMessage="MRLS 武器"
 
 [TD_Vehicle_M270_SSM_Weapon]
 ItemName="MGR-1 Napalm Missile"
-PickupMessage="SSM Weapon"
+PickupMessage="SSM武器"
 
 [TD_Vehicle_StealthTank_Weapon]
 ItemName="TOW Missile"
-PickupMessage="Stealth Tank Weapon"
+PickupMessage="隐形坦克武器"
 
 
 
@@ -241,7 +241,7 @@ PickupMessage="Stealth Tank Weapon"
 
 
 [TD_FamilyInfo_Loadout_CQ_GDI_Assault_Breacher]
-CharacterName="Rifleman"
+CharacterName="步枪兵"
 PT_Title="Breacher"
 PT_Description="Breach the frontlines of the battlefield. Can deploy sandbags to add cover anywhere."
 DodgeType="ROLL"

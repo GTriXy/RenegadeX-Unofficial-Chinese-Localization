@@ -1,0 +1,20 @@
+[FontLib]
+FontLib=UDKFonts.gfxfontlib
+
+[Fonts]
+NormalFont=Bitstream Vera Sans
+BoldFont=Bitstream Vera Sans,Bold
+SmallFont=Bitstream Vera Sans
+TitleFont=Bitstream Vera Sans,Bold
+AgencyFBBold=Agency FB Bold,Bold
+Tahoma=Tahoma Bold,Bold
+TimesNewRoman=Times New Roman
+AgentConMedDB=AgentConMedDB Normal
+DSDigitalBold=DS-Digital Bold,Bold
+ArialBold=Arial,Bold
+
+[Global]
+No Trigger=No Trigger!
+
+[IME]
+MoviePath=UDKFrontend.udk_ime

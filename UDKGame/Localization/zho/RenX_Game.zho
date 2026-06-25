@@ -1,0 +1,1665 @@
+//="===================================="
+//	Game=
+[Rx_Game]
+Description="Destroy the enemy base while protecting your own."
+GameName="C&C Mode"
+EndOfMatchRulesTemplateStr_Scoring=First team to destroy the other wins
+EndOfMatchRulesTemplateStr_Time=Team with most points in `t mins. wins
+
+
+//="===================================="
+//	Weapons=
+
+[Rx_Weapon]
+ItemName="Unnamed Weapon"
+PickupMessage="Unnamed Weapon"
+
+[Rx_Weapon_Reloadable]
+ItemName="Unnamed Reloadable Weapon"
+PickupMessage="Unnamed Reloadable Weapon"
+
+[Rx_Weapon_Spray]
+ItemName="Unnamed Sprayer Weapon"
+PickupMessage="Unnamed Sprayer Weapon"
+
+[Rx_Weapon_Scoped]
+ItemName="Unnamed Scoped Weapon"
+PickupMessage="Unnamed Scoped Weapon"
+
+[Rx_Weapon_AutoRifle]
+ItemName="Automatic Rifle"
+PickupMessage="Automatic Rifle"
+
+[Rx_Weapon_TacticalRifle]
+ItemName="Tactical Rifle"
+PickupMessage="Tactical Rifle"
+
+[Rx_Weapon_Shotgun]
+ItemName="Shotgun"
+PickupMessage="Shotgun"
+
+[Rx_Weapon_RocketLauncher]
+ItemName="Rocket Launcher"
+PickupMessage="Rocket Launcher"
+
+[Rx_Weapon_Flamethrower]
+ItemName="Flamethrower"
+PickupMessage="Flamethrower"
+
+[Rx_Weapon_GrenadeLauncher]
+ItemName="Grenade Launcher"
+PickupMessage="Grenade Launcher"
+
+[Rx_Weapon_Pistol]
+ItemName="Silenced Pistol"
+PickupMessage="Silenced Pistol"
+
+[Rx_Weapon_Pistol_UnSILENCED]
+ItemName="Pistol"
+PickupMessage="Pistol"
+
+[Rx_Weapon_ChainGun]
+ItemName="Chain Gun"
+PickupMessage="Chain Gun"
+
+[Rx_Weapon_SniperRifle]
+ItemName="Sniper Rifle"
+PickupMessage="Sniper Rifle"
+
+[Rx_Weapon_VoltAutoRifle]
+ItemName="Volt Auto-Rifle"
+PickupMessage="Volt Auto-Rifle"
+
+[Rx_Weapon_RamjetRifle]
+ItemName="Ramjet Rifle"
+PickupMessage="Ramjet Rifle"
+
+[Rx_Weapon_Railgun]
+ItemName="Railgun"
+PickupMessage="Railgun"
+
+[Rx_Weapon_PersonalIonCannon]
+ItemName="Personal Ion Cannon"
+PickupMessage="Personal Ion Cannon"
+
+[Rx_Weapon_LaserRifle]
+ItemName="Laser Rifle"
+PickupMessage="Laser Rifle"
+
+[Rx_Weapon_LaserChainGun]
+ItemName="Laser Chain Gun"
+PickupMessage="Laser Chain Gun"
+
+[Rx_Weapon_MissileLauncher]
+ItemName="Missile Launcher"
+PickupMessage="Missile Launcher"
+
+[Rx_Weapon_ChemicalThrower]
+ItemName="Chemical Thrower"
+PickupMessage="Chemical Thrower"
+
+[Rx_Weapon_FlakCannon]
+ItemName="Flak Cannon"
+PickupMessage="Flak Cannon"
+
+[Rx_Weapon_RepairGun]
+ItemName="Repair Gun"
+PickupMessage="Repair Gun"
+
+[Rx_Weapon_RepairGunAdvanced]
+ItemName="Adv. Repair Gun"
+PickupMessage="Adv. Repair Gun"
+
+[Rx_Weapon_TimedC4]
+ItemName="Timed C4"
+PickupMessage="Timed C4"
+
+[Rx_Weapon_RemoteC4]
+ItemName="Remote C4"
+PickupMessage="Remote C4"
+
+[Rx_Weapon_ProxyC4]
+ItemName="Proximity C4"
+PickupMessage="Proximity C4"
+
+[Rx_Weapon_Beacon]
+PurchaseDesc="<font size='8'>Pros:\n-Instant Building Destruction\nCons:\n-60 Seconds for impact\n-USES ITEM SLOT</font>"
+
+[Rx_Weapon_NukeBeacon]
+ItemName="Nuke Strike Beacon"
+PickupMessage="Nuke Strike Beacon"
+
+[Rx_Weapon_IonCannonBeacon]
+ItemName="Ion Cannon Beacon"
+PickupMessage="Ion Cannon Beacon"
+
+[Rx_Weapon_Blueprint]
+ItemName="Blueprint"
+PickupMessage="Blueprint"
+
+[Rx_Weapon_Blueprint_Defense_GT_GDI]
+ItemName="Guard Tower Blueprint"
+PickupMessage="Guard Tower Blueprint"
+PurchaseDesc="<font size='8'>Pros:\n-Automatic Defense\n-Good against infantry\n\nCons:\n-Poor against vehicles\n-Less Veterancy gain </font>"
+
+[Rx_Weapon_Blueprint_Defense_Turret_GDI]
+ItemName="Turret Blueprint"
+PickupMessage="Turret Blueprint"
+PurchaseDesc="<font size='8'>Pros:\n-Automatic Defense\n-Good against vehicles:\n-Poor against infantries\n-Less Veterancy gain\n-Destruction earns large veterancy </font>"
+
+[Rx_Weapon_Blueprint_Defense_GT_Nod]
+ItemName="Guard Tower"
+PickupMessage="Guard Tower Blueprint"
+PurchaseDesc="<font size='8'>Pros:\n-Automatic Defense\n-Good against infantry\n\nCons:\n-Poor against vehicles\n-Less Veterancy gain</font>"
+
+[Rx_Weapon_Blueprint_Defense_Turret_Nod]
+ItemName="Turret Blueprint"
+PickupMessage="Turret Blueprint"
+PurchaseDesc="<font size='8'>Pros:\n-Automatic Defense\n-Good against vehicles:\n-Poor against infantries\n-Less Veterancy gain\n-Destruction earns large veterancy  </font>"
+
+[Rx_Weapon_Blueprint_Defense_CeilingTurret]
+ItemName="Ceiling Turret"
+PickupMessage="Ceiling Turret Blueprint"
+PurchaseDesc="<font size='8'>Pros:\n-Automatic Defense\n-Good against infantry\n\nCons:\n-Fragile\n-Less Veterancy gain </font>"
+
+[Rx_Weapon_Grenade]
+ItemName="Frag Grenade"
+PickupMessage="Frag Grenade"
+
+[Rx_Weapon_Grenade_Rechargeable]
+ItemName="Frag Grenade"
+PickupMessage="Frag Grenade"
+
+[Rx_Weapon_SMG]
+ItemName="Machine Pistol"
+PickupMessage="Machine Pistol"
+
+[Rx_Weapon_SMG_Silenced]
+ItemName="Silenced Machine Pistol"
+PickupMessage="Silenced Machine Pistol"
+
+[Rx_Weapon_HeavyPistol]
+ItemName="Heavy Pistol"
+PickupMessage="Heavy Pistol"
+
+[Rx_Weapon_MarksmanRifle]
+ItemName="Marksman Rifle"
+PickupMessage="Marksman Rifle"
+
+[Rx_Weapon_Carbine]
+ItemName="Carbine"
+PickupMessage="Carbine"
+
+[Rx_Weapon_Carbine_Silencer]
+ItemName="Silenced Carbine"
+PickupMessage="Silenced Carbine"
+
+[Rx_Weapon_Airstrike]
+ItemName="Airstrike Designator"
+PickupMessage="Airstrike Designator"
+PurchaseDesc="<font size='8'>Pros:\n-5 seconds to impact\n-Quick bombardment\n-Anti-Infantry/Vehicle\nCons:\n-Weak Vs. Buildings\n-USES ITEM SLOT</font>"
+
+[Rx_Weapon_Airstrike_GDI]
+ItemName="A-10 Airstrike"
+PickupMessage="A-10 Airstrike"
+
+[Rx_Weapon_Airstrike_Nod]
+ItemName="AC-130 Airstrike"
+PickupMessage="AC-130 Airstrike"
+
+[Rx_Weapon_TiberiumFlechetteRifle]
+ItemName="Tiberium Flechette Rifle"
+PickupMessage="Tiberium Flechette Rifle"
+
+[Rx_Weapon_TiberiumAutoRifle]
+ItemName="Tiberium Auto-Rifle"
+PickupMessage="Tiberium Auto-Rifle"
+
+[Rx_Weapon_TiberiumAutoRifle_Blue]
+ItemName="Tiberium Auto-Rifle"
+PickupMessage="Tiberium Auto-Rifle"
+
+[Rx_Weapon_ATMine]
+ItemName="Anti-Tank Mine"
+PickupMessage="Anti-Tank Mine"
+
+[Rx_Weapon_EMPGrenade]
+ItemName="EMP Grenade"
+PickupMessage="EMP Grenade"
+
+[Rx_Weapon_EMPGrenade_Rechargeable]
+ItemName="EMP Grenade"
+PickupMessage="EMP Grenade"
+
+[Rx_Weapon_RepairTool]
+ItemName="Repair Tool"
+PickupMessage="Repair Tool"
+PurchaseDesc="<font size='8'>Pros:\n-Repairs Units/Buildings\n-Disarms Mines\n\nCons:\n-Must Recharge\n-USES ITEM SLOT  </font>"
+
+[Rx_Weapon_SmokeGrenade]
+ItemName="Smoke Grenade"
+PickupMessage="Smoke Grenade"
+
+[Rx_Weapon_SmokeGrenade_Rechargeable]
+ItemName="Smoke Grenade"
+PickupMessage="Smoke Grenade"
+
+[Rx_Weapon_TiberiumGrenade_Rechargeable]
+ItemName="Tiberium Grenade"
+PickupMessage="Tiberium Grenade"
+
+[Rx_Weapon_SniperRifle_UnSilenced]
+ItemName="Sniper Rifle"
+PickupMessage="Sniper Rifle"
+
+//="===================================="
+//Rx WeaponAbilities=
+
+[Rx_WeaponAbility]
+ItemName="Unnamed Ability"
+PickupMessage="Unnamed Ability"
+
+[Rx_WeaponAbility_TiberiumGrenade]
+ItemName="Tiberium Grenade"
+PickupMessage="Tiberium Grenades"
+
+[Rx_WeaponAbility_Grenade]
+ItemName="Frag Grenade"
+PickupMessage="Frag Grenades"
+
+[Rx_WeaponAbility_EMPGrenade]
+ItemName="EMP Grenade"
+PickupMessage="EMP Grenades"
+
+[Rx_WeaponAbility_SmokeGrenade]
+ItemName="Smoke Grenade"
+PickupMessage="Smoke Grenades"
+
+[Rx_WeaponAbility_TacRifleGrenade]
+ItemName="Grenade Launcher"
+PickupMessage="Underslung Grenade Launcher"
+
+//="===================================="
+//	Damage Types=
+
+
+[Rx_DmgType]
+DeathString="`k killed `o"
+FemaleSuicide="`o suicided"
+MaleSuicide="`o suicided"
+
+[Rx_DmgType_A10_Missile]
+DeathString="`o was struck by `k's airstrike missile"
+MaleSuicide="`o failed to get off the airstrike range"
+WeaponName="A10 Airstrike"
+
+[Rx_DmgType_AATower]
+DeathString="`o trespassed into `k's airspace"
+
+[Rx_DmgType_Abduction]
+DeathString="`o was lost in space"
+MaleSuicide="`o was lost in space"
+WeaponName="Abducted"
+
+[Rx_DmgType_AGT_MG]
+DeathString="`o was caught inside `k perimeter and was terminated immediately"
+WeaponName="Minigun"
+
+[Rx_DmgType_AGT_Rocket]
+DeathString="`o was caught inside `k perimeter and was terminated immediately"
+WeaponName="Rocket"
+
+[Rx_DmgType_Apache_Gun]
+DeathString="`k has gunned `o down with their Apache"
+MaleSuicide="`o was gunned down by their own Apache"
+WeaponName="Apache"
+
+[Rx_DmgType_Apache_Rocket]
+DeathString="`k struck `o down with their Apache's rocket barrage"
+MaleSuicide="`o struck themself down with their own Apache"
+WeaponName="Apache"
+
+[Rx_DmgType_Apache_Passenger]
+DeathString="`o couldn't avoid `k's missile"
+WeaponName="Apache"
+
+[Rx_DmgType_Artillery]
+DeathString="`k has rained on `o's parade with their Artillery"
+WeaponName="Artillery"
+
+[Rx_DmgType_APC]
+WeaponName="APC"
+
+[Rx_DmgType_ATMine]
+DeathString="`o has trespassed into `k's territory"
+MaleSuicide="`o carelessly walked into their own mine"
+WeaponName="AT Mine"
+
+[Rx_DmgType_AutoRifle]
+DeathString="`k shot `o down with their Auto Rifle"
+WeaponName="Auto Rifle"
+
+[Rx_DmgType_BarbedWire]
+MaleSuicide="`o got tangled to their death"
+
+[Rx_DmgType_Buggy]
+WeaponName="Buggy"
+
+[Rx_DmgType_Bullet]
+MaleSuicide="`o shot themself down"
+WeaponName="Generic Bullet"
+
+[Rx_DmgType_Burn]
+DeathString="`k has burned `o to death"
+MaleSuicide="`o has burned to death"
+WeaponName="Burned"
+
+[Rx_DmgType_BurnC4]
+DeathString="`o succumbed to `k's C4 explosion aftermath"
+WeaponName="C4"
+
+[Rx_DmgType_Carbine]
+DeathString="`k shot `o down with their Carbine
+WeaponName="Carbine"
+
+[Rx_DmgType_ChainGun]
+DeathString="`k's bulletstorm has left `o's corpse full of holes"
+WeaponName="Chain Gun"
+
+[Rx_DmgType_ChemicalThrower]
+DeathString="`o is high on `k's tiberium gas"
+WeaponName="Chemical Thrower"
+
+[Rx_DmgType_Chinook]
+DeathString="`k gunned `o down with their chinook side gun"
+WeaponName="Chinook"
+
+[Rx_DmgType_CruiseMissile]
+DeathString="`k's Cruise Missile has crashed down upon `o's head"
+MaleSuicide="`o learned the term Danger Close the hard way"
+WeaponName="Cruise Missile"
+
+[Rx_DmgType_Drowned]
+MaleSuicide="`o thought they could breath underwater"
+WeaponName="Drowned"
+
+[Rx_DmgType_Electric]
+DeathString="`o succumbed to `k's electric residues"
+MaleSuicide="`o was electrocuted to death"
+WeaponName="Electrocuted"
+
+[Rx_DmgType_Explosive]
+DeathString="`o was blown up by `k"
+MaleSuicide="`o blew themself up"
+
+WeaponName="Explosion"
+[Rx_DmgType_EMP]
+WeaponName="EMP"
+
+[Rx_DmgType_Fell]
+MaleSuicide="`o forgot to activate their parachute in time"
+WeaponName="Fell"
+
+[Rx_DmgType_FlakCannon]
+DeathString="`o was shredded to bits by `k's Flak Cannon"
+MaleSuicide="`o's shrapnels bounced back and hit their owner"
+WeaponName="Flak Cannon"
+
+[Rx_DmgType_FlakCannon_Alt]
+DeathString="`k struck a hole-in-one on `o with their flak shell"
+MaleSuicide="`o lobbed their shell too close to their face"
+WeaponName="Flak Cannon"
+
+[Rx_DmgType_FlameTank]
+DeathString="`k bathed `o with everburning cleansing flame"
+WeaponName="Flame Tank"
+
+[Rx_DmgType_FlameThrower]
+DeathString="`o was purged by `k's Flame Thrower"
+WeaponName="Flame Thrower"
+
+[Rx_DmgType_Grenade]
+DeathString="`o couldn't avoid `k's grenade throw"
+MaleString="`o tries to play boomerang with their grenade"
+WeaponName="Grenade"
+
+[Rx_DmgType_GrenadeLauncher]
+DeathString="`o earned `k's grenade on the face"
+MaleString="`o launched their grenade a little too close"
+WeaponName="Grenade Launcher"
+
+[Rx_DmgType_GuardTower]
+DeathString="`k has tracked down and eliminated `o"
+WeaponName="Minigun"
+
+[Rx_DmgType_GunEmpl]
+DeathString="`k gunned down `o with their turret"
+WeaponName="Gun Emplacement"
+
+[Rx_DmgType_GunEmpl_Alt]
+DeathString="`k blasted `o with their turret"
+WeaponName="Gun Emplacement"
+
+[Rx_DmgType_Headshot]
+DeathString="`k launched `o's head from its' place"
+WeaponName="Headshot"
+
+[Rx_DmgType_HeavyPistol]
+DeathString="`o got punched by `k's heavy pistol"
+WeaponName="Heavy Pistol"
+
+[Rx_DmgType_Hovercraft_Cannon]
+WeaponName="Hovercraft"
+
+[Rx_DmgType_Hovercraft_Rockets]
+WeaponName="Hovercraft"
+
+[Rx_DmgType_Humvee]
+WeaponName="Humvee"
+
+[Rx_DmgType_IonCannon]
+DeathString="`k's Ion Cannon strike has erased `o's traces of existence"
+MaleSuicide="`o was vaporized by an Ion Cannon strike"
+WeaponName="Ion Cannon Strike"
+
+[Rx_DmgType_Kamikaze]
+DeathString="`o was engulfed by `k's kamikaze explosion"
+MaleSuicide="`o met an honorable death"
+WeaponName="Kamikaze"
+
+[Rx_DmgType_LaserChainGun]
+DeathString="`k gave `o a laser show of a lifetime"
+WeaponName="Laser Chaingun"
+
+[Rx_DmgType_LaserRifle]
+DeathString="`o was caught by `k's quick laser burst"
+WeaponName="Laser Rifle"
+
+[Rx_DmgType_LightningStrike]
+DeathString="`o invoked the wrath of `k"
+MaleSuicide="`o invoked the wrath of the Mother Nature"
+WeaponName="Lightning"
+
+[Rx_DmgType_LightTank]
+DeathString="`k blew `o into flaming bits with their Light Tank"
+WeaponName="Light Tank"
+
+[Rx_DmgType_M2Bradley]
+DeathString="`k blew `o into flaming bits with their Light Tank"
+WeaponName="M2 Bradley"
+
+[Rx_DmgType_M2Bradley_Rocket]
+DeathString="`k showered `o with their Light Tank's auxilliary missile"
+WeaponName="M2 Bradley"
+
+[Rx_DmgType_MammothTank_Cannon]
+DeathString="`o thought he stood a chance against `k's Mammoth Tank"
+WeaponName="Mammoth Tank"
+
+[Rx_DmgType_MammothTank_Missile]
+DeathString="`o thought he stood a chance against `k's Mammoth Tank"
+WeaponName="Mammoth Tank"
+
+[Rx_DmgType_MarksmanRifle]
+DeathString="`o was picked off by `k's Marksman Rifle"
+WeaponName="Marksman Rifle"
+
+[Rx_DmgType_MediumTank]
+DeathString="`k blew `o into flaming bits with their Medium Tank"
+WeaponName="Medium Tank"
+
+[Rx_DmgType_MissileLauncher]
+DeathString="`o was locked on `k's launcher's sight"
+MaleSuicide="`o fired their missile too close for comfort"
+WeaponName="Missile Launcher"
+
+[Rx_DmgType_MRLS]
+DeathString="`k taught `o the basic of rocket science with their MRLS"
+MaleSuicide="`o's missile flew back to them"
+WeaponName="MRLS"
+
+[Rx_DmgType_Nuke]
+DeathString="`k considered `o a nuclear threat"
+MaleSuicide="`o was green with radiating envy"
+WeaponName="Nuclear Strike"
+
+[Rx_DmgType_Obelisk]
+DeathString="`k showed `o the true Path of Enlightenment"
+WeaponName="Death Ray"
+
+[Rx_DmgType_Orca_Gun]
+DeathString="`k has gunned `o down with their Orca"
+MaleSuicide="`o was gunned down by their own Orca"
+WeaponName="Orca"
+
+[Rx_DmgType_Orca_Rocket]
+DeathString="`k struck `o down with their Orca's rocket barrage"
+MaleSuicide="`o struck themself down with their own Orca"
+WeaponName="Orca"
+
+[Rx_DmgType_Orca_Passenger]
+DeathString="`o couldn't avoid `k's missile"
+WeaponName="Orca"
+
+[Rx_DmgType_Pancake]
+DeathString="`k crushed `o into a pancake"
+WeaponName="Squished"
+
+[Rx_DmgType_PersonalIonCannon]
+DeathString="`k's Personal Ion Cannon flashed `o to death"
+MaleSuicide="`o used the wrong tool for a selfie"
+WeaponName="Personal Ion Cannon"
+
+[Rx_DmgType_Pistol]
+DeathString="`o lost to `k in high noon`"
+WeaponName="Pistol"
+
+[Rx_DmgType_ProxyC4]
+DeathString="`o has trespassed into `k's territory"
+MaleSuicide="`o carelessly walked into their own mine"
+WeaponName="Proxy C4"
+
+[Rx_DmgType_Railgun]
+DeathString="`o was fatally pierced through by `k's railgun"
+WeaponName="Railgun"
+
+[Rx_DmgType_RamjetRifle]
+DeathString="`o was punctured by `k's hyperspeed Ramjet bullet"
+WeaponName="Ramjet Rifle"
+
+[Rx_DmgType_RanOver]
+DeathString="`k 'accidentally' drove towards `o"
+MaleSuicide="`o had a car accident"
+WeaponName="Hit and Run"
+
+[Rx_DmgType_RanOverbyThomas]
+DeathString="`o's soul has been claimed by Thomas the Dark Engine"
+WeaponName="Hit and Run"
+
+[Rx_DmgType_RemoteC4]
+DeathString="`k punched the button on `o's lifeline"
+MaleSuicide="`o punched their trigger a tad too close"
+WeaponName="Remote C4"
+
+[Rx_DmgType_Rocket]
+DeathString="`k swarmed `o with a little too many missiles"
+MaleSuicide="`o blew themself up"
+WeaponName="Rocket Emplacement"
+
+[Rx_DmgType_RocketEmpl_Missile]
+DeathString="`o was struck by `k's meteorite rocket"
+WeaponName="Rocket Emplacement"
+
+[Rx_DmgType_RocketLauncher]
+DeathString="`k's rocket blew `o away"
+MaleSuicide="`o blew themself up"
+WeaponName="Rocket Launcher"
+
+[Rx_DmgType_SAMSite]
+DeathString="`o trespassed into `k's airspace"
+WeaponName="AA Rocket"
+
+[Rx_DmgType_Shotgun]
+DeathString="`k filled `o's body with pellets"
+WeaponName="Shotgun"
+
+[Rx_DmgType_SMG]
+DeathString="`k greeted `o with a bunch of lead"
+WeaponName="SMG"
+
+[Rx_DmgType_SniperRifle]
+DeathString="`o stumbled into `k's scope"
+WeaponName="Sniper Rifle"
+
+[Rx_DmgType_StealthTank]
+DeathString="`o was taken by surprise by `k's Stealth Tank"
+WeaponName="Stealth Tank"
+
+[Rx_DmgType_TacticalRifle]
+DeathString="`k stormed against `o with a bunch of HE bullets"
+MaleSuicide="`o did not realize their rifle is a tad explosive"
+WeaponName="Tactical Rifle"
+
+[Rx_DmgType_TacticalRifleGrenade]
+DeathString="`o took `k's grenade right on the face"
+MaleSuicide="`o was a little too careless with their grenade"
+WeaponName="Tactical Rifle"
+
+[Rx_DmgType_Tiberium]
+DeathString="`o's body could no longer hold `k's tiberium infection"
+MaleSuicide="`o was too eager to embrace the Tiberian life"
+WeaponName="Tiberium"
+
+[Rx_DmgType_Tiberium_Blue]
+DeathString="`o's body could no longer hold `k's tiberium infection"
+MaleSuicide="`o was too eager to embrace the Tiberian life"
+WeaponName="Tiberium"
+
+[Rx_DmgType_TiberiumAutoRifle]
+DeathString="`o's was caught in `k's tiberium explosion"
+MaleSuicide="`o was caught in their own tiberium fumes"
+WeaponName="Tiberium Auto Rifle"
+
+[Rx_DmgType_TiberiumAutoRifle_Blue]
+DeathString="`o was punctured by `k's tiberium darts"
+MaleSuicide="`o was caught in their own tiberium fumes"
+WeaponName="Tiberium Auto Rifle"
+
+[Rx_DmgType_TiberiumFlechetteRifle]
+DeathString="`o was punctured by `k's tiberium darts"
+WeaponName="Tiberium Flechette"
+
+[Rx_DmgType_TiberiumGrenade]
+DeathString="`o inhaled too much tiberium from `k's grenade"
+MaleSuicide="`o smoked themself in tiberium with their grenade"
+WeaponName="Tiberium Grenade"
+
+[Rx_DmgType_TimedC4]
+DeathString="`o failed to disarm `k's C4 fast enough"
+MaleSuicide="`o failed to get off their own C4's safe range"
+WeaponName="Timed C4"
+
+[Rx_DmgType_Turret]
+DeathString="`k blew `o up for trespassing"
+WeaponNama="Shell"
+
+[Rx_DmgType_VehicleMG]
+DeathString="`o was gunned down by `k's machine gun"
+
+[Rx_DmgType_VoltAutoRifle]
+DeathString="`k filled `o with a shocking revelation"
+WeaponName="Volt Autorifle"
+
+[Rx_DmgType_VoltRifle_Alt]
+DeathString="`o was caught in `k's electric blast"
+MaleSuicide="`o needed to learn to be careful with electronics"
+WeaponName="Volt Autorifle"
+
+[TSR_Vehicle_HoverMRLS_DmgType]
+DeathString="`o was struck by `k's missile barrage"
+WeaponName="Hover MRLS"
+
+[TSR_Vehicle_AttackCycle_DmgType]
+DeathString="`o couldn't avoid `k's bike hit-and-run tactics"
+WeaponName="Attack Cycle"
+
+[TSR_Vehicle_TickTank_DmgType]
+DeathString="`o was decimated by `k's Tick Tank"
+WeaponName="Tick Tank"
+
+[TSR_Vehicle_Titan_DmgType]
+DeathString="`k's Titan loomed over `o's scorched corpse"
+WeaponName="Titan"
+
+[TSR_Vehicle_Wolverine_DmgType]
+DeathString="`o was shredded by `k's merciless barrage"
+WeaponName="Wolverine"
+
+//="===================================="
+//	Characters=
+
+[Rx_FamilyInfo]
+CharacterName="Unnamed Character"
+PT_Title="UNNAMED"
+
+// GDI Infantry=
+[Rx_FamilyInfo_GDI_Soldier]
+CharacterName="Soldier"
+PT_Title="SOLDIER"
+PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Pistol\n+Anti-Infantry"
+
+[Rx_FamilyInfo_GDI_Shotgunner]
+CharacterName="Shotgunner"
+PT_Title="SHOTGUNNER"
+PT_Description="Armour: Kevlar\nSpeed: 95\nSide: Pistol\n+Anti-Infantry"
+
+[Rx_FamilyInfo_GDI_Grenadier]
+CharacterName="Grenadier"
+PT_Title="GRENADIER"
+PT_Description="Armour: Flak\nSpeed: 100\nSide: Pistol\n+Anti-Armour\n+Anti-Building"
+
+[Rx_FamilyInfo_GDI_Marksman]
+CharacterName="Marksman"
+PT_Title="MARKSMAN"
+PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Pistol\n+Anti-Infantry"
+
+[Rx_FamilyInfo_GDI_Engineer]
+CharacterName="Engineer"
+PT_Title="ENGINEER"
+PT_Description="Armour: Flak\nSpeed: 95\nSide: Silenced Pistol\nRemote C4\n+Anti-Building\n+Repair/Support"
+
+[Rx_FamilyInfo_GDI_Officer]
+CharacterName="Officer"
+PT_Title="OFFICER"
+PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Pistol\nSmoke Grenade\n+Anti-Infantry"
+
+[Rx_FamilyInfo_GDI_RocketSoldier]
+CharacterName="Rocket Soldier"
+PT_Title="ROCKET SOLDIER"
+PT_Description="Armour: Flak\nSpeed: 95\nSide: Machine Pistol\nAnti-Tank Mines\n+Anti-Armour\n+Anti-Aircraft"
+
+[Rx_FamilyInfo_GDI_McFarland]
+CharacterName="McFarland"
+PT_Title="MCFARLAND"
+PT_Description="Armour: Kevlar\nSpeed: 105\nSide: Pistol\nFrag Grenades\n+Anti-Infantry"
+
+[Rx_FamilyInfo_GDI_Gunner]
+CharacterName="Gunner"
+PT_Title="GUNNER"
+PT_Description="Armour: Flak\nSpeed: 95\nSide: Carbine\nEMP Grenade\nAT Mines\n+Anti-Armour\n+Anti-Structure"
+
+[Rx_FamilyInfo_GDI_Deadeye]
+CharacterName="Deadeye"
+PT_Title="DEADEYE"
+PT_Description="Armour: Light\nSpeed: 90\nSide: Machine Pistol\nSmoke Grenade\n+Anti-Infantry"
+
+[Rx_FamilyInfo_GDI_Patch]
+CharacterName="Patch"
+PT_Title="PATCH"
+PT_Description="Armour: Kevlar\nSpeed: 112.5\nSide: Heavy Pistol\nFrag Grenades\n+Anti-Infantry"
+
+[Rx_FamilyInfo_GDI_Havoc]
+CharacterName="Havoc"
+PT_Title="HAVOC"
+PT_Description="Armour: Light\nSpeed: 90\nSide: Carbine\nSmoke Grenade\n+Anti-Infantry"
+
+[Rx_FamilyInfo_GDI_Sydney]
+CharacterName="Sydney"
+PT_Title="SYDNEY"
+PT_Description="Armour: Flak\nSpeed: 100\nSide: Flechette Rifle\nEMP Grenade\nAnti-Tank Mines\n+Anti-Armour"
+
+[Rx_FamilyInfo_GDI_Mobius]
+CharacterName="Mobius"
+PT_Title="MOBIUS"
+PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Heavy Pistol\n+Anti-Everything"
+
+[Rx_FamilyInfo_GDI_Hotwire]
+CharacterName="Hotwire"
+PT_Title="HOTWIRE"
+PT_Description="Armour: Flak\nSpeed: 100\nSide: Silenced Pistol\nRemote C4\nProximity Mines\n+Anti-Building\n+Repair/Support"
+
+//GDI Hero Units=
+[Rx_FamilyInfo_GDI_Sydney_Suit]
+CharacterName="Armoured Sydney"
+PT_Title="ARMOURED SYDNEY"
+PT_Description="Armour: Flak\nSpeed: 95\nSide: Tiberium Auto Rifle\n+Anti-Everything"
+
+
+// Nod Infantry=
+[Rx_FamilyInfo_Nod_Soldier]
+CharacterName="Soldier"
+PT_Title="SOLDIER"
+PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Pistol\n+Anti-Infantry"
+
+[Rx_FamilyInfo_Nod_Shotgunner]
+CharacterName="Shotgunner"
+PT_Title="SHOTGUNNER"
+PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Pistol\n+Anti-Infantry"
+
+[Rx_FamilyInfo_Nod_FlameTrooper]
+CharacterName="Flamethrower"
+PT_Title="FLAMETHROWER"
+PT_Description="Armour: Flak\nSpeed: 105\nSide: Pistol\n+Anti-Everything"
+
+[Rx_FamilyInfo_Nod_Marksman]
+CharacterName="Marksman"
+PT_Title="MARKSMAN"
+PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Pistol\n+Anti-Infantry"
+
+[Rx_FamilyInfo_Nod_Engineer]
+CharacterName="Engineer"
+PT_Title="ENGINEER"
+PT_Description="Armour: Flak\nSpeed: 95\nSide: Silenced Pistol\nRemote C4\n+Anti-Building\n+Repair/Support"
+
+[Rx_FamilyInfo_Nod_Officer]
+CharacterName="Officer"
+PT_Title="OFFICER"
+PT_Description="Armour: Kevlar\nSpeed: 110\nSide: Pistol\nSmoke Grenade\n+Anti-Infantry"
+
+[Rx_FamilyInfo_Nod_RocketSoldier]
+CharacterName="Rocket Soldier"
+PT_Title="ROCKET SOLDIER"
+PT_Description="Armour: Flak\nSpeed: 105\nSide: Machine Pistol\nAnti-Tank Mines\n+Anti-Armour\n+Anti-Aircraft"
+
+[Rx_FamilyInfo_Nod_ChemicalTrooper]
+CharacterName="Chemical Warrior"
+PT_Title="CHEMICAL WARRIOR"
+PT_Description="Armour: Flak\nSpeed: 100\nSide: Pistol\nTiberium Grenade\n+Anti-Everything"
+
+[Rx_FamilyInfo_Nod_StealthBlackHand]
+CharacterName="Stealth Black Hand"
+PT_Title="STEALTH BLACK HAND"
+PT_Description="Armour: Lazarus\nSpeed: 110\nSide: S. M. Pistol\nActive Camouflage\n+Anti-Everything"
+
+[Rx_FamilyInfo_Nod_BlackHandSniper]
+CharacterName="Black Hand Sniper"
+PT_Title="BLACK HAND SNIPER"
+PT_Description="Armour: Light\nSpeed: 90\nSide: Machine Pistol\nSmoke Grenade\n+Anti-Infantry"
+
+[Rx_FamilyInfo_Nod_LaserChainGunner]
+CharacterName="Laser Chain Gunner"
+PT_Title="LASER CHAIN GUNNER"
+PT_Description="Armour: Flak\nSpeed: 80\nEMP Grenade\nAnti-Tank Mines\n+Anti-Everything\n+Heavy Infantry"
+
+[Rx_FamilyInfo_Nod_Sakura]
+CharacterName="Sakura"
+PT_Title="SAKURA"
+PT_Description="Armour: Light\nSpeed: 90\nSide: S. Carbine\nSmoke Grenade\n+Anti-Infantry"
+
+[Rx_FamilyInfo_Nod_Raveshaw]
+CharacterName="Raveshaw"
+PT_Title="RAVESHAW"
+PT_Description="Armour: Flak\nSpeed: 100\nSide: Flechette Rifle\nEMP Grenade\nAnti-Tank Mines\n+Anti-Armour"
+
+[Rx_FamilyInfo_Nod_Mendoza]
+CharacterName="Mendoza"
+PT_Title="MENDOZA"
+PT_Description="Armour: Kevlar\nSpeed: 110\nSide: Heavy Pistol\n+Anti-Everything"
+
+[Rx_FamilyInfo_Nod_Technician]
+CharacterName="Technician"
+PT_Title="TECHNICIAN"
+PT_Description="Armour: Flak\nSpeed: 100\nSide: Silenced Pistol\nRemote C4\nProximity Mines\n+Anti-Building\n+Repair/Support"
+
+//Nod Hero Units=
+[Rx_FamilyInfo_Nod_Raveshaw_Mutant]
+CharacterName="Mutant Raveshaw"
+PT_Title="MUTANT RAVESHAW"
+PT_Description="Armour: Flak\nSpeed: 95\nSide: Tiberium Auto Rifle\n+Anti-Everything"
+
+//Custom Infantry Units=
+[TSR_FamilyInfo_GDI_LightInfantry]
+CharacterName="Light Infantry"
+PT_Title="LIGHT INFANTRY"
+PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Pistol\n+Anti-Infantry"
+
+[TSR_FamilyInfo_Nod_LightInfantry]
+CharacterName="Light Infantry"
+PT_Title="LIGHT INFANTRY"
+PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Pistol\n+Anti-Infantry"
+
+[APB_FamilyInfo_ALD_RifleInfantry]
+CharacterName="Rifle Infantry"
+PT_Title="RIFLE INFANTRY"
+PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Pistol\n+Anti-Infantry"
+
+
+//="===================================="
+//	Vehicles=
+[Rx_Vehicle]
+VehiclePositionString="in a Vehicle"
+VehicleNameString="Vehicle"
+
+[Rx_Vehicle_Treaded]
+VehiclePositionString="in a Tank"
+VehicleNameString="Tank"
+
+[Rx_Vehicle_MammothTank]
+VehiclePositionString="in a Mammoth Tank"
+VehicleNameString="Mammoth Tank"
+PT_Title="MAMMOTH TANK"
+PT_Description="<font size='10'>-120mm Cannons\n-Tusk Missiles\n-Heavy Armour\n-Heavy Battle Tank\n-Driver + Passenger</font>"
+
+[Rx_Vehicle_MediumTank]
+VehiclePositionString="in a Medium Tank"
+VehicleNameString="Medium Tank"
+PT_Title="MEDIUM TANK"
+PT_Description="<font size='10'>-105mm Cannon\n-Coaxial MG\n-Heavy Armour\n-Main Battle Tank\n-Driver + Passenger</font>"
+
+[Rx_Vehicle_Chinook]
+VehiclePositionString="in a Chinook"
+VehicleNameString="Chinook"
+PT_Title="TRANSPORT HELICOPTER"
+PT_Description="<font size='10'>\n-2x Gattling Guns\n-Light Armour\n-Troop Transport\n-Pilot + 4 Passengers</font>"
+
+[Rx_Vehicle_APC_Nod]
+VehiclePositionString="in an APC"
+VehicleNameString="APC"
+PT_Title="ARMOURED PERSONNEL CARRIER"
+PT_Description="<font size='10'>-M134 Minigun\n-Heavy Armour\n-Troop Transport\n-Driver + 4 Passengers</font>"
+
+[Rx_Vehicle_APC_GDI]
+VehiclePositionString="in an APC"
+VehicleNameString="APC"
+PT_Title="ARMOURED PERSONNEL CARRIER"
+PT_Description="<font size='10'>-M134 Minigun\n-Heavy Armour\n-Troop Transport\n-Driver + 4 Passengers</font>"
+
+[Rx_Vehicle_Buggy]
+VehiclePositionString="in a Buggy"
+VehicleNameString="Buggy"
+PT_Title="BUGGY"
+PT_Description="<font size='10'>-.50 Calibre Machine Gun\n-Light Armour\n-Fast Attack Scout\n-Driver + Passenger</font>"
+
+[Rx_Vehicle_HoverCraft]
+VehiclePositionString="in a HoverCraft"
+VehicleNameString="Hover Craft"
+
+[Rx_Vehicle_Humvee]
+VehiclePositionString="in a Humvee"
+VehicleNameString="Humvee"
+PT_Title="HUMVEE"
+PT_Description="<font size='10'>-.50 Calibre Machine Gun\n-Light Armour\n-Fast Attack Scout\n-Driver + Passenger</font>"
+
+[Rx_Vehicle_MRLS]
+VehiclePositionString="in a MRLS"
+VehicleNameString="MRLS"
+PT_Title="MOBILE ROCKET LAUNCHER SYSTEM"
+PT_Description="<font size='10'>-M269 Missiles\n-Light Armour\n-Long Range Ballistics\n-Driver + Passenger</font>"
+
+[Rx_Vehicle_LightTank]
+VehiclePositionString="in a Light Tank"
+VehicleNameString="Light Tank"
+PT_Title="LIGHT TANK"
+PT_Description="<font size='10'>\n-75mm Cannon\n-Heavy Armour\n-Main Battle Tank\n-Driver + Passenger</font>"
+
+[Rx_Vehicle_Artillery]
+VehiclePositionString="in an Artillery"
+VehicleNameString="Artillery"
+PT_Title="MOBILE ARTILLERY"
+PT_Description="<font size='10'>\n-155mm Howitzer\n-Light Armour\n-Long Range Ballistics\n-Driver + Passenger</font>"
+
+[Rx_Vehicle_FlameTank]
+VehiclePositionString="in a Flame Tank"
+VehicleNameString="Flame Tank"
+PT_Title="FLAME TANK"
+PT_Description="<font size='10'>\n-2x Flame Throwers\n-Heavy Armour\n-Close Range Suppressor\n-Driver + Passenger</font>"
+
+[Rx_Vehicle_StealthTank]
+VehiclePositionString="in a Stealth Tank"
+VehicleNameString="Stealth Tank"
+PT_Title="STEALTH TANK"
+PT_Description="<font size='10'>-2x TOW Missiles\n-Heavy Armour\n-Guerilla Combat Vehicle\n-Active Camouflage\n-Driver Only</font>"
+
+[Rx_Defence_GunEmplacement]
+VehiclePositionString="in a Gun Emplacement"
+VehicleNameString="Gun Emplacement"
+
+[Rx_Defence_RocketEmplacement]
+VehiclePositionString="in a Rocket Emplacement"
+VehicleNameString="Rocket Emplacement"
+
+[Rx_Vehicle_A10]
+VehiclePositionString="in an A-10"
+VehicleNameString="A-10"
+
+[Rx_Vehicle_Apache]
+VehiclePositionString="in an Apache"
+VehicleNameString="Apache"
+PT_Title="APACHE"
+PT_Description="<font size='10'>-30mm Auto-Cannon\n-Hydra-70 Rockets\n-Light Armour\n-Attack Helicopter\n-Pilot and Passenger</font>"
+
+[Rx_Vehicle_Orca]
+VehiclePositionString="in an Orca"
+VehicleNameString="Orca"
+PT_Title="ORCA"
+PT_Description="<font size='10'>-Hellfire Missiles\n-.50 Calibre Machine Gun\n-Light Armour\n-Attack VTOL\n-Pilot and Passenger</font>"
+
+[Rx_Vehicle_Harvester]
+VehiclePositionString="in a Harvester"
+VehicleNameString="Harvester"
+
+[Rx_Vehicle_HoverCraft_GDI]
+VehiclePositionString="in a Hovercraft"
+VehicleNameString="Hovercraft"
+
+[Rx_Vehicle_Bus]
+VehiclePositionString="in a Bus"
+VehicleNameString="Bus"
+
+[Rx_Defence_GuardTower]
+VehiclePositionString="in a Guard Tower"
+VehicleNameString="Guard Tower"
+
+[Rx_Defence_Turret]
+VehiclePositionString="in a Turret"
+VehicleNameString="Turret"
+
+[Rx_Defence_AATower]
+VehiclePositionString="in an Anti-Air Tower"
+VehicleNameString="Anti-Air Tower"
+
+[Rx_Defence_SAMSite]
+VehiclePositionString="in a SAM Site"
+VehicleNameString="SAM Site"
+
+[Rx_Defence_CeilingTurret]
+VehiclePositionString="in a Ceiling Turret"
+VehicleNameString="Ceiling Turret"
+
+[Rx_Vehicle_MG_GDI]
+VehiclePositionString="in a .50 Cal"
+VehicleNameString=".50 Cal"
+
+[Rx_Vehicle_BattleDrone]
+VehiclePositionString="in a Battle Drone"
+VehicleNameString="Battle Drone"
+
+[Ren_Vehicle_HummVee]
+VehiclePositionString="in a Humm-Vee"
+VehicleNameString="Humm-Vee"
+PT_Title="HUMM-VEE"
+PT_Description="<font size='10'>-.50 Calibre Machine Gun\n-Light Armour\n-Fast Attack Scout\n-Driver + Passenger</font>"
+
+[Ren_Vehicle_Buggy]
+VehiclePositionString="in a Buggy"
+VehicleNameString="Buggy"
+PT_Title="BUGGY"
+PT_Description="<font size='10'>-.50 Calibre Machine Gun\n-Light Armour\n-Fast Attack Scout\n-Driver + Passenger</font>"
+
+[TSR_Vehicle_HoverMRLS]
+VehiclePositionString="in a Hover MRLS"
+VehicleNameString="Hover MRLS"
+PT_Title="HOVER MRLS"
+PT_Description="<font size='10'>-Multi-Launch-Missile-System\n-Light Armour\n-Long Range Support\n-Driver</font>"
+
+[TSR_Vehicle_Titan]
+VehiclePositionString="in a Titan"
+VehicleNameString="Titan"
+PT_Title="TITAN"
+PT_Description="<font size='10'>-120mm Cannon\n-Heavy Armour\n-Main Battle Mech\n-Driver + Passenger</font>"
+
+[TSR_Vehicle_Wolverine]
+VehiclePositionString="in a Wolverine"
+VehicleNameString="Wolverine"
+PT_Title="WOLVERINE"
+PT_Description="<font size='10'>-2x Gatling Gun\n-Light Armour\n-Fast Attack Scout\n-Driver</font>"
+
+[TSR_Vehicle_TickTank]
+VehiclePositionString="in a Tick Tank"
+VehicleNameString="Tick Tank"
+PT_Title="TICK TANK"
+PT_Description="<font size='10'>\n-75mm Cannon\n-Heavy Armour\n-Main Battle Tank\n-Driver + Passenger</font>"
+
+[TSR_Vehicle_AttackCycle]
+VehiclePositionString="in an Attack Cycle"
+VehicleNameString="Attack Cycle"
+PT_Title="ATTACK CYCLE"
+PT_Description="<font size='10'>-SWARM Rockets\n-Hydra-70 Rockets\n-Very Light Armour\n-Fast Harasser\n-Driver Only</font>"
+
+[TSR_Vehicle_Buggy]
+VehiclePositionString="in an Attack Buggy"
+VehicleNameString="Attack Buggy"
+PT_Title="ATTACK BUGGY"
+PT_Description="<font size='10'>-.Vulcan Cannon\n-Light Armour\n-Fast Attack Scout\n-Driver + Passenger</font>"
+
+[APB_Vehicle_TeslaTank]
+VehiclePositionString="in a Tesla Tank"
+VehicleNameString="Tesla Tank"
+PT_Title="TESLA TANK"
+PT_Description="<font size='10'>\n-Tesla Coils\n-Heavy Armour\n-Anti-Surface Tank\n-Driver + Passenger</font>"
+
+//Classic Vehicles=
+[Rx_Vehicle_M2Bradley]
+VehiclePositionString="in a M2 Bradley"
+VehicleNameString="M2 Bradley"
+PT_Title="M2 BRADLEY"
+PT_Description="<font size='10'>\n-25mm Cannon\n-Heavy Armour\n-Main Battle Tank\n-Driver + Passenger</font>"
+
+[Rx_Vehicle_ReconBike]
+VehiclePositionString="in a Recon Bike"
+VehicleNameString="Recon Bike"
+PT_Title="RECON BIKE"
+PT_Description="<font size='10'>-2x TOW Missiles\n-Very Light Armour\n-Fast Harasser\n-Driver Only</font>"
+
+[Rx_Vehicle_HumveeTOW]
+VehiclePositionString="in a TOW Humvee"
+VehicleNameString="TOW Humvee"
+PT_Title="TOW HUMVEE"
+PT_Description="<font size='10'>-2x TOW Missiles\n-Very Light Armour\n-Fast Harasser\n-Driver Only</font>"
+
+[Rx_Vehicle_CrusaderTank]
+VehiclePositionString="in a Crusader Tank"
+VehicleNameString="Crusader Tank"
+PT_Title="CRUSADER TANK"
+PT_Description="<font size='10'>-105mm Cannon\n-Coaxial MG\n-Heavy Armour\n-Main Battle Tank\n-Driver + Passenger</font>"
+
+[GEN_Vehicle_ScorpionTank]
+VehiclePositionString="in a Scorpion Tank"
+VehicleNameString="Scorpion Tank"
+PT_Title="SCORPION TANK"
+PT_Description="<font size='10'>\n-75mm Cannon\n-1x Scorpion Rocket\n-Heavy Armour\n-Main Battle Tank\n-Driver + Passenger</font>"
+
+[RA2_Vehicle_ApocalypseTank]
+VehiclePositionString="in a Apocalypse Tank"
+VehicleNameString="Apocalypse Tank"
+PT_Title="APOCALYPSE TANK"
+PT_Description="<font size='10'>-120mm Cannons\n-Rocket Pods\n-Heavy Armour\n-Heavy Battle Tank\n-Driver + Passenger</font>"
+
+[RA2_Vehicle_TeslaTank]
+VehiclePositionString="in a Tesla Tank"
+VehicleNameString="Tesla Tank"
+PT_Title="TESLA TANK"
+PT_Description="<font size='10'>\n-Dual Tesla Coils\n-Heavy Armour\n-Anti-Surface Tank\n-Driver + Passenger</font>"
+
+//="===================================="
+//	Vehicle Weapons=
+
+[Rx_Vehicle_Weapon]
+ItemName="Primary Weapon"
+PickupMessage="Primary Weapon"
+
+[Rx_Vehicle_A10_Weapon]
+ItemName="GAU-8/A Cannon"
+AltItemName="AGM-65 Missile"
+PickupMessage="A-10 Weapon"
+
+[Rx_Vehicle_Apache_Weapon]
+ItemName="30mm Automatic Cannon"
+AltItemName="Hydra-70 Rocket"
+PickupMessage="Apache Weapon"
+
+[Rx_Vehicle_Orca_Weapon]
+ItemName="Hellfire Missile"
+AltItemName=".50 Cal Machine Gun"
+PickupMessage="Orca Weapon"
+
+[Rx_Vehicle_APC_Nod_Weapon]
+ItemName="M134 Minigun"
+PickupMessage="APC Weapon"
+
+[Rx_Vehicle_APC_GDI_Weapon]
+ItemName="M134 Minigun"
+PickupMessage="APC Weapon"
+
+[Rx_Vehicle_Artillery_Weapon]
+ItemName="155MM Cannon"
+PickupMessage="Artillery Weapon"
+
+[Rx_Vehicle_Buggy_Weapon]
+ItemName=".50 Cal Machine Gun"
+PickupMessage="Buggy Weapon"
+
+[Rx_Vehicle_Chinook_Weapon]
+ItemName="Transport Helicopter"
+PickupMessage="Chinook Weapon"
+
+[Rx_Vehicle_Chinook_Weapon_GDI_Left]
+ItemName="Gattling Gun"
+PickupMessage="Chinook Weapon"
+
+[Rx_Vehicle_Chinook_Weapon_GDI_Right]
+ItemName="Gattling Gun"
+PickupMessage="Chinook Weapon"
+
+[Rx_Vehicle_Chinook_Weapon_Nod_Left]
+ItemName="Gattling Gun"
+PickupMessage="Chinook Weapon"
+
+[Rx_Vehicle_Chinook_Weapon_Nod_Right]
+ItemName="Gattling Gun"
+PickupMessage="Chinook Weapon"
+
+[Rx_Defence_GunEmplacement_Weapon]
+ItemName="Gattling Gun"
+AltItemName="Auto Cannon"
+PickupMessage="Gun Emplacement"
+
+[Rx_Defence_RocketEmplacement_Weapon]
+ItemName="SWARM Launcher"
+AltItemName="Hellfire Missile"
+PickupMessage="Rocket Emplacement"
+
+[Rx_Vehicle_Humvee_Weapon]
+ItemName=".50 Cal Machine Gun"
+PickupMessage="Humvee Weapon"
+
+[Rx_Vehicle_LightTank_Weapon]
+ItemName="75MM Cannon"
+PickupMessage="Light Tank Weapon"
+
+[Rx_Vehicle_MammothWeapon]
+ItemName="120MM Cannon"
+AltItemName="Tusk Missiles"
+PickupMessage="Mammoth Tank Weapon"
+
+[Rx_Vehicle_MediumTank_Weapon]
+ItemName="105MM Cannon"
+AltItemName="Coaxial MG"
+PickupMessage="Medium Tank Weapon"
+
+[Rx_Vehicle_MRLS_Weapon]
+ItemName="M269 Missiles"
+PickupMessage="MRLS Tank Weapon"
+
+[Rx_Vehicle_FlameTank_Weapon]
+ItemName="Flame Throwers"
+PickupMessage="Flame Tank Weapon"
+
+[Rx_Vehicle_StealthTank_Weapon]
+ItemName="TOW Missiles"
+PickupMessage="Stealth Tank Weapon"
+
+[Rx_Vehicle_Harvester_Weapon]
+ItemName="Tiberium Harvester"
+PickupMessage="Harvester Weapon"
+
+[Rx_Defence_GuardTower_Weapon]
+ItemName="Vulcan Cannon"
+PickupMessage="Guard Tower Weapon"
+
+[Rx_Defence_Turret_Weapon]
+ItemName="105MM Cannon"
+PickupMessage="Turret Weapon"
+
+[Rx_Defence_SAMSite_Weapon]
+ItemName="Surface-to-air Missile"
+PickupMessage="SAM Weapon"
+
+[Rx_Defence_AATower_Weapon]
+ItemName="Anti-Air Missile"
+PickupMessage="Anti-Air Weapon"
+
+[Rx_Vehicle_Hovercraft_GDI_Weapon]
+ItemName="Heavy Cannons"
+AltItemName="SWARM Launcher"
+PickupMessage="Hovercraft Weapon"
+
+[TSR_Vehicle_HoverMRLS_Weapon]
+ItemName="M269 Missile"
+PickupMessage="Hover MRLS Weapon"
+
+[TSR_Vehicle_Titan_Weapon]
+ItemName="120MM Cannon"
+PickupMessage="Titan Weapon"
+
+[TSR_Vehicle_Wolverine_Weapon]
+ItemName="Vulcan Cannons"
+PickupMessage="Wolverine Weapon"
+
+[TSR_Vehicle_TickTank_Weapon]
+ItemName="90MM Cannons"
+AltItemName=".50 Cal Machine Gun"
+PickupMessage="Tick Tank Weapon"
+
+[TSR_Vehicle_AttackCycle_Weapon]
+ItemName="Hydra-70 Rocket"
+PickupMessage="Attack Cycle Weapon"
+
+[TSR_Vehicle_Buggy_Weapon]
+ItemName="30mm Automatic Cannon"
+PickupMessage="Buggy Weapon"
+
+[APB_Vehicle_TeslaTank_Weapon]
+ItemName="Tesla Bolt"
+PickupMessage="Tesla Tank Weapon"
+
+//Classic Vehicles=
+[Rx_Vehicle_M2Bradley_Weapon]
+ItemName="25MM Cannon"
+AltItemName="TOW Rocket"
+PickupMessage="M2 Bradley Weapon"
+
+[Rx_Vehicle_ReconBike_Weapon]
+ItemName="TOW Rocket"
+PickupMessage="Recon Bike Weapon"
+
+[Rx_Vehicle_HumveeTOW_Weapon]
+ItemName="TOW Rocket"
+PickupMessage="TOW Humvee Weapon"
+
+[Rx_Vehicle_CrusaderTank_Weapon]
+ItemName="105mm Cannon"
+AltItemName=".50 Cal Machine Gun"
+PickupMessage="Crusader Tank Weapon"
+
+[Gen_Vehicle_ScorpionTank_Weapon]
+ItemName="75mm Cannon"
+AltItemName="Scorpion Rocket"
+PickupMessage="Scorpion Tank Weapon"
+
+[RA2_Vehicle_ApocalypseTank_Weapon]
+ItemName="Dual 120mm Cannon"
+AltItemName="Rocket Pods"
+PickupMessage="Apocalypse Tank Weapon"
+
+[RA2_Vehicle_TeslaTank_Weapon]
+ItemName="Chain Lightning"
+PickupMessage="Tesla Tank Weapon"
+
+[Rx_Vehicle_BattleDrone_Weapon]
+ItemName="Drone Gun"
+PickupMessage="Battle Drone weapon"
+
+//////////////////////=
+//  Building Names  //=
+[Rx_Building_AdvancedGuardTower_Internals]
+BuildingName="Adv. Guard Tower"
+
+[Rx_Building_AirTower_Internals]
+BuildingName="Airstrip"
+
+[Rx_Building_AirTower_Internals_Ramps]
+BuildingName="Airstrip"
+
+[Rx_Building_Barracks_Internals]
+BuildingName="Barracks"
+
+[Rx_Building_Helipad_GDI_Internals]
+BuildingName="Helipad"
+
+[Rx_Building_Helipad_Nod_Internals]
+BuildingName="Helipad"
+
+[Rx_Building_HandOfNod_Internals]
+BuildingName="Hand of Nod"
+
+[Rx_Building_Obelisk_Internals]
+BuildingName="Obelisk of Light"
+
+[Rx_Building_PowerPlant_Internals]
+BuildingName="Power Plant"
+
+[Rx_Building_Refinery_Internals]
+BuildingName="Refinery"
+
+[Rx_Building_Silo_Internals]
+BuildingName="Silo"
+
+[Rx_Building_TeamSilo_Internals]
+BuildingName="Silo"
+
+[Rx_Building_WeaponsFactory_Internals]
+BuildingName="Weapons Factory"
+
+[Rx_Building_RepairFacility_Internals]
+BuildingName="Repair Facility"
+
+[Rx_Building_Helipad_Internals]
+BuildingName="Helipad"
+
+[Rx_CapturableMCT_Internals_Kismet]
+BuildingName="Tech Building"
+
+[Rx_Building_CommCentre_Internals]
+BuildingName="Communications Centre"
+
+[Rx_CapturableMCT_Fort_Internals]
+BuildingName="Fort"
+
+[Rx_CapturableMCT_RadarDome_Internals]
+BuildingName="Radar Dome"
+
+[Rx_Building_MedicalCentre_Internals]
+BuildingName="Medical Centre"
+
+[Rx_Building_Hospital_Internals]
+BuildingName="Hospital"
+
+
+//="===================================="
+//	Buildings=
+[Rx_Message_Buildings]
+BuildingBroadcastMessages[0]="`PlayerName` destroyed the `BuildingName`"
+BuildingBroadcastMessages[1]="`BuildingName` destroyed by `PlayerName`"
+BuildingBroadcastMessages[2]="`PlayerName` captured the `BuildingName`"
+BuildingBroadcastMessages[3]="`PlayerName` neutralized the `BuildingName`"
+
+//="===================================="
+//	Crates=
+[Rx_CratePickup]
+PickupMessages[0]="You stumbled upon a grenade, BOOOM!"
+PickupMessages[1]="Surprise! Ion Cannon Strike incoming!"
+PickupMessages[2]="By the way, Nuclear Missile Launch Detected. Bwahahaha!"
+PickupMessages[3]="You found `credsum` credits!"
+PickupMessages[4]="You found a new uniform!"
+PickupMessages[5]="You got a `vehname`!"
+PickupMessages[6]="You found an enemy uniform!"
+PickupMessages[7]="Your health and ammo has been restored!"
+
+[Rx_Message_Crates]
+PickupBroadcastMessages[0]="`PlayerName` found a crate!"
+PickupBroadcastMessages[1]="`PlayerName` just got a death crate. Sucks to be you."
+PickupBroadcastMessages[2]="`PlayerName` got an Ion Cannon to the face. Ouch!"
+PickupBroadcastMessages[3]="`PlayerName` is green with nuclear radiation"
+PickupBroadcastMessages[4]="`PlayerName` found a money crate!"
+PickupBroadcastMessages[5]="`PlayerName` got a new character!"
+PickupBroadcastMessages[6]="`PlayerName` got a new vehicle!"
+PickupBroadcastMessages[7]="Watch out, an enemy player picked up a spy crate!"
+PickupBroadcastMessages[8]="`PlayerName` picked up a spy crate!"
+PickupBroadcastMessages[9]="`PlayerName` picked up a refill crate."
+PickupBroadcastMessages[10]="`PlayerName` picked up a suicide crate."
+PickupBroadcastMessages[11]="`PlayerName` picked up a speed upgrade crate."
+PickupBroadcastMessages[12]="`PlayerName` was abducted by aliens."
+PickupBroadcastMessages[13]="`PlayerName` won't last more than 30 seconds."
+PickupBroadcastMessages[14]="`PlayerName` discovered weaponry from the future!"
+PickupBroadcastMessages[15]="`PlayerName` discovered weaponry from Kane's past!"
+PickupBroadcastMessages[16]="`PlayerName` picked up a veterancy crate!"
+PickupBroadcastMessages[17]="`PlayerName` picked up a damage resistance crate!"
+PickupBroadcastMessages[18]="`PlayerName` discovered CLASSIC weaponry!"
+PickupBroadcastMessages[19]="`PlayerName` found an EPIC Character crate!"
+PickupBroadcastMessages[20]="`PlayerName` IS A THREAT TO US ALL!"
+PickupBroadcastMessages[21]="`PlayerName` has found a weapon cache!"
+PickupBroadcastMessages[22]="An enemy player has found a weapon cache!"
+PickupBroadcastMessages[23]="`PlayerName` and their allies have been detected!"
+PickupBroadcastMessages[24]="Your teammates near `PlayerName` were spotted, be careful!"
+PickupBroadcastMessages[25]="Someone stuck some glue to `PlayerName`'s shoes!"
+PickupBroadcastMessages[26]="PRIORITY ALERT: `PlayerName` has hacked the enemy defenses, attack while you can!"
+PickupBroadcastMessages[27]="PRIORITY WARNING: An enemy has hacked your defenses, your base is vulnerable!"
+PickupBroadcastMessages[28]="`PlayerName` has channeled their inner Neo, bending the laws of physics!"
+PickupBroadcastMessages[29]="An enemy player has channeled their inner Neo, bending the laws of physics!"
+PickupBroadcastMessages[30]="`PlayerName` found a chrono anomaly!"
+PickupBroadcastMessages[31]="`PlayerName` found contemporary hardware!"
+
+
+
+[Rx_CrateType_Money]
+PickupMessage="You found `credsum` credits!"
+
+[Rx_CrateType_Refill]
+PickupMessage="Your health and ammo has been restored!"
+
+[Rx_CrateType_Spy]
+PickupMessage="You found an enemy uniform!"
+
+[Rx_CrateType_Vehicle]
+PickupMessage="You got a `vehname`!"
+
+[Rx_CrateType_Character]
+PickupMessage="You found a new uniform!"
+
+[Rx_CrateType_Suicide]
+PickupMessage="You found the answer to the universe inside the box, and see no reason to continue living."
+
+[Rx_CrateType_TimeBomb]
+PickupMessage="There is a bomb on your head. You have 30 seconds to live."
+
+[Rx_CrateType_Nuke]
+PickupMessage="By the way, Nuclear Missile Launch Detected. Bwahahaha!"
+
+[Rx_CrateType_Speed]
+PickupMessage="Your character's speed has been upgraded by `increasepct`%!"
+
+[Rx_CrateType_Abduction]
+PickupMessage="You have been abducted by the Scrin!"
+
+[Rx_CrateType_TSVehicle]
+PickupMessage="A hole in space time has opened! You command the future."
+
+[Rx_CrateType_RAVehicle]
+PickupMessage="A rougue chrono-shift seems to be going on! You control the past."
+
+[Rx_CrateType_RA2Vehicle]
+PickupMessage="Rogue Chronoshift Detected: Soviet Invasion Confirmed."
+
+[Rx_CrateType_GENVehicle]
+PickupMessage="Rogue Chronoshift Detected: Contemporary Hardware Acquired"
+
+[Rx_CrateType_Veterancy]
+PickupMessage="You've learned just a little more in the art of war."
+
+[Rx_CrateType_DamageResistance]
+PickupMessage="You picked up a DAMAGE RESISTANCE crate"
+
+[Rx_CrateType_ClassicVehicle]
+PickupMessage="Never forget the CLASSICS"
+
+[Rx_CrateType_EpicCharacter]
+PickupMessage="You've found an EPIC Character!"
+
+[Rx_CrateType_Kamikaze]
+PickupMessage="!!!MAY THE DIVINE WIND BLOW!!!"
+
+[Rx_CrateType_RadarSweep]
+PickupMessage="You and your allies have been detected!"
+
+[Rx_CrateType_BasePower]
+PickupMessage="You have found a vulnerability in the enemy defenses, temporarily disabling them!"
+
+[Rx_Message_Vehicle]
+VehicleMessages[0]="`VehicleClass` bound. Press [`LockKey`] to toggle lock on driver seat. Hold [`LockKey`] to unbind."
+VehicleMessages[1]="`VehicleClass` auto-bound. Press [`LockKey`] to toggle lock on driver seat. Hold [`LockKey`] to unbind."
+VehicleMessages[2]="`VehicleClass` unbound."
+
+VehicleMessages[3]="This vehicle is not bound, hold [`LockKey`] to bind to it."
+VehicleMessages[4]="This vehicle is not bound, hold [`LockKey`] to replace your existing `VehicleClass` bind with this vehicle."
+VehicleMessages[5]="The previous owner has unbound this vehicle. Hold [`LockKey`] to bind it."
+VehicleMessages[6]="Can not bind vehicle, it is already bound to `OwnerName`."
+
+VehicleMessages[7]="`VehicleClass` driver seat Locked."
+VehicleMessages[8]="`VehicleClass` driver seat Unlocked."
+
+VehicleMessages[9]="Driver seat is locked by `OwnerName`."
+VehicleMessages[10]="You can't enter the Vehicle. Buyer '`OwnerName`' has exclusive access for `IntegerValue` more seconds."
+VehicleMessages[11]="You can't enter the Vehicle. `OwnerTeam` has exclusive access for `IntegerValue` more seconds."
+
+VehicleMessages[12]="`OwnerName`'s `VehicleClass` has been stolen by the enemy!"
+VehicleMessages[13]="`OtherName` has entered the driver seat of your `VehicleClass`."
+VehicleMessages[14]="Your `VehicleClass` has been destroyed."
+
+VehicleMessages[15]="`OwnerName` has locked the drivers seat."
+
+VehicleMessages[16]="`OtherName` has stolen a `VehicleClass`!"
+VehicleMessages[17]="A `VehicleClass` has fallen into the hands of the enemy!"
+VehicleMessages[18]="`OtherName` has attempted to enter the driver seat of your `VehicleClass`."
+//="===================================="
+// Context Menu Help=
+
+[Rx_CommandMenuChoice]
+MainHelpText=""
+SubHelpText[0]=""
+
+[Rx_CommandMenuChoice_SupportPowers]
+
+//Radar Scan [GDI]=
+SubHelpText_GDI[0]="+Delivery:%Instant Radar Scan%%+Purpose:%-COMMAND SPOTS all units in an area for 20s%%-Spots units on map for a full 60s%%Notes%%-Can't scan in buildings"
+
+//Spy Plane [Nod]=
+SubHelpText_Nod[0]="+Delivery:%Spy Aircraft%%+Purpose:%-COMMAND SPOTS units not in cover for 20s%%-Spots units on map for a full 45s%%Notes%%-Plane requires line of sight%%-Can be shot down%"
+
+//Smoke=
+SubHelpText_GDI[1]="+Delivery:%Bomber Aircraft%%+Purpose:%-Blocks line of sight%-Blinds base defenses%%Notes%%-Can be shot down%"
+
+SubHelpText_Nod[1]="+Delivery:%Bomber Aircraft%%+Purpose:%-Blocks line of sight%-Blinds base defenses%%Notes%%-Can be shot down%"
+
+//EMP Strike=
+SubHelpText_GDI[2]="+Delivery:%Bomber Aircraft%%+Purpose:%-Disables vehicle movement%-Disarms enemy mines%%Notes%%-Can be shot down%"
+
+SubHelpText_Nod[2]="+Delivery:%Bomber Aircraft%%+Purpose:%-Disables vehicle movement%-Disarms enemy mines%%Notes%%-Can be shot down%"
+
+
+//Cruise Missile=
+SubHelpText_GDI[3]="+Delivery:%Self-Guided Missile%%+Purpose:%-Heavy damage%-Large AoE%%-Airburst%Can be shot down%"
+
+SubHelpText_Nod[3]="+Delivery:%Self-Guided Missile%%+Purpose:%-Heavy damage%-Large AoE%%-Airburst%Can be shot down%"
+
+//Defensive Buff=
+SubHelpText_GDI[4]="+Delivery:%Self Cast%%+Purpose:%INCREASE DEFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 20s%"
+
+SubHelpText_Nod[4]="+Delivery:%Self Cast%%+Purpose:%INCREASE DEFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 20s%"
+
+//Offensive Buff=
+SubHelpText_GDI[5]="+Delivery:%Self Cast%%+Purpose:%+GREATLY INCREASE OFFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 15s%"
+
+SubHelpText_Nod[5]="+Delivery:%Self Cast%%+Purpose:%+GREATLY INCREASE OFFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 15s%"
+
+
+
+//Help Menu=
+[Rx_CommandMenuChoice_Help]
+MainHelpText="Select a topic with a 'number' button.%"
+
+//Commander Help: Chat=
+SubHelpText[0]="+Commander's teamchat messages are%coloured differently to allow easy%identification.%%+Preface a teamchat message with%'/C' to send as a COMMANDER MESSAGE.%%+COMMANDER MESSAGES appear both in%normal chat AND mid-screen chat for%emphasis.%%+Preface a team message with '/R' %to send a RUSH message.%%+RUSH messages appear mid-screen%and last for 15 seconds.%"
+
+//Commander Help: Targeting=
+SubHelpText[1]="+Targets Q-spotted by the COMMANDER are%visible to ALL friendly units.%%+COMMANDER spotted units are numbered for%identification.%%+COMMANDER spotted units decay over time.%Targets last for 20 seconds.%They begin to SHRINK when they are about to decay.%%COMMANDER spotted targets grant%10 COMMAND POINTS[CP] when destroyed.%"
+
+//Commander Help: Waypoints=
+SubHelpText[2]="+WAYPOINTS are visible to the entire team.%%+After selecting a waypoint with 1-9,% Q will place it wherever you are pointing.%%+Holding Q will remove the corresponding waypoint.%"
+
+//Commander Help: Remove Mines=
+SubHelpText[3]="+Select a building with a number% then hold -Q- to remove ALL% proximity C4 in that building.%"
+
+//Commander Help: Harvester Options=
+SubHelpText[4]="+The HARVESTER can be told to STOP.%%+The Harvester WAYPOINT% is where the HARVESTER%will go when STOPPED.%%+The HARVESTER can be told to detonate if%it appears to be stuck.%%+Telling the HARVESTER to detonate again will%cancel the detonation.%"
+
+
+//Commander Help: Support Powers=
+SubHelpText[5]="+Support Powers ALL COST COMMAND POINTS%%+Most support powers are cast by%HOLDING -Q- and pointing at an area.%%+Support powers have their%own tooltips when selected%"
+
+//="===================================="
+// Text Radio Commands=
+[Rx_Controller]
+// CTRL + Number=
+RadioCommandsText[0]="Building needs repair!"
+RadioCommandsText[1]="Get in the vehicle! [Proximity]"
+RadioCommandsText[2]="Get out of the vehicle! [Proximity]"
+RadioCommandsText[3]="Destroy that vehicle! [Proximity]"
+RadioCommandsText[4]="Watch where you're pointing that! [Proximity]"
+RadioCommandsText[5]="Don't get in my way! [Proximity]"
+RadioCommandsText[6]="Affirmative."
+RadioCommandsText[7]="Negative."
+RadioCommandsText[8]="I'm in position."
+RadioCommandsText[9]="Enemy spotted! [Proximity]"
+
+// ALT + Number=
+RadioCommandsText[10]="I need repairs! [Proximity]"
+RadioCommandsText[11]="Take the point. [Proximity]"
+RadioCommandsText[12]="Move out. [Proximity]"
+RadioCommandsText[13]="Follow me. [Proximity]"
+RadioCommandsText[14]="Hold position. [Proximity]"
+RadioCommandsText[15]="Cover me. [Proximity]"
+RadioCommandsText[16]="Take cover. [Proximity]"
+RadioCommandsText[17]="Fall back. [Proximity]"
+RadioCommandsText[18]="Return to base."
+RadioCommandsText[19]="Destroy it now!"
+
+// CTRL+ALT + Number=
+RadioCommandsText[20]="Attack the base defenses!"
+RadioCommandsText[21]="Attack the Harvester!"
+RadioCommandsText[22]="Attack that structure!"
+RadioCommandsText[23]="Attack the Refinery!"
+RadioCommandsText[24]="Attack the Power Plant!"
+RadioCommandsText[25]="Defend the base!"
+RadioCommandsText[26]="Defend the Harvester!"
+RadioCommandsText[27]="Defend that structure!"
+RadioCommandsText[28]="Defend the Refinery!"
+RadioCommandsText[29]="Defend the Power Plant!"
+
+// Q-Spot Only=
+// Some of these will be inserted into the middle of a string based on {TEXT}=
+RadioCommandsText[30]="CRATE SPOTTED:"
+RadioCommandsText[31]="SPOTTED:"
+RadioCommandsText[32]="Defend BEACON"
+RadioCommandsText[33]="Spotted ENEMY BEACON"
+RadioCommandsText[34]="Defend &gt;&gt;C4&lt;&lt; at"
+RadioCommandsText[35]="Spotted ENEMY &gt;&gt;C4&lt;&lt; at"
+RadioCommandsText[36]="Stop following me"
+RadioCommandsText[37]="Defend the {CONTEXT}!"
+RadioCommandsText[38]="The {CONTEXT} needs repair!"
+RadioCommandsText[39]="The {CONTEXT} needs repair immediately!"
+RadioCommandsText[40]="Attack the {CONTEXT}!"
+RadioCommandsText[41]="Capture the {CONTEXT}!"
+RadioCommandsText[42]="FOCUS FIRE:"
+RadioCommandsText[43]="Spotted"
+
+// Bot-related only=
+RadioCommandsText[44]="Planting &gt;&gt;C4&lt;&lt; inside {CONTEXT}!"
+RadioCommandsText[45]="I've located an ENEMY BEACON"
+RadioCommandsText[46]="I've located an ENEMY &gt;&gt;C4&lt;&lt; at {CONTEXT}!!!"
+RadioCommandsText[47]="I'm detecting a BEACON near {CONTEXT}!!!"
+RadioCommandsText[48]="Attack that"
+RadioCommandsText[49]="An enemy {CONTEXT} has been spotted"
+RadioCommandsText[50]="I'm commencing {CONTEXT}!"
+RadioCommandsText[51]="{CONTEXT}"
+

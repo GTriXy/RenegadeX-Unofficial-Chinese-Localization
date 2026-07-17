@@ -183,7 +183,6 @@ GMS_Slash=/
 GMS_Tilde=~
 GMS_LeftBracket=[
 GMS_Backslash="\\
-GMS_RightBracket=]"
 GMS_Quote=\"
 GMS_XBoxTypeS_A=Joy Button 1
 GMS_XBoxTypeS_B=Joy Button 2

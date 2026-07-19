@@ -1,6 +1,6 @@
-//=====================================
-//	Game
-//=====================================
+;=====================================
+;	Game
+;=====================================
 [TD_Game_Conquest]
 Description="Destroy the enemy base while protecting your own."
 GameName="Tiberian Dawn Mode"
@@ -9,9 +9,9 @@ EndOfMatchRulesTemplateStr_Time=Team with most points in `t mins. wins
 PreviewGameImage=Texture2D'TS_HUD_Canvas.Scoreboard.T_HUD_VOTE_Tibdawn'
 
 
-//====================================================
-//	Tiberian Dawn Era Weapons
-//====================================================
+;====================================================
+;	Tiberian Dawn Era Weapons
+;====================================================
 
 [TD_Weapon_Primary_M16A2]
 ItemName="M16A4 Assault Rifle"
@@ -46,9 +46,9 @@ ItemName="MK153 SMAW"
 PickupMessage="MK153 SMAW"
 
 
-//=====================================
-//	Tiberian Dawn Vehicles
-//=====================================
+;=====================================
+;	Tiberian Dawn Vehicles
+;=====================================
 
 [TD_Vehicle_A10]
 VehiclePositionString="in an A-10 Warthog"
@@ -223,9 +223,9 @@ PT_Title="SU-25 Frogfoot"
 
 
 
-//=====================================
-//	Vehicle Weapons
-//=====================================
+;=====================================
+;	Vehicle Weapons
+;=====================================
 
 [TD_Vehicle_FlameTank_Weapon]
 ItemName="Flamethrowers"
@@ -245,9 +245,9 @@ PickupMessage="Stealth Tank Weapon"
 
 
 
-//=====================================
-//	Characters Conquest Tiberian Dawn
-//=====================================
+;=====================================
+;	Characters Conquest Tiberian Dawn
+;=====================================
 
 
 [TD_FamilyInfo_Loadout_CQ_GDI_Assault_Breacher]

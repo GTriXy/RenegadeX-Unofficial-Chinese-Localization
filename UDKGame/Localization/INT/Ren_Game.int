@@ -1,6 +1,6 @@
-//=====================================
-//	Game
-//=====================================
+;=====================================
+;	Game
+;=====================================
 [Rx_Game]
 Description="Destroy the enemy base while protecting your own."
 GameName="C&C Mode"
@@ -8,9 +8,9 @@ EndOfMatchRulesTemplateStr_Scoring=First team to destroy the other wins
 EndOfMatchRulesTemplateStr_Time=Team with most points in `t mins. wins
 
 
-//=====================================
-//	Weapons 
-//=====================================
+;=====================================
+;	Weapons 
+;=====================================
 
 [Rx_Weapon]
 ItemName="Unnamed Weapon"
@@ -254,9 +254,9 @@ PickupMessage="Tiberium Grenade"
 ItemName="Sniper Rifle"
 PickupMessage="Sniper Rifle"
 
-//=====================================
-//Rx WeaponAbilities
-//=====================================
+;=====================================
+;Rx WeaponAbilities
+;=====================================
 
 [Rx_WeaponAbility]
 ItemName="Unnamed Ability"
@@ -282,9 +282,9 @@ PickupMessage="Smoke Grenades"
 ItemName="Grenade Launcher"
 PickupMessage="Underslung Grenade Launcher"
 
-//=====================================
-//	Damage Types
-//=====================================
+;=====================================
+;	Damage Types
+;=====================================
 
 
 [Rx_DmgType]
@@ -709,15 +709,15 @@ WeaponName="Titan"
 DeathString="`o was shredded by `k's merciless barrage"
 WeaponName="Wolverine"
 
-//=====================================
-//	Characters
-//=====================================
+;=====================================
+;	Characters
+;=====================================
 
 [Rx_FamilyInfo]
 CharacterName="Unnamed Character"
 PT_Title="UNNAMED"
 
-// GDI Infantry
+; GDI Infantry
 [OG_FamilyInfo_GDI_Soldier]
 CharacterName="Soldier"
 PT_Title="SOLDIER"
@@ -789,7 +789,7 @@ PT_Title="HOTWIRE"
 PT_Description="Armour: Flak\nSpeed: 100\nSide: Silenced Pistol\nRemote C4\nProximity Mines\n+Anti-Building\n+Repair/Support"
 
 
-// Nod Infantry
+; Nod Infantry
 [OG_FamilyInfo_Nod_Soldier]
 CharacterName="Soldier"
 PT_Title="SOLDIER"
@@ -860,9 +860,9 @@ CharacterName="Technician"
 PT_Title="TECHNICIAN"
 PT_Description="Armour: Flak\nSpeed: 100\nSide: Silenced Pistol\nRemote C4\nProximity Mines\n+Anti-Building\n+Repair/Support"
 
-//=====================================
-//	Vehicles
-//=====================================
+;=====================================
+;	Vehicles
+;=====================================
 [Rx_Vehicle]
 VehiclePositionString="in a Vehicle"
 VehicleNameString="Vehicle"
@@ -1049,7 +1049,7 @@ VehicleNameString="Tesla Tank"
 PT_Title="TESLA TANK"
 PT_Description=<font size='10'>\n-Tesla Coils\n-Heavy Armour\n-Anti-Surface Tank\n-Driver + Passenger</font>
 
-//Classic Vehicles
+;Classic Vehicles
 [Rx_Vehicle_M2Bradley]
 VehiclePositionString="in a M2 Bradley"
 VehicleNameString="M2 Bradley"
@@ -1068,9 +1068,9 @@ VehicleNameString="TOW Humvee"
 PT_Title="TOW HUMVEE"
 PT_Description="<font size='10'>-2x TOW Missiles\n-Very Light Armour\n-Fast Harasser\n-Driver Only</font>"
 
-//=====================================
-//	Vehicle Weapons
-//=====================================
+;=====================================
+;	Vehicle Weapons
+;=====================================
 
 [Rx_Vehicle_Weapon]
 ItemName="Primary Weapon"
@@ -1221,7 +1221,7 @@ PickupMessage="Buggy Weapon"
 ItemName="Tesla Bolt"
 PickupMessage="Tesla Tank Weapon"
 
-//Classic Vehicles
+;Classic Vehicles
 [Rx_Vehicle_M2Bradley_Weapon]
 ItemName="22MM Cannon"
 AltItemName="TOW Rocket"
@@ -1236,9 +1236,9 @@ ItemName="TOW Rocket"
 PickupMessage="TOW Humvee Weapon"
 
 
-//////////////////////
-//  Building Names  //
-//////////////////////
+;////////////////////
+;  Building Names  //
+;////////////////////
 [Rx_Building_AdvancedGuardTower_Internals]
 BuildingName = "Advanced Guard Tower"
 
@@ -1288,18 +1288,18 @@ BuildingName = "Helicopter Pad""
 BuildingName = "Communications Center"
 
 
-//=====================================
-//	Buildings
-//=====================================
+;=====================================
+;	Buildings
+;=====================================
 [Rx_Message_Buildings]
 BuildingBroadcastMessages[0]="`PlayerName` destroyed the `BuildingName`"
 BuildingBroadcastMessages[1]="`BuildingName` destroyed by `PlayerName`"
 BuildingBroadcastMessages[2]="`PlayerName` captured the `BuildingName`"
 BuildingBroadcastMessages[3]="`PlayerName` neutralized the `BuildingName`"
 
-//=====================================
-//	Crates
-//=====================================
+;=====================================
+;	Crates
+;=====================================
 [Rx_CratePickup]
 PickupMessages[0]="You stumbled upon a grenade, BOOOM!"
 PickupMessages[1]="Surprise! Ion Cannon Strike incoming!"
@@ -1425,9 +1425,9 @@ VehicleMessages[15]="`OwnerName` has locked the drivers seat."
 VehicleMessages[16]="`OtherName` has stolen a `VehicleClass`!"
 VehicleMessages[17]="A `VehicleClass` has fallen into the hands of the enemy!"
 VehicleMessages[18]="`OtherName` has attempted to enter the driver seat of your `VehicleClass`."
-//=====================================
-// Context Menu Help
-//=====================================
+;=====================================
+; Context Menu Help
+;=====================================
 
 [Rx_CommandMenuChoice]
 MainHelpText=""
@@ -1435,66 +1435,66 @@ SubHelpText[0]=""
 
 [Rx_CommandMenuChoice_SupportPowers]
 
-//Radar Scan [GDI]
+;Radar Scan [GDI]
 SubHelpText_GDI[0]="+Delivery:%Instant Radar Scan%%+Purpose:%-COMMAND SPOTS all units in an area for 20s%%-Spots units on map for a full 60s%%Notes%%-Ignores cover"
 
-//Spy Plane [Nod]
+;Spy Plane [Nod]
 SubHelpText_Nod[0]="+Delivery:%Spy Aircraft%%+Purpose:%-COMMAND SPOTS units not in cover for 20s%%-Spots units on map for a full 45s%%Notes%%-Plane requires line of sight%%-Can be shot down%"
 
-//Smoke
+;Smoke
 SubHelpText_GDI[1]="+Delivery:%Bomber Aircraft%%+Purpose:%-Blocks line of sight%-Blinds base defenses%%Notes%%-Can be shot down%"
 
 SubHelpText_Nod[1]="+Delivery:%Bomber Aircraft%%+Purpose:%-Blocks line of sight%-Blinds base defenses%%Notes%%-Can be shot down%"
 
-//EMP Strike
+;EMP Strike
 SubHelpText_GDI[2]="+Delivery:%Bomber Aircraft%%+Purpose:%-Disables vehicle movement%-Disarms enemy mines%%Notes%%-Can be shot down%"
 
 SubHelpText_Nod[2]="+Delivery:%Bomber Aircraft%%+Purpose:%-Disables vehicle movement%-Disarms enemy mines%%Notes%%-Can be shot down%"
 
 
-//Cruise Missile
+;Cruise Missile
 SubHelpText_GDI[3]="+Delivery:%Self-Guided Missile%%+Purpose:%-Heavy damage%-Large AoE%%-Airburst%Can be shot down%"
 
 SubHelpText_Nod[3]="+Delivery:%Self-Guided Missile%%+Purpose:%-Heavy damage%-Large AoE%%-Airburst%Can be shot down%"
 
-//Defensive Buff
+;Defensive Buff
 SubHelpText_GDI[4]="+Delivery:%Self Cast%%+Purpose:%INCREASE DEFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 20s%"
 
 SubHelpText_Nod[4]="+Delivery:%Self Cast%%+Purpose:%INCREASE DEFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 20s%"
 
-//Offensive Buff
+;Offensive Buff
 SubHelpText_GDI[5]="+Delivery:%Self Cast%%+Purpose:%+GREATLY INCREASE OFFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 15s%"
 
 SubHelpText_Nod[5]="+Delivery:%Self Cast%%+Purpose:%+GREATLY INCREASE OFFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 15s%"
 
 
 
-//Help Menu
+;Help Menu
 [Rx_CommandMenuChoice_Help]
 MainHelpText="Select a topic with a 'number' button.%"
 
-//Commander Help: Chat
+;Commander Help: Chat
 SubHelpText[0]="+Commander's teamchat messages are%coloured differently to allow easy%identification.%%+Preface a teamchat message with%'/C' to send as a COMMANDER MESSAGE.%%+COMMANDER MESSAGES appear both in%normal chat AND mid-screen chat for%emphasis.%%+Preface a team message with '/R' %to send a RUSH message.%%+RUSH messages appear mid-screen%and last for 15 seconds.%"
 
-//Commander Help: Targeting
+;Commander Help: Targeting
 SubHelpText[1]="+Targets Q-spotted by the COMMANDER are%visible to ALL friendly units.%%+COMMANDER spotted units are numbered for%identification.%%+COMMANDER spotted units decay over time.%Targets last for 20 seconds.%They begin to SHRINK when they are about to decay.%%COMMANDER spotted targets grant%10 COMMAND POINTS[CP] when destroyed.%"
 
-//Commander Help: Waypoints
+;Commander Help: Waypoints
 SubHelpText[2]="+WAYPOINTS are visible to the entire team.%%+After selecting a waypoint with 1-9,% Q will place it wherever you are pointing.%%+Holding Q will remove the corresponding waypoint.%" 
 
-//Commander Help: Remove Mines
+;Commander Help: Remove Mines
 SubHelpText[3]="+Select a building with a number% then hold -Q- to remove ALL% proximity C4 in that building.%"
 
-//Commander Help: Harvester Options
+;Commander Help: Harvester Options
 SubHelpText[4]="+The HARVESTER can be told to STOP.%%+The Harvester WAYPOINT% is where the HARVESTER%will go when STOPPED.%%+The HARVESTER can be told to detonate if%it appears to be stuck.%%+Telling the HARVESTER to detonate again will%cancel the detonation.%"
 
 
-//Commander Help: Support Powers
+;Commander Help: Support Powers
 SubHelpText[5]="+Support Powers ALL COST COMMAND POINTS%%+Most support powers are cast by%HOLDING -Q- and pointing at an area.%%+Support powers have their%own tooltips when selected%"
 
-//=====================================
-// Text Radio Commands
-//=====================================
+;=====================================
+; Text Radio Commands
+;=====================================
 [Rx_Controller]
 	// CTRL + Number
 	RadioCommandsText[0]     =   "Building needs repair!"

@@ -1,6 +1,6 @@
-//=====================================
-//	Game
-//=====================================
+;=====================================
+;	Game
+;=====================================
 [TS_Game]
 Description="Destroy the enemy base while protecting your own."
 GameName="Firestorm Mode"
@@ -23,9 +23,9 @@ SuperweaponNames_Nod[0] = "Chemical Missile"
 SuperweaponNames_Nod[1] = "Cluster Missile"
 SuperweaponNames_Nod[2] = "Hunter Seeker"
 
-//======================================================================
-//	Weapons 
-//======================================================================
+;======================================================================
+;	Weapons 
+;======================================================================
 
 [TS_Weapon]
 ItemName="Unnamed Weapon"
@@ -49,17 +49,17 @@ PickupMessage="Unnamed Heat Limited Weapon"
 ItemName="Unnamed Melee Weapon"
 PickupMessage="Unnamed Melee Weapon"
 
-//======================================================================
-//    Weapon Abilities
-//======================================================================
+;======================================================================
+;    Weapon Abilities
+;======================================================================
 
 [TS_WeaponAbility]
 ItemName="Unnamed Ability"
 PickupMessage="Unnamed Ability"
 
-//======================================================================
-//	Generic Primary Weapons 
-//======================================================================
+;======================================================================
+;	Generic Primary Weapons 
+;======================================================================
 
 [TS_Weapon_BattleRifle]
 ItemName="Battle Rifle"
@@ -90,9 +90,9 @@ ItemName="DMR"
 PickupMessage="DMR"
 PT_Description=" "
 
-//====================================================
-//	Generic Side-Arm Weapons
-//====================================================
+;====================================================
+;	Generic Side-Arm Weapons
+;====================================================
 
 [TS_Weapon_Pistol]
 ItemName="MP93 Hornet"
@@ -132,9 +132,9 @@ PickupMessage="Suppressed PDW"
 ItemName="Revolver"
 PickupMessage="Revolver"
 
-//======================================================================
-//	Generic Throwable Weapons
-//======================================================================
+;======================================================================
+;	Generic Throwable Weapons
+;======================================================================
 
 [TS_Weapon_Grenade_Frag]
 ItemName="Frag Grenade"
@@ -174,9 +174,9 @@ AbilityName = Anti-Tank Grenade
 [TS_PassiveAbility_Grenade_EMP]
 AbilityName = EMP Grenade
 
-//======================================================================
-//	Assault (Light Infantry) Primary Weapons 
-//======================================================================
+;======================================================================
+;	Assault (Light Infantry) Primary Weapons 
+;======================================================================
 
 [TS_Weapon_PulseRifle]
 ItemName="Pulse Rifle"
@@ -230,9 +230,9 @@ PickupMessage="AT-Disc Grenade"
 ItemName="Flamethrower"
 PickupMessage="Flamethrower"
 
-//======================================================================
-//	Assault (Light Infantry) Equipment
-//======================================================================
+;======================================================================
+;	Assault (Light Infantry) Equipment
+;======================================================================
 
 [TS_Weapon_RemoteDetonator]
 ItemName="Remote Detonator"
@@ -246,9 +246,9 @@ PickupMessage="Spawn Beacon"
 ItemName="RPG"
 PickupMessage="RPG"
 
-//======================================================================
-//	Assault (Light Infantry) Abilities
-//======================================================================
+;======================================================================
+;	Assault (Light Infantry) Abilities
+;======================================================================
 
 [TS_Weapon_HealingTool_New]
 ItemName="Healing Tool"
@@ -294,9 +294,9 @@ PickupMessage="Smoke Grenade"
 ItemName="Sandbags"
 PickupMessage="Sandbags"
 
-//======================================================================
-//	Engineer (Engineer) Primary Weapons 
-//======================================================================
+;======================================================================
+;	Engineer (Engineer) Primary Weapons 
+;======================================================================
 
 [TS_Weapon_RepairUnit]
 ItemName="Repair Unit"
@@ -331,9 +331,9 @@ PickupMessage="Grenade Launcher"
 ItemName="Fabricator"
 PickupMessage="Fabricator"
 
-//======================================================================
-//	Engineer (Engineer) Equipment
-//======================================================================
+;======================================================================
+;	Engineer (Engineer) Equipment
+;======================================================================
 
 [TS_Weapon_RocketLauncher]
 ItemName="Rocket Launcher"
@@ -351,9 +351,9 @@ PickupMessage="Javelin Launcher"
 ItemName="Stinger Launcher"
 PickupMessage="Stinger Launcher"
 
-//======================================================================
-//	Engineer (Engineer) Abilities
-//======================================================================
+;======================================================================
+;	Engineer (Engineer) Abilities
+;======================================================================
 
 [TS_PassiveAbility_Cover]
 AbilityName = Deployable Sandbags
@@ -361,9 +361,9 @@ AbilityName = Deployable Sandbags
 [TS_PassiveAbility_Fabricator]
 AbilityName = Fabricator
 
-//======================================================================
-//	Recon (Jump Jet Infantry / Black Hand) Primary Weapons 
-//======================================================================
+;======================================================================
+;	Recon (Jump Jet Infantry / Black Hand) Primary Weapons 
+;======================================================================
 
 [TS_Weapon_MachineGun]
 ItemName="Machine Gun"
@@ -414,9 +414,9 @@ PickupMessage="Sniper Rifle"
 ItemName="Sonic Emitter"
 PickUpMessage ="Sonic Emitter"
 
-//======================================================================
-//	Recon (Jump Jet Infantry / Black Hand) Equipment
-//======================================================================
+;======================================================================
+;	Recon (Jump Jet Infantry / Black Hand) Equipment
+;======================================================================
 
 [TS_Weapon_ReconDroneRemote_GDI]
 ItemName="Recon Drone"
@@ -434,9 +434,9 @@ PickupMessage="Hunter Seeker"
 ItemName="Grapple Hook"
 PickupMessage="Grapple Hook"
 
-//======================================================================
-//	Recon (Jump Jet Infantry / Black Hand) Abilities
-//======================================================================
+;======================================================================
+;	Recon (Jump Jet Infantry / Black Hand) Abilities
+;======================================================================
 
 [TS_PassiveAbility_Jumpjets_FlightPack]
 AbilityName = Flight Pack
@@ -450,9 +450,9 @@ AbilityName = Stealth
 [TS_PassiveAbility_Grapple]
 AbilityName = Grappling Hook
 
-//======================================================================
-//	Heavy (Zone Trooper / Cyborg) Primary Weapons 
-//======================================================================
+;======================================================================
+;	Heavy (Zone Trooper / Cyborg) Primary Weapons 
+;======================================================================
 
 [TS_Weapon_HeavyMachineGun]
 ItemName="Heavy Machine Gun"
@@ -491,9 +491,9 @@ ItemName="Portable Ion Cannon"
 PickupMessage="Portable Ion Cannon"
 
 
-//======================================================================
-//	Heavy (Zone Trooper / Cyborg) Secondary Weapons 
-//======================================================================
+;======================================================================
+;	Heavy (Zone Trooper / Cyborg) Secondary Weapons 
+;======================================================================
 
 [TS_Weapon_ZTLauncher_Canister]
 ItemName="Canister Shell"
@@ -537,9 +537,9 @@ PickupMessage="Shredder Cannon"
 ItemName="30mm Cannon"
 PickupMessage="30mm Cannon"
 
-//======================================================================
-//	Heavy (Zone Trooper / Cyborg) Equipment
-//======================================================================
+;======================================================================
+;	Heavy (Zone Trooper / Cyborg) Equipment
+;======================================================================
 
 [TS_Weapon_ATMine]
 ItemName="Anti-Tank Mine"
@@ -549,9 +549,9 @@ PickupMessage="Anti-Tank Mine"
 ItemName="Timed C4"
 PickupMessage="Timed C4"
 
-//======================================================================
-//	Heavy (Zone Trooper / Cyborg) Abilities
-//======================================================================
+;======================================================================
+;	Heavy (Zone Trooper / Cyborg) Abilities
+;======================================================================
 
 [TS_PassiveAbility_Jumpjets_CyborgAgility]
 AbilityName = Cyborg Augments
@@ -559,9 +559,9 @@ AbilityName = Cyborg Augments
 [TS_PassiveAbility_Jumpjets_Tactical]
 AbilityName = Cyborg Augments
 
-//======================================================================
-//	X-O Powersuit / Cyborg Reaper Primary Weapons 
-//======================================================================
+;======================================================================
+;	X-O Powersuit / Cyborg Reaper Primary Weapons 
+;======================================================================
 
 [TS_Weapon_XORailHMG]
 ItemName="Heavy Rail MG"
@@ -611,9 +611,9 @@ PickupMessage="Obelisk Beam Cannon"
 ItemName="Plasma Cannon"
 PickupMessage="Plasma Cannon"
 
-//====================================================
-//	Tiberian Dawn Era Weapons
-//====================================================
+;====================================================
+;	Tiberian Dawn Era Weapons
+;====================================================
 
 [TS_Weapon_ForgottenRocketLauncher]
 ItemName="Rocket Launcher"
@@ -664,9 +664,9 @@ ItemName="MK153 SMAW"
 PickupMessage="MK153 SMAW"
 
 
-//====================================================
-//	Super Weapons 
-//====================================================
+;====================================================
+;	Super Weapons 
+;====================================================
 [TS_Weapon_SWStrike]
 ItemName="Superweapon Binoculars"
 PickupMessage="Superweapon Binoculars"
@@ -687,18 +687,18 @@ PickupMessage="Ion Barrage Strike"
 ItemName="Cluster Missile Strike"
 PickupMessage="Cluster Missile Strike"
 
-//====================================================
-//	Construction/Support Weapons
-//====================================================
+;====================================================
+;	Construction/Support Weapons
+;====================================================
 
 [TS_Weapon_ConstructionGun]
 ItemName="Gizmo MKII Fabricator"
 PickupMessage="Gizmo MKII Fabricator"
 
 
-//====================================================
-//	Unused Abilities
-//====================================================
+;====================================================
+;	Unused Abilities
+;====================================================
 
 [TS_PassiveAbility_QuickGrenade]
 AbilityName = Unnamed Grenade Ability
@@ -826,9 +826,9 @@ AbilityName = EMP Cannon
 [TS_PassiveAbility_ZTMortar_Sensor]
 AbilityName = Sensor Pod
 
-//=====================================
-//TS Purchasable Items
-//=====================================
+;=====================================
+;TS Purchasable Items
+;=====================================
 
 [TS_Weapon_SWStrike_Ion]
 ItemName="Ion Strike"
@@ -882,9 +882,9 @@ PickupMessage="Mortar"
 ItemName="Fortifications"
 PickupMessage="Fortifications"
 
-//=====================================
-//	Characters
-//=====================================
+;=====================================
+;	Characters
+;=====================================
 
 [Rx_FamilyInfo]
 CharacterName="Unnamed Character"
@@ -922,9 +922,9 @@ VehicleMenuTypeText[5] = "SIEGE PLATFORM"
 VehicleMenuTypeText[6] = "FIGHTER AIRCRAFT"
 VehicleMenuTypeText[7] = "EXPERIMENTAL"
 
-//=====================================
-//	Characters Conquest
-//=====================================
+;=====================================
+;	Characters Conquest
+;=====================================
 
 
 
@@ -1303,9 +1303,9 @@ Subtitle="Cyborg"
 PT_Description="A walking tank capable of ramming infantry, and thin walls. \nMechanical legs can be charged up to jump above any obsticle, and can sprint faster over time. \n\nCAUTION: You're unable to commandeer vehicles!"
 
 
-//=====================================
-//	Super Heavy Infantry
-//=====================================
+;=====================================
+;	Super Heavy Infantry
+;=====================================
 
 
 
@@ -1371,9 +1371,9 @@ Subtitle="Wolverine"
 
 
 
-//=====================================
-//	Alternative Infantry Roster
-//=====================================
+;=====================================
+;	Alternative Infantry Roster
+;=====================================
 
 
 
@@ -1458,11 +1458,11 @@ PT_Description="A primal war-cry to buff near by team mates."
 
 
 
-//=====================================
-//	Upgrades
-//=====================================
+;=====================================
+;	Upgrades
+;=====================================
 
-// LIGHT INFANTRY
+; LIGHT INFANTRY
 
 [TS_Upgrades]
 ItemName = Unnamed Upgrade
@@ -1491,7 +1491,7 @@ ItemName = Motion Sensor
 [TS_Upgrades_RepairGun]
 ItemName = Repair Level 2
 
-// JUMP JET INFANTRY
+; JUMP JET INFANTRY
 
 [TS_Upgrades_JumpJetUpgrade_Fuel]
 ItemName = High Fuel Capacity
@@ -1502,7 +1502,7 @@ ItemName = Advanced Thrusters
 [TS_Upgrades_FallAbsorption]
 ItemName = Force-Absorption Boots
 
-// ZONE TROOPER
+; ZONE TROOPER
 
 [TS_Upgrades_StatModifier_ZoneA]
 ItemName = Level 1
@@ -1514,7 +1514,7 @@ ItemName = Level 2
 ItemName = Level 3
 
 
-// BLACKHAND
+; BLACKHAND
 
 [TS_Upgrades_GrapplingHook]
 ItemName = Grapple Hook
@@ -1523,7 +1523,7 @@ ItemName = Grapple Hook
 ItemName = Stealth Suit
 
 
-// CYBORG
+; CYBORG
 
 [TS_Upgrades_StatModifier_CyborgA]
 ItemName = Level 1
@@ -1534,17 +1534,17 @@ ItemName = Level 2
 [TS_Upgrades_StatModifier_CyborgC]
 ItemName = Level 3
 
-// XO
+; XO
 [TS_Upgrades_XO_Nuclear]
 ItemName = Nuclear Core
 
-// REAPER
+; REAPER
 [TS_Upgrades_Reaper_Infuson]
 ItemName= Tiberium Infusion
 
-//=====================================
-//	Vehicles
-//=====================================
+;=====================================
+;	Vehicles
+;=====================================
 
 [Rx_Vehicle]
 VehiclePositionString="in a Vehicle"
@@ -1801,9 +1801,9 @@ PT_Title="Hunter Seeker"
 
 
 
-//=====================================
-//	EPIC Vehicles
-//=====================================
+;=====================================
+;	EPIC Vehicles
+;=====================================
 [TS_Vehicle_Titan_Dual]
 VehiclePositionString="in a Goliath"
 VehicleNameString="Goliath"
@@ -1897,9 +1897,9 @@ PT_Title="Forgotten V3 Launcher"
 
 
 
-//=====================================
-//	Tiberian Dawn Vehicles
-//=====================================
+;=====================================
+;	Tiberian Dawn Vehicles
+;=====================================
 
 [TD_Vehicle_A10]
 VehiclePositionString="in an A-10 Warthog"
@@ -2068,9 +2068,9 @@ PT_Title="SU-25 Frogfoot"
 
 
 
-//=====================================
-//	Characters Conquest Tiberian Dawn
-//=====================================
+;=====================================
+;	Characters Conquest Tiberian Dawn
+;=====================================
 
 
 [TD_FamilyInfo_Loadout_CQ_GDI_Assault_Breacher]
@@ -2154,9 +2154,9 @@ PT_Description="The Combat Engineer has the ability to deploy emplacements and s
 
 
 
-//=====================================
-//	Neutral Vehicles
-//=====================================
+;=====================================
+;	Neutral Vehicles
+;=====================================
 
 [TS_Vehicle_Car]
 VehiclePositionString="in a Sedan"
@@ -2175,9 +2175,9 @@ VehiclePositionString="in a Supply Truck"
 VehicleNameString="Supply Truck"
 
 
-//=====================================
-//	Emplacements
-//=====================================
+;=====================================
+;	Emplacements
+;=====================================
 
 [TS_Defence_CannonEmplacement]
 VehiclePositionString="in a Cannon Emplacement"
@@ -2230,9 +2230,9 @@ AltItemName="EMP Mortar"
 PickupMessage="Mortar Emplacement"
 
 
-//=====================================
-//	Vehicle Weapons
-//=====================================
+;=====================================
+;	Vehicle Weapons
+;=====================================
 
 [Rx_Vehicle_Weapon]
 ItemName="Primary Weapon"
@@ -2646,9 +2646,9 @@ ItemName="GAU-8 Avenger"
 AltItemName="Mk-82 Bomb"
 PickupMessage="A-10 Weapon"
 
-//////////////////////
-//  Building Names  //
-//////////////////////
+;////////////////////
+;  Building Names  //
+;////////////////////
 [TS_Building_ConstructionYard_GDI_Internals]
 BuildingName = "Construction Yard"
 
@@ -2695,9 +2695,9 @@ BuildingName = "Silo"
 BuildingName = "Tech Centre"
 
 
-//=====================================
-//	Buildings
-//=====================================
+;=====================================
+;	Buildings
+;=====================================
 [Rx_Message_Buildings]
 BuildingBroadcastMessages[0]="`PlayerName` destroyed the `BuildingName`"
 BuildingBroadcastMessages[1]="`BuildingName` destroyed by `PlayerName`"
@@ -2705,9 +2705,9 @@ BuildingBroadcastMessages[2]="`PlayerName` captured the `BuildingName`"
 BuildingBroadcastMessages[3]="`PlayerName` neutralized the `BuildingName`"
 
 
-//=====================================
-// Context Menu Help
-//=====================================
+;=====================================
+; Context Menu Help
+;=====================================
 
 [TS_GFxCommandMenu]
 CommandString[0] = "ATTACK"

@@ -1,5 +1,6 @@
-//="===================================="
-//	Game=
+;=====================================
+;	Game
+;=====================================
 [S_Game]
 Description="Destroy the enemy base while protecting your own."
 GameName="Nod vs. Nod Mode"
@@ -7,50 +8,52 @@ EndOfMatchRulesTemplateStr_Scoring=First team to destroy the other wins
 EndOfMatchRulesTemplateStr_Time=Team with most points in `t mins. wins
 
 
-//="===================================="
-//	Weapons=
+;=====================================
+;	Weapons 
+;=====================================
 
 
-//////////////////////=
-//  Building Names  //=
+;////////////////////
+;  Building Names  //
+;////////////////////
 
 [S_Building_AirTower_Internals_BlackHand]
-BuildingName="Airstrip"
+BuildingName = "Airstrip"
 
 [S_Building_Helipad_BlackHand_Internals]
-BuildingName="Helipad"
+BuildingName = "Helipad"
 
 [S_Building_HandOfNod_Internals_BlackHand]
-BuildingName="Hand of Nod"
+BuildingName = "Hand of Nod"
 
 [S_Building_Obelisk_Internals_BlackHand]
-BuildingName="Obelisk of Light"
+BuildingName = "Obelisk of Light"
 
 [S_Building_PowerPlant_BlackHand_Internals]
-BuildingName="Power Plant"
+BuildingName = "Power Plant"
 
 [Rx_Building_Refinery_Blackhand_Internals]
-BuildingName="Refinery"
+BuildingName = "Refinery"
 
 [S_Building_Silo_Internals]
-BuildingName="Silo"
+BuildingName = "Silo"
 
 [S_Building_TeamSilo_BH_Internals]
-BuildingName="Silo"
+BuildingName = "Silo"
 
 [S_Building_RepairFacility_BH_Internals]
-BuildingName="Repair Facility"
+BuildingName = "Repair Facility"
 
 [S_Building_CommCentre_Internals]
-BuildingName="Communications Centre"
+BuildingName = "Communications Centre"
 
 
-//="===================================="
-//	Crates=
+;=====================================
+;	Crates
+;=====================================
 
 [Rx_Message_Crates]
 PickupBroadcastMessages[30]="`PlayerName` found a GDI Character crate!"
 
 [S_CrateType_GDICharacter]
-PickupMessage="You've found a GDI Character!"
-
+PickupMessage = "You've found a GDI Character!"

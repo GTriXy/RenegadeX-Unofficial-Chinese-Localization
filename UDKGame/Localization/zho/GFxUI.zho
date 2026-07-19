@@ -1,4 +1,5 @@
 [FontLib]
+FontLib=UDKFonts.fonts_en
 FontLib=UDKFonts.gfxfontlib
 
 [Fonts]

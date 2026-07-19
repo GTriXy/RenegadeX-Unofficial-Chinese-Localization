@@ -1,6 +1,6 @@
-//=====================================
-//	Game
-//=====================================
+;=====================================
+;	Game
+;=====================================
 [S_Game]
 Description="Destroy the enemy base while protecting your own."
 GameName="Nod vs. Nod Mode"
@@ -8,14 +8,14 @@ EndOfMatchRulesTemplateStr_Scoring=First team to destroy the other wins
 EndOfMatchRulesTemplateStr_Time=Team with most points in `t mins. wins
 
 
-//=====================================
-//	Weapons 
-//=====================================
+;=====================================
+;	Weapons 
+;=====================================
 
 
-//////////////////////
-//  Building Names  //
-//////////////////////
+;////////////////////
+;  Building Names  //
+;////////////////////
 
 [S_Building_AirTower_Internals_BlackHand]
 BuildingName = "Airstrip"
@@ -48,9 +48,9 @@ BuildingName = "Repair Facility"
 BuildingName = "Communications Centre"
 
 
-//=====================================
-//	Crates
-//=====================================
+;=====================================
+;	Crates
+;=====================================
 
 [Rx_Message_Crates]
 PickupBroadcastMessages[30]="`PlayerName` found a GDI Character crate!"

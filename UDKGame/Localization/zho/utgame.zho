@@ -143,7 +143,7 @@ EndOfMatchRulesTemplateStr_Time=Team with most points in `t mins. wins
 DestructionMessage="Objective Disabled!"
 
 [UTSimpleConsole]
-LevelActionMessages="(\"\",\"Loading...\",\"Saving...\",\"Connecting to...\",\"Precaching...\")"
+LevelActionMessages="("","Loading...","Saving...","Connecting to...","Precaching...")"
 
 [UTCTFGame]
 Description="Your team must capture the enemy flag by taking it from the enemy base and returning it to their own.  If the flag carrier is killed, the flag drops to the ground for anyone to pick up.  If your team's flag is taken, it must be returned (by touching it after it is dropped) before your team can score a flag capture."
@@ -235,7 +235,7 @@ UseHintMessage="Armor is protective covering used to prevent damage from being i
 
 [UTHealthPickupFactory]
 PickupMessage="Health Pack"
-UseHintMessage="A first aid kit is a collection of supplies and equipment for use in giving first aid. First aid kits may be made up of different contents depending on who has assembled the kit and for what purpose."
+UseHintMessage= "A first aid kit is a collection of supplies and equipment for use in giving first aid. First aid kits may be made up of different contents depending on who has assembled the kit and for what purpose."
 
 [UTDamageType]
 DeathString=`o was killed by `k.
@@ -1351,5 +1351,4 @@ CancelString="Cancel"
 [GFxUI_PauseMenu]
 ResumeString="RESUME"
 ExitString="EXIT"
-
 

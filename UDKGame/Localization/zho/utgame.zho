@@ -667,7 +667,7 @@ LocalizedSettingsMappings[7]=(ValueMappings=((Name="No"),(Name="Yes")))
 
 [UTGameSettingsCommon]
 LocalizedSettingsMappings[0]=(ColumnHeaderText="Game",ValueMappings=((Name="Deathmatch"),(Name="Team Deathmatch"),(Name="Capture The Flag"),(Name="Vehicle CTF"),(Name="Warfare"),(Name="Duel"),(Name="Greed"),(Name="Campaign"),(Name="Custom")))
-LocalizedSettingsMappings[1]=(ColumnHeaderText="Bot Skill",ValueMappings=((Name="Novice"),(Name="Average"),(Name="Experienced"),(Name="Skilled"),(Name="Adept"),(Name="Masterful"),(Name="Inhuman"),(Name="Godlike")))
+LocalizedSettingsMappings[1]=(ColumnHeaderText="AI 难度",ValueMappings=((Name="初学"),(Name="一般"),(Name="熟练"),(Name="精通"),(Name="老练"),(Name="大师"),(Name="非人"),(Name="神级")))
 LocalizedSettingsMappings[2]=(ColumnHeaderText="Map",ValueMappings=((Name="Custom")))
 LocalizedSettingsMappings[3]=(ColumnHeaderText="Pure",ValueMappings=((Name="No"),(Name="Yes")))
 LocalizedSettingsMappings[4]=(ColumnHeaderText="Locked",ValueMappings=((Name="No"),(Name="Yes")))
@@ -1099,7 +1099,7 @@ Description=Team-based capture the flag with vehicles.  Invade the opposing team
 ;///////////////
 
 [BotSkill_Common UTUIDataProvider_MenuOption]
-FriendlyName=Bot Skill Level
+FriendlyName=AI 难度
 Description=Set the skill level of AI-controlled bots.
 
 [NumBots_Common UTUIDataProvider_MenuOption]
@@ -1119,7 +1119,7 @@ Description=The time limit for a single game round. 0 means a never ending round
 ;///////////////
 
 [BotSkill_DM UTUIDataProvider_MenuOption]
-FriendlyName=Bot Skill Level
+FriendlyName=AI 难度
 Description=Set the skill level of AI-controlled bots.
 
 [NumBots_DM UTUIDataProvider_MenuOption]

@@ -132,8 +132,8 @@ ItemName="Nuke Strike Beacon"
 PickupMessage="Nuke Strike Beacon"
 
 [Rx_Weapon_IonCannonBeacon]
-ItemName="Ion Cannon Beacon"
-PickupMessage="Ion Cannon Beacon"
+ItemName="离子炮信标"
+PickupMessage="离子炮信标"
 
 [Rx_Weapon_Blueprint]
 ItemName="Blueprint"
@@ -202,8 +202,8 @@ PickupMessage="Airstrike Designator"
 PurchaseDesc="<font size='8'>Pros:\n-5 seconds to impact\n-Quick bombardment\n-Anti-Infrantry/Vehicle\nCons:\n-Weak Vs. Buildings\n-USES ITEM SLOT</font>"
 
 [Rx_Weapon_Airstrike_GDI]
-ItemName="A-10 Airstrike"
-PickupMessage="A-10 Airstrike"
+ItemName="A-10空袭"
+PickupMessage="A-10空袭"
 
 [Rx_Weapon_Airstrike_Nod]
 ItemName="AC-130 Airstrike"
@@ -234,9 +234,9 @@ ItemName="EMP Grenade"
 PickupMessage="EMP Grenade"
 
 [Rx_Weapon_RepairTool]
-ItemName="Repair Tool"
-PickupMessage="Repair Tool"
-PurchaseDesc="<font size='8'>Pros:\n-Repairs Units/Buildings\n-Disarms Mines\n\nCons:\n-Must Recharge\n-USES ITEM SLOT  </font>"
+ItemName="修复工具"
+PickupMessage="修复工具"
+PurchaseDesc="<font size='8'>优点：\n-修复单位/建筑物\n-解除地雷\n\n缺点：\n-需要充能\n-占用物品栏</font>"
 
 [Rx_Weapon_SmokeGrenade]
 ItemName="Smoke Grenade"
@@ -500,7 +500,7 @@ WeaponName="M2 Bradley"
 
 [Rx_DmgType_MammothTank_Cannon]
 DeathString="`o thought he stood a chance against `k's Mammoth Tank"
-WeaponName="Mammoth Tank"
+WeaponName="猛犸坦克双管炮"
 
 [Rx_DmgType_MammothTank_Missile]
 DeathString="`o thought he stood a chance against `k's Mammoth Tank"
@@ -721,291 +721,291 @@ PT_Title="UNNAMED"
 [OG_FamilyInfo_GDI_Soldier]
 CharacterName="Soldier"
 PT_Title="SOLDIER"
-PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Pistol\n+Anti-Infantry"
+PT_Description="装甲：凯夫拉防弹衣\n速度：100\n副武器：手枪\n+反步兵"
 
 [OG_FamilyInfo_GDI_Shotgunner]
 CharacterName="Shotgunner"
 PT_Title="SHOTGUNNER"
-PT_Description="Armour: Kevlar\nSpeed: 95\nSide: Pistol\n+Anti-Infantry"
+PT_Description="装甲：凯夫拉防弹衣\n速度：95\n副武器：手枪\n+反步兵"
 
 [OG_FamilyInfo_GDI_Grenadier]
 CharacterName="Grenadier"
 PT_Title="GRENADIER"
-PT_Description="Armour: Flak\nSpeed: 100\nSide: Pistol\n+Anti-Armour\n+Anti-Building"
+PT_Description="装甲：防破片背心\n速度：100\n副武器：手枪\n+防装甲\n+防建筑"
 
 [OG_FamilyInfo_GDI_Engineer]
 CharacterName="Engineer"
 PT_Title="ENGINEER"
-PT_Description="Armour: Flak\nSpeed: 95\nSide: Silenced Pistol\nRemote C4\n+Anti-Building\n+Repair/Support"
+PT_Description="装甲：防破片背心\n速度：95\n副武器：消音手枪\n远程C4\n+防建\n+维修/支持"
 
 [OG_FamilyInfo_GDI_Officer]
 CharacterName="Officer"
 PT_Title="OFFICER"
-PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Pistol\nSmoke Grenade\n+Anti-Infantry"
+PT_Description="装甲：凯夫拉防弹衣\n速度：100\n副武器：手枪\n烟雾弹\n+反步兵"
 
 [OG_FamilyInfo_GDI_RocketSoldier]
 CharacterName="Rocket Officer
 PT_Title="ROCKET OFFICER"
-PT_Description="Armour: Flak\nSpeed: 95\nSide: Machine Pistol\nAnti-Tank Mines\n+Anti-Armour\n+Anti-Aircraft"
+PT_Description="装甲：防破片背心\n速度：95\n副武器：冲锋枪\n反坦克地雷\n+防弹\n+防空"
 
 [OG_FamilyInfo_GDI_Sydney]
 CharacterName="Sydney"
 PT_Title="SYDNEY"
-PT_Description="Armour: Kevlar\nSpeed: 105\nSide: Pistol\nFrag Grenades\n+Anti-Infantry"
+PT_Description="装甲：凯夫拉防弹衣\n速度：105\n副武器：手枪\n破片手榴弹\n+反步兵"
 
 [OG_FamilyInfo_GDI_Gunner]
 CharacterName="Gunner"
 PT_Title="GUNNER"
-PT_Description="Armour: Flak\nSpeed: 95\nSide: Carbine\nEMP Grenade\nAT Mines\n+Anti-Armour\n+Anti-Structure"
+PT_Description="装甲：防破片背心\n速度：95\n副武器：卡宾枪\n电磁脉冲手榴弹\nAT地雷\n+反装甲\n+反结构"
 
 [OG_FamilyInfo_GDI_Deadeye]
 CharacterName="Deadeye"
 PT_Title="DEADEYE"
-PT_Description="Armour: None\nSpeed: 90\nSide: Machine Pistol\nSmoke Grenade\n+Anti-Infantry"
+PT_Description="装甲：无\n速度：90\n副武器：机关手枪\n烟雾弹\n+反步兵"
 
 [OG_FamilyInfo_GDI_Patch]
 CharacterName="Patch"
 PT_Title="PATCH"
-PT_Description="Armour: Kevlar\nSpeed: 112.5\nSide: Heavy Pistol\nFrag Grenades\n+Anti-Infantry"
+PT_Description="装甲：凯夫拉防弹衣\n速度：112.5\n副武器：重型手枪\n破片手榴弹\n+反步兵"
 
 [OG_FamilyInfo_GDI_Havoc]
 CharacterName="Havoc"
 PT_Title="HAVOC"
-PT_Description="Armour: None\nSpeed: 90\nSide: Carbine\nSmoke Grenade\n+Anti-Infantry"
+PT_Description="装甲：无\n速度：90\n副武器：卡宾枪\n烟雾弹\n+反步兵"
 
 [OG_FamilyInfo_GDI_Sydney_Suit]
 CharacterName="Prototype Assault Suit"
 PT_Title="PROTOTYPE ASSAULT SUIT"
-PT_Description="Armour: Flak\nSpeed: 100\nSide: Flechette Rifle\nEMP Grenade\nAnti-Tank Mines\n+Anti-Armour"
+PT_Description="装甲：防破片背心\n速度：100\n副武器：箭形步枪\n电磁脉冲手榴弹\n反坦克地雷\n+反装甲"
 
 [OG_FamilyInfo_GDI_Mobius]
 CharacterName="Mobius"
 PT_Title="MOBIUS"
-PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Heavy Pistol\n+Anti-Everything"
+PT_Description="装甲：凯夫拉防弹衣\n速度：100\n副武器：重手枪\n+抗一切"
 
 [OG_FamilyInfo_GDI_Hotwire]
 CharacterName="Hotwire"
 PT_Title="HOTWIRE"
-PT_Description="Armour: Flak\nSpeed: 100\nSide: Silenced Pistol\nRemote C4\nProximity Mines\n+Anti-Building\n+Repair/Support"
+PT_Description="装甲：防破片背心\n速度：100\n副武器：消音手枪\n远程C4\n近距离地雷\n+防建筑\n+维修/支持"
 
 
 ; Nod Infantry
 [OG_FamilyInfo_Nod_Soldier]
 CharacterName="Soldier"
 PT_Title="SOLDIER"
-PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Pistol\n+Anti-Infantry"
+PT_Description="装甲：凯夫拉防弹衣\n速度：100\n副武器：手枪\n+反步兵"
 
 [OG_FamilyInfo_Nod_Shotgunner]
 CharacterName="Shotgunner"
 PT_Title="SHOTGUNNER"
-PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Pistol\n+Anti-Infantry"
+PT_Description="装甲：凯夫拉防弹衣\n速度：100\n副武器：手枪\n+反步兵"
 
 [OG_FamilyInfo_Nod_FlameTrooper]
 CharacterName="Flamethrower"
 PT_Title="FLAMETHROWER"
-PT_Description="Armour: Flak\nSpeed: 105\nSide: Pistol\n+Anti-Everything"
+PT_Description="装甲：防破片背心\n速度：105\n副武器：手枪\n+抗一切"
 
 [OG_FamilyInfo_Nod_Engineer]
 CharacterName="Engineer"
 PT_Title="ENGINEER"
-PT_Description="Armour: Flak\nSpeed: 95\nSide: Silenced Pistol\nRemote C4\n+Anti-Building\n+Repair/Support"
+PT_Description="装甲：防破片背心\n速度：95\n副武器：消音手枪\n远程C4\n+防建\n+维修/支持"
 
 [OG_FamilyInfo_Nod_Officer]
 CharacterName="Officer"
 PT_Title="OFFICER"
-PT_Description="Armour: Kevlar\nSpeed: 110\nSide: Pistol\nSmoke Grenade\n+Anti-Infantry"
+PT_Description="装甲：凯夫拉防弹衣\n速度：110\n副武器：手枪\n烟雾弹\n+反步兵"
 
 [OG_FamilyInfo_Nod_RocketSoldier]
 CharacterName="Rocket Officer"
 PT_Title="ROCKET OFFICER"
-PT_Description="Armour: Flak\nSpeed: 105\nSide: Machine Pistol\nAnti-Tank Mines\n+Anti-Armour\n+Anti-Aircraft"
+PT_Description="装甲：防破片背心\n速度：105\n副武器：机关手枪\n反坦克地雷\n+防弹\n+防空"
 
 [OG_FamilyInfo_Nod_ChemicalTrooper]
 CharacterName="Chemical Warrior"
 PT_Title="CHEMICAL WARRIOR"
-PT_Description="Armour: Flak\nSpeed: 100\nSide: Pistol\nTiberium Grenade\n+Anti-Everything"
+PT_Description="装甲：防破片背心\n速度：100\n副武器：手枪\n泰伯利亚手榴弹\n+抗一切"
 
 [OG_FamilyInfo_Nod_StealthBlackHand]
 CharacterName="Stealth Black Hand"
 PT_Title="STEALTH BLACK HAND"
-PT_Description="Armour: Lazarus\nSpeed: 110\nSide: S. M. Pistol\nActive Camouflage\n+Anti-Everything"
+PT_Description="装甲：拉撒路\n速度：110\n副武器：S.M.手枪\n主动迷彩\n+抗一切"
 
 [OG_FamilyInfo_Nod_BlackHandSniper]
 CharacterName="Black Hand Sniper"
 PT_Title="BLACK HAND SNIPER"
-PT_Description="Armour: None\nSpeed: 90\nSide: Machine Pistol\nSmoke Grenade\n+Anti-Infantry"
+PT_Description="装甲：无\n速度：90\n副武器：机关手枪\n烟雾弹\n+反步兵"
 
 [OG_FamilyInfo_Nod_LaserChainGunner]
 CharacterName="Laser Chain Gunner"
 PT_Title="LASER CHAIN GUNNER"
-PT_Description="Armour: Flak\nSpeed: 80\nEMP Grenade\nAnti-Tank Mines\n+Anti-Everything\n+Heavy Infantry"
+PT_Description="装甲：防破片背心\n速度：80\n电磁脉冲手榴弹\n反坦克地雷\n+反一切\n+重步兵"
 
 [OG_FamilyInfo_Nod_Sakura]
 CharacterName="Sakura"
 PT_Title="SAKURA"
-PT_Description="Armour: None\nSpeed: 90\nSide: S. Carbine\nSmoke Grenade\n+Anti-Infantry"
+PT_Description="装甲：无\n速度：90\n副武器：S.卡宾枪\n烟雾弹\n+反步兵"
 
 [OG_FamilyInfo_Nod_Raveshaw]
 CharacterName="Raveshaw"
 PT_Title="RAVESHAW"
-PT_Description="Armour: Flak\nSpeed: 100\nSide: Flechette Rifle\nEMP Grenade\nAnti-Tank Mines\n+Anti-Armour"
+PT_Description="装甲：防破片背心\n速度：100\n副武器：箭形步枪\n电磁脉冲手榴弹\n反坦克地雷\n+反装甲"
 
 [OG_FamilyInfo_Nod_Mendoza]
 CharacterName="Mendoza"
 PT_Title="MENDOZA"
-PT_Description="Armour: Kevlar\nSpeed: 110\nSide: Heavy Pistol\n+Anti-Everything"
+PT_Description="装甲：凯夫拉防弹衣\n速度：110\n副武器：重手枪\n+抗一切"
 
 [OG_FamilyInfo_Nod_Technician]
 CharacterName="Technician"
 PT_Title="TECHNICIAN"
-PT_Description="Armour: Flak\nSpeed: 100\nSide: Silenced Pistol\nRemote C4\nProximity Mines\n+Anti-Building\n+Repair/Support"
+PT_Description="装甲：防破片背心\n速度：100\n副武器：消音手枪\n远程C4\n近距离地雷\n+防建筑\n+维修/支持"
 
 ;=====================================
 ;	Vehicles
 ;=====================================
 [Rx_Vehicle]
-VehiclePositionString="in a Vehicle"
-VehicleNameString="Vehicle"
+VehiclePositionString="在载具中"
+VehicleNameString="载具"
 
 [Rx_Vehicle_Treaded]
-VehiclePositionString="in a Tank"
-VehicleNameString="Tank"
+VehiclePositionString="在坦克中"
+VehicleNameString="坦克"
 
 [Rx_Vehicle_MammothTank]
-VehiclePositionString="in a Mammoth Tank"
-VehicleNameString="Mammoth Tank"
-PT_Title="MAMMOTH TANK"
-PT_Description="<font size='10'>-120mm Cannons\n-Tusk Missiles\n-Heavy Armour\n-Heavy Battle Tank\n-Driver + Passenger</font>"
+VehiclePositionString="在猛犸坦克中"
+VehicleNameString="猛犸坦克"
+PT_Title="猛犸坦克"
+PT_Description="<font size='10'>-120毫米双管炮\n-獠牙导弹\n-重型装甲\n-重型战车\n-驾驶员+乘客</font>"
 
 [Rx_Vehicle_MediumTank]
-VehiclePositionString="in a Medium Tank"
-VehicleNameString="Medium Tank"
-PT_Title="MEDIUM TANK"
-PT_Description="<font size='10'>-105mm Cannon\n-Coaxial MG\n-Heavy Armour\n-Main Battle Tank\n-Driver + Passenger</font>"
+VehiclePositionString="在中型坦克中"
+VehicleNameString="中型坦克"
+PT_Title="中型坦克"
+PT_Description="<font size='10'>-105毫米坦克炮\n-同轴机枪\n-重型装甲\n-主战坦克\n-驾驶员+乘客</font>"
 
 [Rx_Vehicle_Chinook]
-VehiclePositionString="in a Chinook"
-VehicleNameString="Chinook"
-PT_Title="TRANSPORT HELICOPTER"
-PT_Description="<font size='10'>\n-2x Gattling Guns\n-Light Armour\n-Troop Transport\n-Pilot + 4 Passengers</font>"
+VehiclePositionString="在运输直升机中"
+VehicleNameString="支奴干运输直升机"
+PT_Title="运输直升机"
+PT_Description="<font size='10'>-2挺加特林机枪\n-轻型装甲\n-部队运输\n-飞行员+4名乘客</font>"
 
 [Rx_Vehicle_APC_Nod]
-VehiclePositionString="in an APC"
-VehicleNameString="APC"
-PT_Title="ARMOURED PERSONNEL CARRIER"
-PT_Description="<font size='10'>-M134 Minigun\n-Heavy Armour\n-Troop Transport\n-Driver + 4 Passengers</font>"
+VehiclePositionString="在装甲运兵车中"
+VehicleNameString="装甲运兵车"
+PT_Title="装甲运兵车"
+PT_Description="<font size='10'>-M134机枪\n-重型装甲\n-部队运输\n-驾驶员+4名乘客</font>"
 
 [Rx_Vehicle_APC_GDI]
-VehiclePositionString="in an APC"
-VehicleNameString="APC"
-PT_Title="ARMOURED PERSONNEL CARRIER"
-PT_Description="<font size='10'>-M134 Minigun\n-Heavy Armour\n-Troop Transport\n-Driver + 4 Passengers</font>"
+VehiclePositionString="在装甲运兵车中"
+VehicleNameString="装甲运兵车"
+PT_Title="装甲运兵车"
+PT_Description="<font size='10'>-M134机枪\n-重型装甲\n-部队运输\n-驾驶员+4名乘客</font>"
 
 [Rx_Vehicle_Buggy]
-VehiclePositionString="in a Buggy"
-VehicleNameString="Buggy"
-PT_Title="BUGGY"
-PT_Description="<font size='10'>-.50 Calibre Machine Gun\n-Light Armour\n-Fast Attack Scout\n-Driver + Passenger</font>"
+VehiclePositionString="在越野车中"
+VehicleNameString="越野车"
+PT_Title="越野车"
+PT_Description="<font size='10'>-.50口径机枪\n-轻型装甲\n-高速侦察载具\n-驾驶员+乘客</font>"
 
 [Rx_Vehicle_HoverCraft]
-VehiclePositionString="in a HoverCraft"
-VehicleNameString="Hover Craft"
+VehiclePositionString="在气垫船中"
+VehicleNameString="气垫船"
 
 [Rx_Vehicle_Humvee]
-VehiclePositionString="in a Humvee"
-VehicleNameString="Humvee"
-PT_Title="HUMVEE"
-PT_Description="<font size='10'>-.50 Calibre Machine Gun\n-Light Armour\n-Fast Attack Scout\n-Driver + Passenger</font>"
+VehiclePositionString="在悍马车中"
+VehicleNameString="悍马车"
+PT_Title="悍马车"
+PT_Description="<font size='10'>-.50口径机枪\n-轻型装甲\n-高速侦察载具\n-驾驶员+乘客</font>"
 
 [Rx_Vehicle_MRLS]
-VehiclePositionString="in a MRLS"
-VehicleNameString="MRLS"
-PT_Title="MOBILE ROCKET LAUNCHER SYSTEM"
-PT_Description="<font size='10'>-M269 Missiles\n-Light Armour\n-Long Range Ballistics\n-Driver + Passenger</font>"
+VehiclePositionString="在多管火箭发射车中"
+VehicleNameString="多管火箭发射车"
+PT_Title="多管火箭发射车"
+PT_Description="<font size='10'>-M269导弹\n-轻型装甲\n-远程火力支援\n-驾驶员+乘客</font>"
 
 [Rx_Vehicle_LightTank]
-VehiclePositionString="in a Light Tank"
-VehicleNameString="Light Tank"
-PT_Title="LIGHT TANK"
-PT_Description="<font size='10'>\n-75mm Cannon\n-Heavy Armour\n-Main Battle Tank\n-Driver + Passenger</font>"
+VehiclePositionString="在轻型坦克中"
+VehicleNameString="轻型坦克"
+PT_Title="轻型坦克"
+PT_Description="<font size='10'>-75毫米坦克炮\n-重型装甲\n-主战坦克\n-驾驶员+乘客</font>"
 
 [Rx_Vehicle_Artillery]
-VehiclePositionString="in an Artillery"
-VehicleNameString="Artillery"
-PT_Title="MOBILE ARTILLERY"
-PT_Description="<font size='10'>\n-155mm Howitzer\n-Light Armour\n-Long Range Ballistics\n-Driver + Passenger</font>"
+VehiclePositionString="在自行火炮中"
+VehicleNameString="自行火炮"
+PT_Title="自行火炮"
+PT_Description="<font size='10'>-155毫米榴弹炮\n-轻型装甲\n-远程火力支援\n-驾驶员+乘客</font>"
 
 [Rx_Vehicle_FlameTank]
-VehiclePositionString="in a Flame Tank"
-VehicleNameString="Flame Tank"
-PT_Title="FLAME TANK"
-PT_Description="<font size='10'>\n-2x Flame Throwers\n-Heavy Armour\n-Close Range Suppressor\n-Driver + Passenger</font>"
+VehiclePositionString="在火焰坦克中"
+VehicleNameString="火焰坦克"
+PT_Title="火焰坦克"
+PT_Description="<font size='10'>-双管火焰喷射器\n-重型装甲\n-近距离压制\n-驾驶员+乘客</font>"
 
 [Rx_Vehicle_StealthTank]
-VehiclePositionString="in a Stealth Tank"
-VehicleNameString="Stealth Tank"
-PT_Title="STEALTH TANK"
-PT_Description="<font size='10'>-2x TOW Missiles\n-Heavy Armour\n-Guerilla Combat Vehicle\n-Active Camouflage\n-DriveOnly</font>"
+VehiclePositionString="在隐形坦克中"
+VehicleNameString="隐形坦克"
+PT_Title="隐形坦克"
+PT_Description="<font size='10'>-2枚TOW导弹\n-重型装甲\n-游击战载具\n-主动隐形\n-仅限驾驶员</font>"
 
 [Rx_Defence_GunEmplacement]
-VehiclePositionString="in a Gun Emplacement"
-VehicleNameString="Gun Emplacement"
+VehiclePositionString="在机枪炮位中"
+VehicleNameString="机枪炮位"
 
 [Rx_Defence_RocketEmplacement]
-VehiclePositionString="in a Rocket Emplacement"
-VehicleNameString="Rocket Emplacement"
+VehiclePositionString="在火箭炮位中"
+VehicleNameString="火箭炮位"
 
 [Rx_Vehicle_A10]
-VehiclePositionString="in an A-10"
-VehicleNameString="A-10"
+VehiclePositionString="在A-10攻击机中"
+VehicleNameString="A-10攻击机"
 
 [Rx_Vehicle_Apache]
-VehiclePositionString="in an Apache"
-VehicleNameString="Apache"
-PT_Title="APACHE"
-PT_Description="<font size='10'>-30mm Auto-Cannon\n-Hydra-70 Rockets\n-Light Armour\n-Attack Helocopter\n-Pilot Only</font>"
+VehiclePositionString="在阿帕奇中"
+VehicleNameString="阿帕奇"
+PT_Title="阿帕奇"
+PT_Description="<font size='10'>-30毫米自动炮\n-Hydra-70火箭\n-轻型装甲\n-攻击直升机\n-飞行员+乘客</font>"
 
 [Rx_Vehicle_Orca]
-VehiclePositionString="in an Orca"
-VehicleNameString="Orca"
-PT_Title="ORCA"
-PT_Description="<font size='10'>-Hellfire Missiles\n-.50 Calibre Machine Gun\n-Light Armour\n-Attack VTOL\n-Pilot and Passenger</font>"
+VehiclePositionString="在奥卡战机中"
+VehicleNameString="奥卡战机"
+PT_Title="奥卡"
+PT_Description="<font size='10'>-地狱火导弹\n-.50口径机枪\n-轻型装甲\n-攻击型垂直起降战机\n-飞行员+乘客</font>"
 
 [Rx_Vehicle_Harvester]
-VehiclePositionString="in a Harvester"
-VehicleNameString="Harvester"
+VehiclePositionString="在采矿车中"
+VehicleNameString="泰伯利亚采矿车"
 
 [Rx_Vehicle_HoverCraft_GDI]
-VehiclePositionString="in a Hovercraft"
-VehicleNameString="Hovercraft"
+VehiclePositionString="在气垫船中"
+VehicleNameString="气垫船"
 
 [Rx_Vehicle_Bus]
-VehiclePositionString="in a Bus"
-VehicleNameString="Bus"
+VehiclePositionString="在巴士中"
+VehicleNameString="巴士"
 
 [Rx_Defence_GuardTower]
-VehiclePositionString="in a Guard Tower"
-VehicleNameString="Guard Tower"
+VehiclePositionString="在警卫塔中"
+VehicleNameString="警卫塔"
 
 [Rx_Defence_Turret]
-VehiclePositionString="in a Turret"
-VehicleNameString="Turret"
+VehiclePositionString="在炮塔中"
+VehicleNameString="炮塔"
 
 [Rx_Defence_AATower]
-VehiclePositionString="in an Anti-Air Tower"
-VehicleNameString="Anti-Air Tower"
+VehiclePositionString="在防空塔中"
+VehicleNameString="防空塔"
 
 [Rx_Defence_SAMSite]
-VehiclePositionString="in a SAM Site"
-VehicleNameString="SAM Site"
+VehiclePositionString="在SAM阵地中"
+VehicleNameString="SAM阵地"
 
 [Rx_Defence_CeilingTurret]
-VehiclePositionString="in a Ceiling Turret"
-VehicleNameString="Ceiling Turret"
+VehiclePositionString="在吸顶炮塔中"
+VehicleNameString="吸顶炮塔"
 
 [Rx_Vehicle_MG_GDI]
-VehiclePositionString="in a .50 Cal"
-VehicleNameString=".50 Cal"
+VehiclePositionString="在.50口径机枪位中"
+VehicleNameString=".50口径机枪"
 
 [TS_Vehicle_HoverMRLS]
 VehiclePositionString="in a Hover MRLS"
@@ -1051,146 +1051,146 @@ PT_Description=<font size='10'>\n-Tesla Coils\n-Heavy Armour\n-Anti-Surface Tank
 
 ;Classic Vehicles
 [Rx_Vehicle_M2Bradley]
-VehiclePositionString="in a M2 Bradley"
-VehicleNameString="M2 Bradley"
-PT_Title="M2 BRADLEY"
-PT_Description="<font size='10'>\n-75mm Cannon\n-Heavy Armour\n-Main Battle Tank\n-Driver + Passenger</font>"
+VehiclePositionString="在M2布雷德利中"
+VehicleNameString="M2布雷德利"
+PT_Title="M2布雷德利"
+PT_Description="<font size='10'>-25毫米自动炮\n-重型装甲\n-主战坦克\n-驾驶员+乘客</font>"
 
 [Rx_Vehicle_ReconBike]
-VehiclePositionString="in a Recon Bike"
-VehicleNameString="Recon Bike"
-PT_Title="RECON BIKE"
-PT_Description="<font size='10'>-2x TOW Missiles\n-Very Light Armour\n-Fast Harasser\n-Driver Only</font>"
+VehiclePositionString="在侦察摩托上"
+VehicleNameString="侦察摩托"
+PT_Title="侦察摩托"
+PT_Description="<font size='10'>-2枚TOW导弹\n-超轻型装甲\n-高速骚扰载具\n-仅限驾驶员</font>"
 
 [Rx_Vehicle_HumveeTOW]
-VehiclePositionString="in a TOW Humvee"
-VehicleNameString="TOW Humvee"
-PT_Title="TOW HUMVEE"
-PT_Description="<font size='10'>-2x TOW Missiles\n-Very Light Armour\n-Fast Harasser\n-Driver Only</font>"
+VehiclePositionString="在TOW悍马车中"
+VehicleNameString="TOW悍马车"
+PT_Title="TOW悍马车"
+PT_Description="<font size='10'>-2枚TOW导弹\n-超轻型装甲\n-高速骚扰载具\n-仅限驾驶员</font>"
 
 ;=====================================
 ;	Vehicle Weapons
 ;=====================================
 
 [Rx_Vehicle_Weapon]
-ItemName="Primary Weapon"
-PickupMessage="Primary Weapon"
+ItemName="主武器"
+PickupMessage="主武器"
 
 [Rx_Vehicle_A10_Weapon]
-ItemName="GAU-8/A Cannon"
-AltItemName="AGM-65 Missile"
-PickupMessage="A-10 Weapon"
+ItemName="GAU-8/A机炮"
+AltItemName="AGM-65导弹"
+PickupMessage="A-10武器"
 
 [Rx_Vehicle_Apache_Weapon]
-ItemName="30mm Automatic Cannon"
-AltItemName="Hydra-70 Rocket"
-PickupMessage="Apache Weapon"
+ItemName="30毫米自动炮"
+AltItemName="Hydra-70火箭"
+PickupMessage="阿帕奇武器"
 
 [Rx_Vehicle_Orca_Weapon]
-ItemName="Hellfire Missile"
-AltItemName=".50 Cal Machine Gun"
-PickupMessage="Orca Weapon"
+ItemName="地狱火导弹"
+AltItemName=".50口径机枪"
+PickupMessage="奥卡武器"
 
 [Rx_Vehicle_APC_Nod_Weapon]
-ItemName="M134 Minigun"
-PickupMessage="APC Weapon"
+ItemName="M134机枪"
+PickupMessage="装甲运兵车武器"
 
 [Rx_Vehicle_APC_GDI_Weapon]
-ItemName="M134 Minigun"
-PickupMessage="APC Weapon"
+ItemName="M134机枪"
+PickupMessage="装甲运兵车武器"
 
 [Rx_Vehicle_Artillery_Weapon]
-ItemName="155MM Cannon"
-PickupMessage="Artillery Weapon"
+ItemName="155毫米榴弹炮"
+PickupMessage="自行火炮武器"
 
 [Rx_Vehicle_Buggy_Weapon]
-ItemName=".50 Cal Machine Gun"
-PickupMessage="Buggy Weapon"
+ItemName=".50口径机枪"
+PickupMessage="越野车武器"
 
 [Rx_Vehicle_Chinook_Weapon]
-ItemName="Transport Helicopter"
-PickupMessage="Chinook Weapon"
+ItemName="加特林机枪"
+PickupMessage="运输直升机武器"
 
 [Rx_Vehicle_Chinook_Weapon_GDI_Left]
-ItemName="Gattling Gun"
-PickupMessage="Chinook Weapon"
+ItemName="加特林机枪"
+PickupMessage="运输直升机武器"
 
 [Rx_Vehicle_Chinook_Weapon_GDI_Right]
-ItemName="Gattling Gun"
-PickupMessage="Chinook Weapon"
+ItemName="加特林机枪"
+PickupMessage="运输直升机武器"
 
 [Rx_Vehicle_Chinook_Weapon_Nod_Left]
-ItemName="Gattling Gun"
-PickupMessage="Chinook Weapon"
+ItemName="加特林机枪"
+PickupMessage="运输直升机武器"
 
 [Rx_Vehicle_Chinook_Weapon_Nod_Right]
-ItemName="Gattling Gun"
-PickupMessage="Chinook Weapon"
+ItemName="加特林机枪"
+PickupMessage="运输直升机武器"
 
 [Rx_Defence_GunEmplacement_Weapon]
-ItemName="Gattling Gun"
-AltItemName="Auto Cannon"
-PickupMessage="Gun Emplacement"
+ItemName="加特林机枪"
+AltItemName="自动炮"
+PickupMessage="机枪炮位"
 
 [Rx_Defence_RocketEmplacement_Weapon]
-ItemName="SWARM Launcher"
-AltItemName="Hellfire Missile"
-PickupMessage="Rocket Emplacement"
+ItemName="SWARM发射器"
+AltItemName="地狱火导弹"
+PickupMessage="火箭炮位"
 
 [Rx_Vehicle_Humvee_Weapon]
-ItemName=".50 Cal Machine Gun"
-PickupMessage="Humvee Weapon"
+ItemName=".50口径机枪"
+PickupMessage="悍马车武器"
 
 [Rx_Vehicle_LightTank_Weapon]
-ItemName="75MM Cannon"
-PickupMessage="Light Tank Weapon"
+ItemName="75毫米坦克炮"
+PickupMessage="轻型坦克武器"
 
 [Rx_Vehicle_MammothWeapon]
-ItemName="120MM Cannon"
-AltItemName="Tusk Missiles"
-PickupMessage="Mammoth Tank Weapon"
+ItemName="120毫米双管炮"
+AltItemName="獠牙导弹"
+PickupMessage="猛犸坦克武器"
 
 [Rx_Vehicle_MediumTank_Weapon]
-ItemName="105MM Cannon"
-AltItemName="Coaxial MG"
-PickupMessage="Medium Tank Weapon"
+ItemName="105毫米坦克炮"
+AltItemName="同轴机枪"
+PickupMessage="中型坦克武器"
 
 [Rx_Vehicle_MRLS_Weapon]
-ItemName="M269 Missiles"
-PickupMessage="MRLS Tank Weapon"
+ItemName="M269导弹"
+PickupMessage="多管火箭发射车武器"
 
 [Rx_Vehicle_FlameTank_Weapon]
-ItemName="Flame Throwers"
-PickupMessage="Flame Tank Weapon"
+ItemName="火焰喷射器"
+PickupMessage="火焰坦克武器"
 
 [Rx_Vehicle_StealthTank_Weapon]
-ItemName="TOW Missiles"
-PickupMessage="Stealth Tank Weapon"
+ItemName="TOW导弹"
+PickupMessage="隐形坦克武器"
 
 [Rx_Vehicle_Harvester_Weapon]
-ItemName="Tiberium Harvester"
-PickupMessage="Harvester Weapon"
+ItemName="泰伯利亚采矿车"
+PickupMessage="采矿车武器"
 
 [Rx_Defence_GuardTower_Weapon]
-ItemName="Vulcan Cannon"
-PickupMessage="Guard Tower Weapon"
+ItemName="火神机炮"
+PickupMessage="警卫塔武器"
 
 [Rx_Defence_Turret_Weapon]
-ItemName="105MM Cannon"
-PickupMessage="Turret Weapon"
+ItemName="105毫米坦克炮"
+PickupMessage="炮塔武器"
 
 [Rx_Defence_SAMSite_Weapon]
-ItemName="Surface-to-air Missile"
-PickupMessage="SAM Weapon"
+ItemName="地对空导弹"
+PickupMessage="SAM阵地武器"
 
 [Rx_Defence_AATower_Weapon]
-ItemName="Anti-Air Missile"
-PickupMessage="Anti-Air Weapon"
+ItemName="防空导弹"
+PickupMessage="防空塔武器"
 
 [Rx_Vehicle_Hovercraft_GDI_Weapon]
-ItemName="Heavy Cannons"
-AltItemName="SWARM Launcher"
-PickupMessage="Hovercraft Weapon"
+ItemName="重型炮"
+AltItemName="SWARM发射器"
+PickupMessage="气垫船武器"
 
 [TS_Vehicle_HoverMRLS_Weapon]
 ItemName="M269 Missile"
@@ -1223,79 +1223,79 @@ PickupMessage="Tesla Tank Weapon"
 
 ;Classic Vehicles
 [Rx_Vehicle_M2Bradley_Weapon]
-ItemName="22MM Cannon"
-AltItemName="TOW Rocket"
-PickupMessage="M2 Bradley Weapon"
+ItemName="25毫米自动炮"
+AltItemName="TOW导弹"
+PickupMessage="M2布雷德利武器"
 
 [Rx_Vehicle_ReconBike_Weapon]
-ItemName="TOW Rocket"
-PickupMessage="Recon Bike Weapon"
+ItemName="TOW导弹"
+PickupMessage="侦察摩托武器"
 
 [Rx_Vehicle_HumveeTOW_Weapon]
-ItemName="TOW Rocket"
-PickupMessage="TOW Humvee Weapon"
+ItemName="TOW导弹"
+PickupMessage="TOW悍马车武器"
 
 
 ;////////////////////
 ;  Building Names  //
 ;////////////////////
 [Rx_Building_AdvancedGuardTower_Internals]
-BuildingName = "Advanced Guard Tower"
+BuildingName = "高级警戒塔"
 
 [Rx_Building_AirTower_Internals]
-BuildingName = "Airstrip"
+BuildingName = "临时机场"
 
 [Rx_Building_AirTower_Internals_Ramps]
-BuildingName = "Airstrip"
+BuildingName = "临时机场"
 
 [Rx_Building_Barracks_Internals]
-BuildingName = "Infantry Barracks"
+BuildingName = "兵营"
 
 [Rx_Building_Helipad_GDI_Internals]
-BuildingName = "Helicopter Pad"
+BuildingName = "直升机坪"
 
 [Rx_Building_Helipad_Nod_Internals]
-BuildingName = "Helicopter Pad"
+BuildingName = "直升机坪"
 
 [Rx_Building_HandOfNod_Internals]
-BuildingName = "Hand of Nod"
+BuildingName = "Nod之手"
 
 [Rx_Building_Obelisk_Internals]
-BuildingName = "Obelisk"
+BuildingName = "光明石碑"
 
 [Rx_Building_PowerPlant_Internals]
-BuildingName = "Power Plant"
+BuildingName = "发电厂"
 
 [Rx_Building_Refinery_Internals]
-BuildingName = "Tiberium Refinery"
+BuildingName = "矿场"
 
 [Rx_Building_Silo_Internals]
-BuildingName = "Tiberium Silo"
+BuildingName = "矿仓"
 
 [Rx_Building_TeamSilo_Internals]
-BuildingName = "Tiberium Silo"
+BuildingName = "矿仓"
 
 [Rx_Building_WeaponsFactory_Internals]
-BuildingName = "Weapons Factory"
+BuildingName = "武器工厂"
 
 [Rx_Building_RepairFacility_Internals]
-BuildingName = "Repair Facility"
+BuildingName = "维修设施"
 
 [Rx_Building_Helipad_Internals]
-BuildingName = "Helicopter Pad""
+BuildingName = "直升机坪"
 
 [Rx_Building_CommCentre_Internals]
-BuildingName = "Communications Center"
+BuildingName = "通讯中心"
 
 
 ;=====================================
 ;	Buildings
 ;=====================================
 [Rx_Message_Buildings]
-BuildingBroadcastMessages[0]="`PlayerName` destroyed the `BuildingName`"
-BuildingBroadcastMessages[1]="`BuildingName` destroyed by `PlayerName`"
-BuildingBroadcastMessages[2]="`PlayerName` captured the `BuildingName`"
-BuildingBroadcastMessages[3]="`PlayerName` neutralized the `BuildingName`"
+BuildingBroadcastMessages[0]="`PlayerName` 摧毁了 `BuildingName`"
+BuildingBroadcastMessages[1]="`BuildingName` 被 `PlayerName` 摧毁"
+BuildingBroadcastMessages[2]="`PlayerName` 占领了 `BuildingName`"
+BuildingBroadcastMessages[3]="`PlayerName` 将 `BuildingName` 中立化"
 
 ;=====================================
 ;	Crates
@@ -1332,8 +1332,8 @@ PickupBroadcastMessages[17]="`PlayerName` picked up a damage resistance crate!"
 PickupBroadcastMessages[18]="`PlayerName` discovered CLASSIC weaponry!" 
 PickupBroadcastMessages[19]="`PlayerName` found an EPIC Character crate!"
 PickupBroadcastMessages[20]="`PlayerName` IS A THREAT TO US ALL!" 
-PickupBroadcastMessages[21]="`PlayerName` has found a weapon cache!"
-PickupBroadcastMessages[22]="An enemy player has found a weapon cache!"
+PickupBroadcastMessages[21]="`PlayerName`发现了武器补给箱！"
+PickupBroadcastMessages[22]="敌方玩家发现了武器补给箱！"
 PickupBroadcastMessages[23]="`PlayerName` and their allies have been detected!"
 PickupBroadcastMessages[24]="Your teammates near `PlayerName` were spotted, be careful!"
 PickupBroadcastMessages[25]="Someone stuck some glue to `PlayerName`'s shoes!"
@@ -1400,31 +1400,31 @@ PickupMessage = "You and your allies have been detected!"
 PickupMessage = "You have found a vulnerability in the enemy defenses, temporarily disabling them!"
 
 [Rx_Message_Vehicle]
-VehicleMessages[0]="`VehicleClass` bound. Press [`LockKey`] to toggle lock on driver seat. Hold [`LockKey`] to unbind."
-VehicleMessages[1]="`VehicleClass` auto-bound. Press [`LockKey`] to toggle lock on driver seat. Hold [`LockKey`] to unbind."
-VehicleMessages[2]="`VehicleClass` unbound."
+VehicleMessages[0]="`VehicleClass` 已绑定。按 [`LockKey`] 切换驾驶位锁定，按住 [`LockKey`] 解除绑定。"
+VehicleMessages[1]="`VehicleClass` 已自动绑定。按 [`LockKey`] 切换驾驶位锁定，按住 [`LockKey`] 解除绑定。"
+VehicleMessages[2]="`VehicleClass` 已解除绑定。"
 
-VehicleMessages[3]="This vehicle is not bound, hold [`LockKey`] to bind to it."
-VehicleMessages[4]="This vehicle is not bound, hold [`LockKey`] to replace your existing `VehicleClass` bind with this vehicle."
-VehicleMessages[5]="The previous owner has unbound this vehicle. Hold [`LockKey`] to bind it."
-VehicleMessages[6]="Can not bind vehicle, it is already bound to `OwnerName`."
+VehicleMessages[3]="此载具尚未绑定，按住 [`LockKey`] 进行绑定。"
+VehicleMessages[4]="此载具尚未绑定，按住 [`LockKey`] 以该载具替换当前绑定的 `VehicleClass`。"
+VehicleMessages[5]="原车主已解除此载具的绑定。按住 [`LockKey`] 进行绑定。"
+VehicleMessages[6]="无法绑定：此载具已由 `OwnerName` 绑定。"
 
-VehicleMessages[7]="`VehicleClass` driver seat Locked."
-VehicleMessages[8]="`VehicleClass` driver seat Unlocked."
+VehicleMessages[7]="`VehicleClass` 驾驶位已锁定。"
+VehicleMessages[8]="`VehicleClass` 驾驶位已解锁。"
 
-VehicleMessages[9]="Driver seat is locked by `OwnerName`."
-VehicleMessages[10]="You can't enter the Vehicle. Buyer '`OwnerName`' has exclusive access for `IntegerValue` more seconds."
-VehicleMessages[11]="You can't enter the Vehicle. `OwnerTeam` has exclusive access for `IntegerValue` more seconds."
+VehicleMessages[9]="驾驶位已被 `OwnerName` 锁定。"
+VehicleMessages[10]="无法进入载具。购买者 `OwnerName` 仍有 `IntegerValue` 秒专属使用权。"
+VehicleMessages[11]="无法进入载具。`OwnerTeam` 队仍有 `IntegerValue` 秒专属使用权。"
 
-VehicleMessages[12]="`OwnerName`'s `VehicleClass` has been stolen by the enemy!"
-VehicleMessages[13]="`OtherName` has entered the driver seat of your `VehicleClass`."
-VehicleMessages[14]="Your `VehicleClass` has been destroyed."
+VehicleMessages[12]="`OwnerName` 的 `VehicleClass` 被敌方偷走了！"
+VehicleMessages[13]="`OtherName` 已进入你的 `VehicleClass` 驾驶位。"
+VehicleMessages[14]="你的 `VehicleClass` 已被摧毁。"
 
-VehicleMessages[15]="`OwnerName` has locked the drivers seat."
+VehicleMessages[15]="`OwnerName` 已锁定驾驶位。"
 
-VehicleMessages[16]="`OtherName` has stolen a `VehicleClass`!"
-VehicleMessages[17]="A `VehicleClass` has fallen into the hands of the enemy!"
-VehicleMessages[18]="`OtherName` has attempted to enter the driver seat of your `VehicleClass`."
+VehicleMessages[16]="`OtherName` 偷走了一辆 `VehicleClass`！"
+VehicleMessages[17]="一辆 `VehicleClass` 已落入敌手！"
+VehicleMessages[18]="`OtherName` 试图进入你的 `VehicleClass` 驾驶位。"
 ;=====================================
 ; Context Menu Help
 ;=====================================
@@ -1497,38 +1497,38 @@ SubHelpText[5]="+Support Powers ALL COST COMMAND POINTS%%+Most support powers ar
 ;=====================================
 [Rx_Controller]
 ; CTRL + Number
-	RadioCommandsText[0]     =   "Building needs repair!"
-	RadioCommandsText[1]     =   "Get in the vehicle!"
-	RadioCommandsText[2]     =   "Get out of the vehicle!"
-	RadioCommandsText[3]     =   "Destroy that vehicle!" 
-	RadioCommandsText[4]     =   "Watch where you're pointing that!"
-	RadioCommandsText[5]     =   "Don't get in my way!"
-	RadioCommandsText[6]     =   "Affirmative."
-	RadioCommandsText[7]     =   "Negative."
-	RadioCommandsText[8]     =   "I'm in position."
-	RadioCommandsText[9]     =   "Enemy spotted!"
+	RadioCommandsText[0]     =   "建筑需要维修！"
+	RadioCommandsText[1]     =   "上车！"
+	RadioCommandsText[2]     =   "下车！"
+	RadioCommandsText[3]     =   "摧毁那辆车！"
+	RadioCommandsText[4]     =   "注意武器朝向！"
+	RadioCommandsText[5]     =   "别挡路！"
+	RadioCommandsText[6]     =   "收到。"
+	RadioCommandsText[7]     =   "不行。"
+	RadioCommandsText[8]     =   "我已就位。"
+	RadioCommandsText[9]     =   "发现敌人！"
 ; ALT + Number
-	RadioCommandsText[10]    =   "I need repairs!"
-	RadioCommandsText[11]    =   "Take the point."
-	RadioCommandsText[12]    =   "Move out."
-	RadioCommandsText[13]    =   "Follow me."
-	RadioCommandsText[14]    =   "Hold position."
-	RadioCommandsText[15]    =   "Cover me."
-	RadioCommandsText[16]    =   "Take cover."
-	RadioCommandsText[17]    =   "Fall back."
-	RadioCommandsText[18]    =   "Return to base."
-	RadioCommandsText[19]    =   "Destroy it now!"
+	RadioCommandsText[10]    =   "我需要维修！[附近]"
+	RadioCommandsText[11]    =   "占领据点。[附近]"
+	RadioCommandsText[12]    =   "出发。[附近]"
+	RadioCommandsText[13]    =   "跟我来。[附近]"
+	RadioCommandsText[14]    =   "守住位置。[附近]"
+	RadioCommandsText[15]    =   "掩护我。[附近]"
+	RadioCommandsText[16]    =   "寻找掩体。[附近]"
+	RadioCommandsText[17]    =   "撤退。[附近]"
+	RadioCommandsText[18]    =   "返回基地。"
+	RadioCommandsText[19]    =   "立即摧毁目标！"
 ; CTRL+ALT + Number
-	RadioCommandsText[20]    =   "Attack the base defenses!"
-	RadioCommandsText[21]    =   "Attack the Harvester!"
-	RadioCommandsText[22]    =   "Attack that structure!"
-	RadioCommandsText[23]    =   "Attack the Refinery!" 
-	RadioCommandsText[24]    =   "Attack the Power Plant!"
-	RadioCommandsText[25]    =   "Defend the base!"
-	RadioCommandsText[26]    =   "Defend the Harvester!"
-	RadioCommandsText[27]    =   "Defend that structure!"
-	RadioCommandsText[28]    =   "Defend the Refinery!"
-	RadioCommandsText[29]    =   "Defend the Power Plant!"
+	RadioCommandsText[20]    =   "摧毁基地防御！"
+	RadioCommandsText[21]    =   "摧毁采矿车！"
+	RadioCommandsText[22]    =   "摧毁目标！"
+	RadioCommandsText[23]    =   "摧毁矿场！"
+	RadioCommandsText[24]    =   "摧毁电厂！"
+	RadioCommandsText[25]    =   "守住基地！"
+	RadioCommandsText[26]    =   "守住采矿车！"
+	RadioCommandsText[27]    =   "守住建筑！"
+	RadioCommandsText[28]    =   "守住矿场！"
+	RadioCommandsText[29]    =   "守住电厂！"
 ; Q-Spot Only
 ; Some of these will be inserted into the middle of a string based on {TEXT}
 	RadioCommandsText[30]    =   "CRATE SPOTTED:"
@@ -1538,11 +1538,11 @@ SubHelpText[5]="+Support Powers ALL COST COMMAND POINTS%%+Most support powers ar
 	RadioCommandsText[34]    =   "Defend &gt;&gt;C4&lt;&lt; at"
 	RadioCommandsText[35]    =   "Spotted ENEMY &gt;&gt;C4&lt;&lt; at"
 	RadioCommandsText[36]    =   "Stop following me"
-	RadioCommandsText[37]    =   "Defend the {CONTEXT}!"
-	RadioCommandsText[38]    =   "The {CONTEXT} needs repair!"
-	RadioCommandsText[39]    =   "The {CONTEXT} needs repair immediately!"
-	RadioCommandsText[40]    =   "Attack the {CONTEXT}!"
-	RadioCommandsText[41]    =   "Capture the {CONTEXT}!"
+	RadioCommandsText[37]    =   "防守{CONTEXT}！"
+	RadioCommandsText[38]    =   "{CONTEXT}需要维修！"
+	RadioCommandsText[39]    =   "{CONTEXT}急需维修！"
+	RadioCommandsText[40]    =   "攻击{CONTEXT}！"
+	RadioCommandsText[41]    =   "占领{CONTEXT}！"
 	RadioCommandsText[42]    =   "FOCUS FIRE:"
 	RadioCommandsText[43]    =   "Spotted"
 ; Bot-related only
@@ -1552,5 +1552,13 @@ SubHelpText[5]="+Support Powers ALL COST COMMAND POINTS%%+Most support powers ar
 	RadioCommandsText[47]    =   "I'm detecting a BEACON near {CONTEXT}!!!"
 	RadioCommandsText[48]    =   "Attack that"
 	RadioCommandsText[49]    =   "An enemy {CONTEXT} has been spotted"
-	RadioCommandsText[50]    =   "I'm commencing {CONTEXT}!"
+	RadioCommandsText[50]    =   "我开始执行{CONTEXT}！"
 	RadioCommandsText[51]    =   "{CONTEXT}"
+
+[Rx_Vehicle_GDI_HumveeTOW_PTInfo]
+Title="TOW悍马车"
+Desc="<font size='10'>-2枚TOW导弹\n-超轻型装甲\n-高速骚扰载具\n-仅限驾驶员</font>"
+
+[Rx_Vehicle_Nod_ReconBike_PTInfo]
+Title="侦察摩托"
+Desc="<font size='10'>-2枚TOW导弹\n-超轻型装甲\n-高速骚扰载具\n-仅限驾驶员</font>"
